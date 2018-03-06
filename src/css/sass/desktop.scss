@@ -96,6 +96,21 @@ section, header, footer {
 //     z-index: 10;
 // }
 
+br{
+    &.desktop{
+        display: inline;
+    }
+    &.tablet_g{
+        display: none;
+    }
+    &.tablet_v{
+        display: none;
+    }
+    &.mobile{
+        display: none;
+    }
+}
+
 header {
     height: 137px;
     background-color: white;

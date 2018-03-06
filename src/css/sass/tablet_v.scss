@@ -15,38 +15,50 @@
             padding: 0 0;
         }
     }
-	#maket {
-	    position: absolute;
-	    top: 0px;
-	    left: 0px;
-	    width: 100%;
-	    background: url(../maket.jpg) no-repeat top center;
-	    height: 13200px;
-	    opacity: 0.5;
-	    z-index: 10;
-	}
-    header {
 
+    br {
+        &.desktop {
+            display: none;
+        }
+
+        &.tablet_g {
+            display: none;
+        }
+
+        &.tablet_v {
+            display: inline;
+        }
+
+        &.mobile {
+            display: none;
+        }
+    }
+
+    #maket {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        background: url(../maket.jpg) no-repeat top center;
+        height: 13200px;
+        opacity: 0.5;
+        z-index: 10;
+    }
+
+    header {
         .header {
             .left {
                 .logo {
-                    .company {
-                    }
+                    .company {}
 
-                    .name {
-
-                    }
+                    .name {}
                 }
 
-                .descr {
-
-                }
+                .descr {}
             }
 
             .right {
-                span {
-
-                }
+                span {}
 
                 a.btn {
                     width: 160px;
@@ -61,8 +73,8 @@
 
         .menu {
             a {
-                   font-size: 14px;
-                   margin: 0 17.4px;
+                font-size: 14px;
+                margin: 0 17.4px;
 
                 &.active, &:hover {}
             }
@@ -72,7 +84,7 @@
     .sec1 {
         margin-top: 0;
         padding-top: 29px;
-         height: 481px;
+        height: 481px;
 
         .main {
             height: 298px;
@@ -80,30 +92,29 @@
             border: 5px solid transparent;
             margin-left: 167px;
             padding-top: 14px;
-            h1 {
-                    font-size:29px;
 
+            h1 {
+                font-size: 29px;
             }
 
             ul {
                 margin-top: 4px;
+
                 li {
-                     font-size: 16px;
+                    font-size: 16px;
                     margin-bottom: 6px;
-
-
                 }
             }
 
             h2 {
-                    font-size: 22px;
-                    margin-top: -18px;
-                    line-height: 27px;
-                    margin-bottom: 2px;
-                    padding-right: 33px;
-                span {
-                       margin-right: 6px;
+                font-size: 22px;
+                margin-top: -18px;
+                line-height: 27px;
+                margin-bottom: 2px;
+                padding-right: 33px;
 
+                span {
+                    margin-right: 6px;
                 }
             }
 
@@ -111,21 +122,19 @@
                 font-size: 16px;
                 margin-right: 87px;
                 line-height: 23px;
-                span {
-                            margin-right: 2px;
 
+                span {
+                    margin-right: 2px;
                 }
             }
         }
 
         .download {
-                padding-top: 3px;
-
+            padding-top: 3px;
 
             p {
-               font-size: 15px;
-               line-height: 20px;
- 
+                font-size: 15px;
+                line-height: 20px;
             }
 
             a {
@@ -141,46 +150,37 @@
                 line-height: 12px;
 
                 span {
-                        font-size: 13px;
+                    font-size: 13px;
                 }
             }
 
             .update {
-                      font-size: 12px;
-                      margin-top: 0px;
-                      padding-right: 65px;
+                font-size: 12px;
+                margin-top: 0px;
+                padding-right: 65px;
             }
         }
 
         .slide-control {
-
             .pager {
-
                 a {
-
-                    &.active, &:hover {
-                    }
+                    &.active, &:hover {}
                 }
             }
 
             .arr {
-
                 &.left {
-
-                    &:hover {
-                    }
+                    &:hover {}
                 }
 
                 &.right {
-
-                    &:hover {
-                    }
+                    &:hover {}
                 }
             }
         }
 
         .action {
-                width: 334px;
+            width: 334px;
             padding-left: 38px;
             height: 48px;
             margin-left: -168px;
@@ -192,59 +192,58 @@
     }
 
     .sec2 {
-                    height: 525px;
+        height: 525px;
+
         .left {
-                        padding-top: 84px;
-                        width: 347px;
-                        padding-left: 60px;
+            padding-top: 84px;
+            width: 347px;
+            padding-left: 60px;
 
             h2 {
-                        font-size: 40px;
-                        padding-left: 53px;
-                        line-height: 40px;
+                font-size: 40px;
+                padding-left: 53px;
+                line-height: 40px;
             }
 
             p.p {
-                        margin-top: 23px;
-                        font-size: 23px;
-                        padding-right: 38px;
-                        line-height: 22px;
+                margin-top: 23px;
+                font-size: 23px;
+                padding-right: 38px;
+                line-height: 22px;
 
                 span {
-                        font-size: 16.4px;
+                    font-size: 16.4px;
                 }
             }
 
             a {
-                            margin-top: 89px;
-                            width: 287px;
-                            height: 41px;
-                            line-height: 41px;
-                            font-size: 15px;
-                            float: right;
+                margin-top: 89px;
+                width: 287px;
+                height: 41px;
+                line-height: 41px;
+                font-size: 15px;
+                float: right;
             }
 
             .timer-wrap {
-
                 p.action {
-                        font-size: 13px;
-                            margin-top: 41px;
+                    font-size: 13px;
+                    margin-top: 41px;
                 }
 
                 .timer {
                     margin-top: 11px;
 
                     .schet {
-                            width: 65px;
-                            height: 65px;
-                            font-size: 33px;
-                            padding-top: 13px;
-                            border: 2px solid #f5b301;
-                            margin-right: 9px;
-                            line-height: 24px; 
+                        width: 65px;
+                        height: 65px;
+                        font-size: 33px;
+                        padding-top: 13px;
+                        border: 2px solid #f5b301;
+                        margin-right: 9px;
+                        line-height: 24px;
 
-                        &:last-of-type {
-                        }
+                        &:last-of-type {}
 
                         .small {
                             font-size: 12px;
@@ -255,14 +254,14 @@
         }
 
         .right {
-                        width: 502px;
-                       padding-top: 52px;
+            width: 502px;
+            padding-top: 52px;
 
             h3 {
-                    font-size: 14px;
-                    line-height: 10px;
-                    background-position: 19px 8px;
-                    background-size: 20px;
+                font-size: 14px;
+                line-height: 10px;
+                background-position: 19px 8px;
+                background-size: 20px;
 
                 span {
                     font-size: 16px;
@@ -270,100 +269,98 @@
             }
 
             ul {
-                                margin-top: 12px;
-                                padding-left: 5px;
+                margin-top: 12px;
+                padding-left: 5px;
 
                 li {
-                            font-size: 14px;
-                            line-height: 25px;
-                            margin-bottom: 0px;
-                            background-position: 17px 7px;
-                            background-size: 14px;
+                    font-size: 14px;
+                    line-height: 25px;
+                    margin-bottom: 0px;
+                    background-position: 17px 7px;
+                    background-size: 14px;
                 }
             }
 
             .main {
-                    margin-top: 6px;
-                    font-size: 14px;
-                    padding-left: 47px;
-                    background: url(../img/present.png) no-repeat center;
-                    background-position: 21px 1px;
-                    background-size: 16px;
-                    height: 25px;
-                    margin-left: 0;
+                margin-top: 6px;
+                font-size: 14px;
+                padding-left: 47px;
+                background: url(../img/present.png) no-repeat center;
+                background-position: 21px 1px;
+                background-size: 16px;
+                height: 25px;
+                margin-left: 0;
 
                 span {
-                            font-size: 18px;
-                            margin-left: 4px;
-
+                    font-size: 18px;
+                    margin-left: 4px;
                 }
             }
 
             .also {
-                    font-size: 14px;
-                    margin-top: 0px;
-                    padding-left: 47px;
-                    line-height: 10px;
-                    height: 0px;
+                font-size: 14px;
+                margin-top: 0px;
+                padding-left: 47px;
+                line-height: 10px;
+                height: 0px;
             }
         }
     }
 
     .sec3 {
-            height: 394px;
-            padding-top: 61px;
+        height: 394px;
+        padding-top: 61px;
 
         h2 {
-                font-size: 25px;
+            font-size: 25px;
         }
 
         .line {
-                    width: 90px;
-                    height: 3px;
+            width: 90px;
+            height: 3px;
         }
 
         ul {
-                    margin-top: 65px;
+            margin-top: 65px;
+
             li {
-                    width: 115px;
+                width: 115px;
 
-                &:first-of-type {
-                }
+                &:first-of-type {}
 
-                &:last-of-type {
-                }
+                &:last-of-type {}
 
                 .ico {
-                        height: 100px;
-                        width: 100px;
+                    height: 100px;
+                    width: 100px;
 
                     &.ico1 {
-                                background-position: center 23px;
-                                background-size: 54px;
+                        background-position: center 23px;
+                        background-size: 54px;
                     }
 
                     &.ico2 {
-                               background-position: 23px 23px;
-                               background-size: 61px;
+                        background-position: 23px 23px;
+                        background-size: 61px;
                     }
 
                     &.ico3 {
-                            background-position: center 21px;
-                                background-size: 61px;
+                        background-position: center 21px;
+                        background-size: 61px;
                     }
 
                     &.ico4 {
-                            background-position: 27px 22px;
-                            background-size: 60px;
+                        background-position: 27px 22px;
+                        background-size: 60px;
                     }
                 }
 
                 p {
-                        font-size: 16px;
-                        top: 106px;
+                    font-size: 16px;
+                    top: 106px;
 
                     span {
-                                line-height: 20px;
+                        line-height: 20px;
                     }
                 }
             }
@@ -371,116 +368,113 @@
     }
 
     .sec4 {
-            padding-top: 62px;
-            padding-bottom: 76px;
+        padding-top: 62px;
+        padding-bottom: 76px;
 
         h2 {
-                font-size:25px;
+            font-size: 25px;
         }
 
         .line {
-                width: 90px;
-                 height: 3px;
+            width: 90px;
+            height: 3px;
         }
 
         p.text {
-                    font-size: 16px;
-                    padding-left: 59px;
+            font-size: 16px;
+            padding-left: 59px;
         }
 
         ul {
-                        margin-top: 1px;
-                        padding-left: 58px;
+            margin-top: 1px;
+            padding-left: 58px;
 
             li {
-                    font-size: 16px;
+                font-size: 16px;
 
-                &:after {
-                }
+                &:after {}
 
                 &:first-of-type {
-                    &:after {
-                    }
+                    &:after {}
                 }
             }
         }
 
         .after-text {
-                    font-size: 24px;
-                    margin-top: 24px;
+            font-size: 24px;
+            margin-top: 24px;
         }
     }
 
     .sec5 {
-                height: 526px;
+        height: 526px;
 
         .left {
-                margin-top: 170px;
-                margin-left: 136px;
+            margin-top: 170px;
+            margin-left: 136px;
 
             h2 {
-                    font-size: 28px;
+                font-size: 28px;
             }
 
             p {
-                    font-size: 16px;
-                    margin-top: 16px;
-                    line-height: 20px;
+                font-size: 16px;
+                margin-top: 16px;
+                line-height: 20px;
             }
 
             .ico {
-                        margin-top: 12px;
-                        margin-left: 0px;
-                        background-size: 105px;
-                        background-position: 2px 2px;
+                margin-top: 12px;
+                margin-left: 0px;
+                background-size: 105px;
+                background-position: 2px 2px;
             }
         }
 
         .right {
-                margin-top: 104px;
+            margin-top: 104px;
 
             h3 {
-                        font-size: 16px;
-                        padding-right: 51px;
+                font-size: 16px;
+                padding-right: 51px;
             }
 
             .line {
-                            width: 53px;
-                            height: 1px;
-                            margin-left: 137px;
-                            margin-top: 23px;
+                width: 53px;
+                height: 1px;
+                margin-left: 137px;
+                margin-top: 23px;
             }
 
             p.heading {
-                   font-size: 20px;
-                    margin-top: 16px;
-                    padding-right: 55px;
+                font-size: 20px;
+                margin-top: 16px;
+                padding-right: 55px;
             }
 
             p.text {
-                            margin-top: 33px;
-                            margin-left: -47px;
-                            font-size: 17px;
-                            margin-right: -11px;
+                margin-top: 33px;
+                margin-left: -47px;
+                font-size: 17px;
+                margin-right: -11px;
             }
 
             a {
-                    height: 47px;
-                    margin-top: 58px;
-                    width: 340px;
-                    font-size: 17.5px;
-                    line-height: 47px;
-                    background-position: 15px 3px;
-                    background-size: 34px;
+                height: 47px;
+                margin-top: 58px;
+                width: 340px;
+                font-size: 17.5px;
+                line-height: 47px;
+                background-position: 15px 3px;
+                background-size: 34px;
             }
         }
     }
 
     .sec6 {
-
         h2 {
-                        padding-top: 61px;
-                        font-size: 24px; 
+            padding-top: 61px;
+            font-size: 24px;
         }
 
         .line {
@@ -490,102 +484,91 @@
         }
 
         ul {
-                    padding-top: 66px;
+            padding-top: 66px;
 
             li {
-                        width: 500px;
-                     margin-left: 58px;
-                   margin-right: -126px;
-                       min-height: 152px;
+                width: 500px;
+                margin-left: 58px;
+                margin-right: -126px;
+                min-height: 152px;
 
-                &:nth-of-type(2n-1) {
-                }
+                &:nth-of-type(2n-1) {}
 
                 .h4 {
                     font-size: 20px;
                     padding-top: 7px;
                     margin-left: 23px;
-                        height: 34px;
+                    height: 34px;
                 }
 
                 .img {
-                            width: 136px;
-                            height: 136px;
+                    width: 136px;
+                    height: 136px;
 
-                    &.img1 {
-                    }
+                    &.img1 {}
 
-                    &.img2 {
-                    }
+                    &.img2 {}
 
-                    &.img3 {
-                    }
+                    &.img3 {}
 
                     &.img4 {
                         margin-bottom: 48px;
                     }
 
-                    &.img5 {
-                    }
+                    &.img5 {}
 
                     &.img6 {
-                           margin-bottom: 11px;
-                               min-height: 136px;
+                        margin-bottom: 11px;
+                        min-height: 136px;
                     }
 
-                    &.img7 {
-                    }
+                    &.img7 {}
 
-                    &.img8 {
-                    }
+                    &.img8 {}
                 }
 
                 .text {
-                           margin-top: 3px;
-                           margin-left: 39px;
-                            line-height: 19px;
+                    margin-top: 3px;
+                    margin-left: 39px;
+                    line-height: 19px;
 
-                    span {
-                    }
+                    span {}
                 }
             }
         }
 
         a {
-                    margin: 66px auto 0;
-                    height: 52px;
-                    width: 821px;
-                    line-height: 52px;
-                    font-size: 16px;
+            margin: 66px auto 0;
+            height: 52px;
+            width: 821px;
+            line-height: 52px;
+            font-size: 16px;
         }
     }
 
     .sec7 {
-                padding-top: 33px;
-
+        padding-top: 33px;
 
         h2 {
             font-size: 24px;
         }
 
         .heading {
-                font-size: 18px; 
-                line-height: 50px;
+            font-size: 18px;
+            line-height: 50px;
 
             span {
-                   margin-left: -50px;
-                   margin-right: 9px;
-
+                margin-left: -50px;
+                margin-right: 9px;
             }
         }
 
         .line {
-                width: 90px;
-                    margin: 18px auto 0;
+            width: 90px;
+            margin: 18px auto 0;
         }
 
-        & > div {
-        }
+        & > div {}
 
         & > div.block {
             @include sec;
@@ -606,10 +589,10 @@
                 max-width: 1700px;
 
                 & > .left {
-                            float: left;
-                            width: 322px;
-                            margin-top: 15px;
-                            margin-left: 86px;
+                    float: left;
+                    width: 322px;
+                    margin-top: 15px;
+                    margin-left: 86px;
 
                     ul {
                         li {
@@ -629,9 +612,9 @@
                             }
 
                             span {
-                                display: inline-block;
-                                line-height: 26px;
-                                vertical-align: middle;
+                                span.no_tablet_v {
+                                    display: none;
+                                }
                             }
                         }
                     }
@@ -660,13 +643,13 @@
                         }
 
                         ul {
-                                margin-top: 3px;
-                                padding-left: 15px;
+                            margin-top: 3px;
+                            padding-left: 15px;
 
                             li {
-                                    font-size: 13px;
-                                    line-height: 15.9px;
-                                    margin-bottom: 0.9px;
+                                font-size: 13px;
+                                line-height: 15.9px;
+                                margin-bottom: 0.9px;
                             }
                         }
                     }
@@ -677,22 +660,22 @@
                         margin-left: 32px;
 
                         .price {
-                                    display: block;
-                                    text-transform: uppercase;
-                                    text-align: left;
-                                    font-size: 16px;
-                                    font-weight: 700;
-                                    margin-top: 14px;
-                                    text-align: left;
+                            display: block;
+                            text-transform: uppercase;
+                            text-align: left;
+                            font-size: 16px;
+                            font-weight: 700;
+                            margin-top: 14px;
+                            text-align: left;
 
                             .old {
-                                   text-decoration: line-through;
-                                    text-transform: lowercase;
-                                    font-size: 13px;
-                                    font-weight: 400;
-                                    padding-left: 0px;
-                                    position: relative;
-                                    top: 0px;
+                                text-decoration: line-through;
+                                text-transform: lowercase;
+                                font-size: 13px;
+                                font-weight: 400;
+                                padding-left: 0px;
+                                position: relative;
+                                top: 0px;
                             }
                         }
 
@@ -716,42 +699,42 @@
                         }
 
                         ul {
-                                padding-left: 16px;
-                                margin-top: 0px;
+                            padding-left: 16px;
+                            margin-top: 0px;
 
                             li {
-                                    font-size: 13px;
+                                font-size: 13px;
                                 line-height: 13px;
                             }
                         }
                     }
 
                     .top3 {
-                            float: right;
-                            width: 198px;
-                            margin-top: 6px;
-                            text-align: center;
-                            margin-right: 124px;
+                        float: right;
+                        width: 198px;
+                        margin-top: 6px;
+                        text-align: center;
+                        margin-right: 124px;
 
                         span {
-                                    font-size: 14px;
-                                    margin-top: 25px;
-                                    font-weight: 600;
-                                    margin-bottom: 11px;
-                                    display: block;
-                                    text-transform: uppercase;
-                                        padding-right: 20px;
+                            font-size: 14px;
+                            margin-top: 25px;
+                            font-weight: 600;
+                            margin-bottom: 11px;
+                            display: block;
+                            text-transform: uppercase;
+                            padding-right: 20px;
                         }
 
                         a {
-                                    display: block;
-                                    color: white;
-                                    background-color: #4b8903;
-                                    width: 180px;
-                                    height: 40px;
-                                    margin-top: 6px;
-                                    font-size: 14px;
-                                    line-height: 38px;
+                            display: block;
+                            color: white;
+                            background-color: #4b8903;
+                            width: 180px;
+                            height: 40px;
+                            margin-top: 6px;
+                            font-size: 14px;
+                            line-height: 38px;
                         }
                     }
 
@@ -764,8 +747,8 @@
                             width: 195px;
 
                             .img {
-                                    width: 195px;
-                                    height: 160px;
+                                width: 195px;
+                                height: 160px;
                                 position: relative;
                                 margin-bottom: 3px;
                                 display: block;
@@ -819,10 +802,10 @@
 
         .last {
             p {
-            font-size: 18px;
-            margin-top: 52px;
-            line-height: 26px;
-            text-align: center;
+                font-size: 18px;
+                margin-top: 52px;
+                line-height: 26px;
+                text-align: center;
             }
 
             form {
@@ -830,29 +813,29 @@
                 margin-top: 46px;
 
                 .input-wrap {
-                        width: 219px;
-                            height: 42px;
-                            float: left;
-                            margin-left: 60px;
-                            margin-right: 0;
+                    width: 219px;
+                    height: 42px;
+                    float: left;
+                    margin-left: 60px;
+                    margin-right: 0;
 
                     span {
                         top: 58px;
                     }
 
                     input {
-                    padding-left: 18px;
-                    border: 2px solid #fccd11;
-                    width: 259px;
-                    height: 44px;
-                    background-color: white;
-                    font-size: 14px;
-                    font-style: italic;
-                    text-align: left;
-                    margin-right: 24px;
-                    line-height: 44px;
-                    display: block;
-                    font-family: "Century Gothic", sans-serif;
+                        padding-left: 18px;
+                        border: 2px solid #fccd11;
+                        width: 259px;
+                        height: 44px;
+                        background-color: white;
+                        font-size: 14px;
+                        font-style: italic;
+                        text-align: left;
+                        margin-right: 24px;
+                        line-height: 44px;
+                        display: block;
+                        font-family: "Century Gothic", sans-serif;
 
                         // &::placeholder{
                         //     color:black;
@@ -862,20 +845,20 @@
                 }
 
                 button {
-                        float: left;
-                            background-color: #4b8903;
-                            text-align: left;
-                            font-style: normal;
-                            color: white;
-                            font-family: "Century Gothic", sans-serif;
-                            text-transform: uppercase;
-                            width: 259px;
-                            height: 44px;
-                            font-size: 14px;
-                            line-height: 44px;
-                            padding-left: 68px;
-                            border: none;
-                            margin-left: 61px;
+                    float: left;
+                    background-color: #4b8903;
+                    text-align: left;
+                    font-style: normal;
+                    color: white;
+                    font-family: "Century Gothic", sans-serif;
+                    text-transform: uppercase;
+                    width: 259px;
+                    height: 44px;
+                    font-size: 14px;
+                    line-height: 44px;
+                    padding-left: 68px;
+                    border: none;
+                    margin-left: 61px;
                 }
             }
         }
@@ -889,53 +872,47 @@
         }
 
         .line {
-            width:90px;
+            width: 90px;
         }
 
         .left {
-                        margin-top: 53px;
-                        margin-left: 60px;
-                        float: none;
-                        width: 100%;
-                        margin-left: 0;
+            margin-top: 53px;
+            margin-left: 60px;
+            float: none;
+            width: 100%;
+            margin-left: 0;
 
             .li {
+                width: 353px;
+                margin-bottom: 21px;
+                margin-left: 60px;
+                margin-right: 61px;
 
-                            width: 353px;
-                            margin-bottom: 21px;
-                            margin-left: 60px;
-                            margin-right: 61px;
-                            &:nth-of-type(2n){
-                            margin-right: 0px;
+                &:nth-of-type(2n) {
+                    margin-right: 0px;
+                }
 
-                         }
-                         &:nth-of-type(3){
-                            
-                         }
-
-
+                &:nth-of-type(3) {}
 
                 &.ly {
                     width: 819px;
                     height: 156px;
                     margin-top: 0px;
-
                 }
 
                 p {
                     margin-bottom: 17px;
 
-                    &.full {
-                    }
+                    &.full {}
                 }
 
                 .btn {
-                       margin-bottom: 11px;
-                       margin-right: 6.7px;
-                       line-height: 51px; 
+                    margin-bottom: 11px;
+                    margin-right: 6.7px;
+                    line-height: 51px;
 
                     &.btn1 {
-                            width: 169px; 
+                        width: 169px;
                     }
 
                     &.btn2 {
@@ -943,12 +920,10 @@
                         width: 343px;
                     }
 
-                    &.active, &:hover {
-                    }
+                    &.active, &:hover {}
                 }
 
-                textarea {
-                }
+                textarea {}
 
                 // .line {
                 //     width: 337px;
@@ -974,188 +949,169 @@
             }
 
             a {
-                    width: 822px;
-                    height: 50px;
-                    margin-top: 26px;
-                    line-height: 50px;
-                    margin-left: 58px;
-                    font-size: 19px;
-
+                width: 822px;
+                height: 50px;
+                margin-top: 26px;
+                line-height: 50px;
+                margin-left: 58px;
+                font-size: 19px;
             }
         }
 
         .right {
-                    width: 818px;
-                    height: 391px;
-                    margin-left: 61px;
-                    margin-top: 64px;
-                    border: 2px solid #fccd11;
-                    float: none;
+            width: 818px;
+            height: 391px;
+            margin-left: 61px;
+            margin-top: 64px;
+            border: 2px solid #fccd11;
+            float: none;
 
             p.heading {
-                    margin-top: 36px;
-                    font-size: 24px; 
+                margin-top: 36px;
+                font-size: 24px;
             }
 
+            .lleft {
+                float: left;
 
-            .lleft{
-                
-                float:left;
                 p.send-us {
-                            display:block;
-                            font-size: 17px;
-                            margin-top: 39px;
-                            float: left;
-                            margin-right: 0;
-                            margin-left: 131px;
-                            line-height: 22px;
+                    display: block;
+                    font-size: 17px;
+                    margin-top: 39px;
+                    float: left;
+                    margin-right: 0;
+                    margin-left: 131px;
+                    line-height: 22px;
 
-                a {
-
-                    &:hover {
+                    a {
+                        &:hover {}
                     }
+                }
+
+                .img {
+                    background-position: 74px 3px;
+                    background-size: 343px;
+                    height: 205px;
+                    width: 404px;
+                    display: block;
+                    margin-top: 107px;
                 }
             }
 
-            .img {
-                            background-position: 74px 3px;
-                            background-size: 343px;
-                            height: 205px;
-                            width: 404px;
-                            display: block;
-                            margin-top: 107px
-            }
-
-
-            }
-            
-
             form {
-                    width: 267px;
-                    float: right;
-                    margin-right: 83px;
-                    margin-top: 47px;
+                width: 267px;
+                float: right;
+                margin-right: 83px;
+                margin-top: 47px;
 
                 & > .input-wrap {
-                    
                     input[type="text"] {
-                                font-size: 15px;
-                                    height: 42px;
-                                    margin-bottom: 22px;
+                        font-size: 15px;
+                        height: 42px;
+                        margin-bottom: 22px;
 
-                        &[name="name"] {
-                        }
+                        &[name="name"] {}
 
-                        &[name="phone"] {
-                        }
+                        &[name="phone"] {}
 
-                        &:focus {
-                        }
+                        &:focus {}
                     }
                 }
 
                 .helper {
-
-                    input[type="file"] {
-                    }
+                    input[type="file"] {}
 
                     input[type="text"] {
-                            width: 109px; 
-                            font-size: 14px;
-                                height: 41px;
+                        width: 109px;
+                        font-size: 14px;
+                        height: 41px;
                     }
 
-                    .help-btn {  
-                               width: 158px;
-                                   font-size: 14px;
-                                       height: 41px;
-
-                                      }
+                    .help-btn {
+                        width: 158px;
+                        font-size: 14px;
+                        height: 41px;
+                    }
                 }
 
                 & > button {
-                            font-size: 16px;
-                            margin-top: 23px;
-
+                    font-size: 16px;
+                    margin-top: 23px;
                 }
             }
         }
     }
 
     .sec9 {
-                padding-top: 62px;
+        padding-top: 62px;
 
         h2 {
-            font-size:25px;
+            font-size: 25px;
         }
 
         .line {
-                width: 90px;
+            width: 90px;
         }
 
         .p {
-                font-size: 17px;
-                    padding-top: 8px;
+            font-size: 17px;
+            padding-top: 8px;
         }
 
         .map {
-                    margin-top: 24px;
-                        height: 380px;
+            margin-top: 24px;
+            height: 380px;
 
-            .map-wrap {
-
-            }
+            .map-wrap {}
 
             .wrap {
-                    margin-left: -510px;
-                    width: 385px;
+                margin-left: -510px;
+                width: 385px;
 
                 .form {
                     height: 45px;
 
                     input {
-                                height: 39px;
-                                    font-size: 15px;
-                                    padding-left: 43px;
-                                    width: 220px;
-                                    margin-left: 22px;
+                        height: 39px;
+                        font-size: 15px;
+                        padding-left: 43px;
+                        width: 220px;
+                        margin-left: 22px;
 
-                        &::placeholder {
-                        }
+                        &::placeholder {}
                     }
 
-                    button {
-                    }
+                    button {}
                 }
 
                 .descr {
-                        font-size: 16px;
-                        padding-left: 61px;
-                        margin-top: 15px;
-                        line-height: 22px;
+                    font-size: 16px;
+                    padding-left: 61px;
+                    margin-top: 15px;
+                    line-height: 22px;
                 }
 
                 .price {
-                            width: 330px;
-                            margin: 23px 39px 0px;
-                            height: 105px; 
+                    width: 330px;
+                    margin: 23px 39px 0px;
+                    height: 105px;
 
                     .left {
-                            font-size: 19px;
-                            
+                        font-size: 19px;
+
                         span {
-                                font-size: 21px;
-                                margin-top: 14px;
+                            font-size: 21px;
+                            margin-top: 14px;
                         }
                     }
 
                     .right {
-                            font-size: 17px;
-                            width: 144px; 
+                        font-size: 17px;
+                        width: 144px;
 
                         span {
-                                    font-size: 21px;
-                                   margin-top: 14px;
+                            font-size: 21px;
+                            margin-top: 14px;
                         }
                     }
                 }
@@ -1164,7 +1120,7 @@
     }
 
     .sec10 {
-                padding-top: 71px;
+        padding-top: 71px;
 
         h2 {
             font-size: 24px;
@@ -1176,34 +1132,33 @@
         }
 
         .block {
-
             &.block1 {
-                            margin-top: 43px;
-                           width: 457px;
-                            height: 1201px;
+                margin-top: 43px;
+                width: 457px;
+                height: 1201px;
             }
 
             &.block2 {
-                        width: 461px;
-                            height: 1201px;
-                            margin-top: 43px;
+                width: 461px;
+                height: 1201px;
+                margin-top: 43px;
             }
 
             h3 {
-                    width: 413px;
-                    margin: 26px auto;
-                    height: 57px;
+                width: 413px;
+                margin: 26px auto;
+                height: 57px;
 
                 span {
-                        font-size: 16px;
-                            line-height: 22px;
-                            padding-bottom: 26px;
+                    font-size: 16px;
+                    line-height: 22px;
+                    padding-bottom: 26px;
                 }
             }
 
             .part {
                 h4 {
-                        font-size: 18px;
+                    font-size: 18px;
                     padding-left: 57px;
                     padding-top: 11px;
                     background-position: 44px 29px;
@@ -1211,14 +1166,14 @@
                 }
 
                 p {
-                            margin-left: 55px;
-                            font-size: 15px;
-                            line-height: 22px;
-                            padding-top: 15px;
+                    margin-left: 55px;
+                    font-size: 15px;
+                    line-height: 22px;
+                    padding-top: 15px;
                 }
 
                 &.part1 {
-                        height: 214px;
+                    height: 214px;
                 }
 
                 &.part2 {
@@ -1226,7 +1181,7 @@
                 }
 
                 &.part3 {
-                        height: 257px;
+                    height: 257px;
                 }
 
                 &.part4 {
@@ -1237,265 +1192,245 @@
     }
 
     .sec11 {
-       padding-top: 62px;
-       padding-bottom: 0px;
+        padding-top: 62px;
+        padding-bottom: 0px;
 
         h2 {
-                font-size: 24px;
+            font-size: 24px;
         }
 
         .line {
-           width: 90px;
+            width: 90px;
             margin: 22px auto;
         }
 
         .nav {
-                    margin-top: 60px;
-
+            margin-top: 60px;
 
             a {
-                        width: 300px;
-                            height: 52px;
-                            margin-right: 20px;
-                            font-size: 18px;
-                            line-height: 48px; 
- 
-                &:last-of-type {
-                }
+                width: 300px;
+                height: 52px;
+                margin-right: 20px;
+                font-size: 18px;
+                line-height: 48px;
 
-                &.active, &:hover {
-                }
+                &:last-of-type {}
+
+                &.active, &:hover {}
             }
         }
 
         .slider {
-                   margin-top: 23px;
-                           height: 354px;
+            margin-top: 23px;
+            height: 354px;
 
-            &.active {
-            }
+            &.active {}
 
             .wrap {
-                            letter-spacing: 28px;
-                img{
-                        width: 394px;
-                    
+                letter-spacing: 28px;
+
+                img {
+                    width: 394px;
                 }
             }
 
             .controls {
                 .arrow {
-                            top: 110px;
-                             background-size: 22px;
+                    top: 110px;
+                    background-size: 22px;
 
-
-                    a {
-                    }
+                    a {}
 
                     &.left {
-                                left: -4px;
+                        left: -4px;
 
-                        &:hover {
-                        }
+                        &:hover {}
                     }
 
                     &.right {
-                                right: -3px;
+                        right: -3px;
 
-                        &:hover {
-                        }
+                        &:hover {}
                     }
                 }
             }
 
             .pager {
-
-
                 a {
-                        width: 14px;
-                        height: 14px;
+                    width: 14px;
+                    height: 14px;
 
-                    &.active, &:hover {
-                    }
+                    &.active, &:hover {}
                 }
             }
         }
     }
 
     .sec12 {
-                        padding-top: 70px;
-                        padding-bottom: 7px;
+        padding-top: 70px;
+        padding-bottom: 7px;
 
         h2 {
-                       font-size: 25px;
+            font-size: 25px;
         }
 
         .line {
-                width:90px;
+            width: 90px;
         }
 
         .slider {
-                        margin-top: 79px;
-                            height: 378px;
+            margin-top: 79px;
+            height: 378px;
 
             .wrap {
-                            letter-spacing: 25px;
+                letter-spacing: 25px;
 
                 .slide {
-                            width: 396px;
+                    width: 396px;
 
-                    iframe {
-                    }
+                    iframe {}
 
                     img {
-                                width: 396px;
+                        width: 396px;
                     }
 
                     &:before {
-                            top: 71px;
-                            margin-left: -31px;
-                            background-size: 50px;
+                        top: 71px;
+                        margin-left: -31px;
+                        background-size: 50px;
                     }
 
                     span {
-                            height: 67px;
-                            line-height: 67px;
-                            font-size: 19px;
+                        height: 67px;
+                        line-height: 67px;
+                        font-size: 19px;
                     }
                 }
             }
 
             .controls {
                 .arrow {
-
-                    a {
-                    }
+                    a {}
 
                     &.left {
                         left: -6px;
-                            top: 87px;
-                            background-size: 23px;
+                        top: 87px;
+                        background-size: 23px;
 
-                        &:hover {
-                        }
+                        &:hover {}
                     }
 
                     &.right {
-                                right: -3px;
-                                top: 87px;
-                                background-size: 23px;
+                        right: -3px;
+                        top: 87px;
+                        background-size: 23px;
 
-                        &:hover {
-                        }
+                        &:hover {}
                     }
                 }
             }
 
             .pager {
-
                 a {
-                        width: 14px;
-                        height: 14px;
+                    width: 14px;
+                    height: 14px;
 
-                    &.active, &:hover { 
-                    }
+                    &.active, &:hover {}
                 }
             }
         }
     }
 
     .sec13 {
-            height: 237px;
-                padding-top: 82px;
+        height: 237px;
+        padding-top: 82px;
 
         h2 {
-                font-size: 21px;
-                    line-height: 25px;
+            font-size: 21px;
+            line-height: 25px;
         }
 
         form {
-                   margin-top: 27px;
+            margin-top: 27px;
 
             .input-wrap {
-                        width: 291px;
+                width: 291px;
 
                 input {
-                        padding-left: 24px;
-                            width: 298px;
-                            height: 46px;
-                            font-size: 14px;
+                    padding-left: 24px;
+                    width: 298px;
+                    height: 46px;
+                    font-size: 14px;
                 }
 
-                span {
-                }
+                span {}
             }
 
             button {
-                            width: 296px;
-                            height: 45px;
-                                font-size: 16px;
+                width: 296px;
+                height: 45px;
+                font-size: 16px;
             }
         }
     }
 
     footer {
-                height: 207px;
+        height: 207px;
 
         ul {
-
             li {
-                        width: 146px;
+                width: 146px;
 
                 &.li1 {
-                            font-size: 14px;
-                                margin: 25px auto;
-                                padding-left: 31px;
-                                line-height: 18px;
-                                background-position: -2px 3px;
-                                background-size: 22px;
+                    font-size: 14px;
+                    margin: 25px auto;
+                    padding-left: 31px;
+                    line-height: 18px;
+                    background-position: -2px 3px;
+                    background-size: 22px;
                 }
 
                 &.li2 {
-                                width: 247px;
-                                    padding-left: 93px;
-                                    background-position: 52px 3px;
-                                    line-height: 17px;
-                                    font-size: 14px;
-                                    margin: 27px 42px;
-                                    background-size: 25px;
+                    width: 247px;
+                    padding-left: 93px;
+                    background-position: 52px 3px;
+                    line-height: 17px;
+                    font-size: 14px;
+                    margin: 27px 42px;
+                    background-size: 25px;
                 }
 
                 &.li3 {
-                               width: 218px;
-                                    padding-left: 31px;
-                                    margin-left: 43px;
-                                    background-position: -4px 4px;
-                                    line-height: 17px;
-                                    font-size: 14px;
-                                    margin: 27px 47px;
-                                    background-size: 25px;
-                                    margin-right: 0px;
+                    width: 218px;
+                    padding-left: 31px;
+                    margin-left: 43px;
+                    background-position: -4px 4px;
+                    line-height: 17px;
+                    font-size: 14px;
+                    margin: 27px 47px;
+                    background-size: 25px;
+                    margin-right: 0px;
                 }
 
                 &.li4 {
-                           width: initial;
-                            background-position: 7px 4px;
-                            line-height: 17px;
-                            font-size: 14px;
-                            margin: 26px 0;
-                            background-size: 22px;  
+                    width: initial;
+                    background-position: 7px 4px;
+                    line-height: 17px;
+                    font-size: 14px;
+                    margin: 26px 0;
+                    background-size: 22px;
                 }
             }
         }
 
         .line {
-                    width: 90px;
+            width: 90px;
         }
 
         p {
-                          margin-top: 13px;
-                            font-size: 10px;
-                            line-height: 13px;
+            margin-top: 13px;
+            font-size: 10px;
+            line-height: 13px;
         }
     }
 

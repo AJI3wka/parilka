@@ -52,6 +52,18 @@ section, header, footer {
     margin: 0 auto;
     padding: 0 15px; }
 
+br.desktop {
+  display: inline; }
+
+br.tablet_g {
+  display: none; }
+
+br.tablet_v {
+  display: none; }
+
+br.mobile {
+  display: none; }
+
 header {
   height: 137px;
   background-color: white;
@@ -2334,6 +2346,23 @@ input.hidden {
       height: 100%;
       margin: 0 auto;
       padding: 0 20px; }
+  br.desktop {
+    display: none; }
+  br.tablet_g {
+    display: inline; }
+  br.tablet_v {
+    display: none; }
+  br.mobile {
+    display: none; }
+  #maket {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background: url(../maket.jpg) no-repeat top center;
+    height: 13200px;
+    opacity: 0.5;
+    z-index: 10; }
   header {
     height: 111px;
     position: relative; }
@@ -2554,7 +2583,7 @@ input.hidden {
       font-size: 16px;
       padding-left: 59px; }
     .sec4 ul {
-      margin-top: 1px;
+      margin-top: 25px;
       padding-left: 58px; }
       .sec4 ul li {
         font-size: 16px; }
@@ -3822,6 +3851,14 @@ input.hidden {
       height: 100%;
       margin: 0 auto;
       padding: 0 0; }
+  br.desktop {
+    display: none; }
+  br.tablet_g {
+    display: none; }
+  br.tablet_v {
+    display: inline; }
+  br.mobile {
+    display: none; }
   #maket {
     position: absolute;
     top: 0px;
@@ -4167,10 +4204,8 @@ input.hidden {
             transition: all 0.25s; }
             .sec7 > div.block > div > .left ul li.active, .sec7 > div.block > div > .left ul li:hover {
               background: #fccd11; }
-            .sec7 > div.block > div > .left ul li span {
-              display: inline-block;
-              line-height: 26px;
-              vertical-align: middle; }
+            .sec7 > div.block > div > .left ul li span span.no_tablet_v {
+              display: none; }
         .sec7 > div.block > div > .right {
           width: 745px;
           float: right;
