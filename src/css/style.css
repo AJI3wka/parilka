@@ -2783,7 +2783,7 @@ input.hidden {
               padding-left: 16px;
               margin-top: 0px; }
               .sec7 > div.block > div > .right .top2 ul li {
-                font-size: 18px;
+                font-size: 13px;
                 line-height: 13px; }
           .sec7 > div.block > div > .right .top3 {
             float: right;
@@ -2812,7 +2812,8 @@ input.hidden {
             padding-top: 11px; }
             .sec7 > div.block > div > .right .bottom .left {
               float: left;
-              width: 344px; }
+              width: 341px;
+              }
               .sec7 > div.block > div > .right .bottom .left .img {
                 width: 344px;
                 height: 285px;
@@ -2894,14 +2895,307 @@ input.hidden {
         padding-left: 68px;
         border: none;
         margin-left: 61px; }
-  .sec10 .block .part.part1 {
-    height: 260px; }
-  .sec10 .block .part.part2 {
-    height: 415px; }
-  .sec10 .block .part.part3 {
-    height: 311px; }
-  .sec10 .block .part.part4 {
-    height: 120px; }
+  .sec8 {
+    padding-top: 40px; }
+    .sec8 h2 {
+      font-size: 24px; }
+    .sec8 .line {
+      width: 90px; }
+    .sec8 .left {
+      margin-top: 53px;
+      margin-left: 60px;
+      float: none;
+      width: 100%;
+      margin-left: 0; }
+      .sec8 .left .li {
+        width: 353px;
+        margin-bottom: 21px;
+        margin-left: 60px;
+        margin-right: 61px; }
+        .sec8 .left .li:nth-of-type(2n) {
+          margin-right: 0px; }
+        .sec8 .left .li.ly {
+          width: 819px;
+          height: 156px;
+          margin-top: 0px; }
+        .sec8 .left .li p {
+          margin-bottom: 17px; }
+        .sec8 .left .li .btn {
+          margin-bottom: 11px;
+          margin-right: 6.7px;
+          line-height: 51px; }
+          .sec8 .left .li .btn.btn1 {
+            width: 169px; }
+          .sec8 .left .li .btn.btn2 {
+            margin-top: -2px;
+            width: 343px; }
+      .sec8 .left a {
+        width: 822px;
+        height: 50px;
+        margin-top: 26px;
+        line-height: 50px;
+        margin-left: 58px;
+        font-size: 19px; }
+    .sec8 .right {
+      width: 818px;
+      height: 391px;
+      margin-left: 61px;
+      margin-top: 64px;
+      border: 2px solid #fccd11;
+      float: none; }
+      .sec8 .right p.heading {
+        margin-top: 36px;
+        font-size: 24px; }
+      .sec8 .right .lleft {
+        float: left; }
+        .sec8 .right .lleft p.send-us {
+          display: block;
+          font-size: 17px;
+          margin-top: 39px;
+          float: left;
+          margin-right: 0;
+          margin-left: 131px;
+          line-height: 22px; }
+        .sec8 .right .lleft .img {
+          background-position: 74px 3px;
+          background-size: 343px;
+          height: 205px;
+          width: 404px;
+          display: block;
+          margin-top: 107px; }
+      .sec8 .right form {
+        width: 267px;
+        float: right;
+        margin-right: 83px;
+        margin-top: 47px; }
+        .sec8 .right form > .input-wrap input[type="text"] {
+          font-size: 15px;
+          height: 42px;
+          margin-bottom: 22px; }
+        .sec8 .right form .helper input[type="text"] {
+          width: 109px;
+          font-size: 14px; }
+        .sec8 .right form .helper .help-btn {
+          width: 158px;
+          font-size: 14px; }
+        .sec8 .right form > button {
+          font-size: 16px;
+          margin-top: 23px; }
+  .sec9 {
+    padding-top: 62px; }
+    .sec9 h2 {
+      font-size: 25px; }
+    .sec9 .line {
+      width: 90px; }
+    .sec9 .p {
+      font-size: 17px;
+      padding-top: 8px; }
+    .sec9 .map {
+      margin-top: 24px;
+      height: 380px; }
+      .sec9 .map .wrap {
+        margin-left: -510px;
+        width: 385px; }
+        .sec9 .map .wrap .form {
+          height: 45px; }
+          .sec9 .map .wrap .form input {
+            height: 39px;
+            font-size: 15px;
+            padding-left: 43px;
+            width: 220px;
+            margin-left: 22px; }
+        .sec9 .map .wrap .descr {
+          font-size: 16px;
+          padding-left: 61px;
+          margin-top: 15px;
+          line-height: 22px; }
+        .sec9 .map .wrap .price {
+          width: 330px;
+          margin: 23px 39px 0px;
+          height: 105px; }
+          .sec9 .map .wrap .price .left {
+            font-size: 19px; }
+            .sec9 .map .wrap .price .left span {
+              font-size: 21px;
+              margin-top: 14px; }
+          .sec9 .map .wrap .price .right {
+            font-size: 17px;
+            width: 144px; }
+            .sec9 .map .wrap .price .right span {
+              font-size: 21px;
+              margin-top: 14px; }
+  .sec10 {
+    padding-top: 71px; }
+    .sec10 h2 {
+      font-size: 24px; }
+    .sec10 .line {
+      width: 90px;
+      margin: 21px auto 19px; }
+    .sec10 .block.block1 {
+      margin-top: 43px;
+      width: 457px;
+      height: 1201px; }
+    .sec10 .block.block2 {
+      width: 461px;
+      height: 1201px;
+      margin-top: 43px; }
+    .sec10 .block h3 {
+      width: 413px;
+      margin: 26px auto;
+      height: 57px; }
+      .sec10 .block h3 span {
+        font-size: 16px;
+        line-height: 22px;
+        padding-bottom: 26px; }
+    .sec10 .block .part h4 {
+      font-size: 18px;
+      padding-left: 57px;
+      padding-top: 11px;
+      background-position: 44px 29px;
+      background-size: 368px; }
+    .sec10 .block .part p {
+      margin-left: 55px;
+      font-size: 15px;
+      line-height: 22px;
+      padding-top: 15px; }
+    .sec10 .block .part.part1 {
+      height: 214px; }
+    .sec10 .block .part.part2 {
+      height: 342px; }
+    .sec10 .block .part.part3 {
+      height: 257px; }
+    .sec10 .block .part.part4 {
+      height: 120px; }
+  .sec11 {
+    padding-top: 62px;
+    padding-bottom: 0px; }
+    .sec11 h2 {
+      font-size: 24px; }
+    .sec11 .line {
+      width: 90px;
+      margin: 22px auto; }
+    .sec11 .nav {
+      margin-top: 60px; }
+      .sec11 .nav a {
+        width: 300px;
+        height: 52px;
+        margin-right: 20px;
+        font-size: 18px;
+        line-height: 48px; }
+    .sec11 .slider {
+      margin-top: 23px;
+      height: 354px; }
+      .sec11 .slider .wrap {
+        letter-spacing: 28px; }
+        .sec11 .slider .wrap img {
+          width: 394px; }
+      .sec11 .slider .controls .arrow {
+        top: 110px;
+        background-size: 22px; }
+        .sec11 .slider .controls .arrow.left {
+          left: -4px; }
+        .sec11 .slider .controls .arrow.right {
+          right: -3px; }
+      .sec11 .slider .pager a {
+        width: 14px;
+        height: 14px; }
+  .sec12 {
+    padding-top: 70px;
+    padding-bottom: 7px; }
+    .sec12 h2 {
+      font-size: 25px; }
+    .sec12 .line {
+      width: 90px; }
+    .sec12 .slider {
+      margin-top: 79px;
+      height: 378px; }
+      .sec12 .slider .wrap {
+        letter-spacing: 25px; }
+        .sec12 .slider .wrap .slide {
+          width: 396px; }
+          .sec12 .slider .wrap .slide img {
+            width: 396px; }
+          .sec12 .slider .wrap .slide:before {
+            top: 71px;
+            margin-left: -31px;
+            background-size: 50px; }
+          .sec12 .slider .wrap .slide span {
+            height: 67px;
+            line-height: 67px;
+            font-size: 19px; }
+      .sec12 .slider .controls .arrow.left {
+        left: -6px;
+        top: 87px;
+        background-size: 23px; }
+      .sec12 .slider .controls .arrow.right {
+        right: -3px;
+        top: 87px;
+        background-size: 23px; }
+      .sec12 .slider .pager a {
+        width: 14px;
+        height: 14px; }
+  .sec13 {
+    height: 237px;
+    padding-top: 82px; }
+    .sec13 h2 {
+      font-size: 21px;
+      line-height: 25px; }
+    .sec13 form {
+      margin-top: 27px; }
+      .sec13 form .input-wrap {
+        width: 291px; }
+        .sec13 form .input-wrap input {
+          padding-left: 24px;
+          width: 298px;
+          height: 46px;
+          font-size: 14px; }
+      .sec13 form button {
+        width: 296px;
+        height: 45px;
+        font-size: 16px; }
+  footer {
+    height: 207px; }
+    footer ul li {
+      width: 146px; }
+      footer ul li.li1 {
+        font-size: 14px;
+        margin: 25px auto;
+        padding-left: 31px;
+        line-height: 18px;
+        background-position: -2px 3px;
+        background-size: 22px; }
+      footer ul li.li2 {
+        width: 247px;
+        padding-left: 93px;
+        background-position: 52px 3px;
+        line-height: 17px;
+        font-size: 14px;
+        margin: 27px 42px;
+        background-size: 25px; }
+      footer ul li.li3 {
+        width: 218px;
+        padding-left: 31px;
+        margin-left: 43px;
+        background-position: -4px 4px;
+        line-height: 17px;
+        font-size: 14px;
+        margin: 27px 47px;
+        background-size: 25px;
+        margin-right: 0px; }
+      footer ul li.li4 {
+        width: initial;
+        background-position: 7px 4px;
+        line-height: 17px;
+        font-size: 14px;
+        margin: 26px 0;
+        background-size: 22px;
+        }
+    footer .line {
+      width: 90px; }
+    footer p {
+      margin-top: 13px;
+      font-size: 10px;
+      line-height: 13px; }
   .pop1 {
     width: 736px;
     height: 736px;

@@ -741,7 +741,7 @@
                                 margin-top: 0px;
 
                             li {
-                                font-size: 18px;
+                                    font-size: 13px;
                                 line-height: 13px;
                             }
                         }
@@ -902,32 +902,65 @@
     }
 
     .sec8 {
+        padding-top: 40px;
 
         h2 {
+            font-size: 24px;
         }
 
         .line {
+            width:90px;
         }
 
         .left {
+                        margin-top: 53px;
+                        margin-left: 60px;
+                        float: none;
+                        width: 100%;
+                        margin-left: 0;
 
             .li {
 
+                            width: 353px;
+                            margin-bottom: 21px;
+                            margin-left: 60px;
+                            margin-right: 61px;
+                            &:nth-of-type(2n){
+                            margin-right: 0px;
+
+                         }
+                         &:nth-of-type(3){
+                            
+                         }
+
+
+
                 &.ly {
+                    width: 819px;
+                    height: 156px;
+                    margin-top: 0px;
+
                 }
 
                 p {
+                    margin-bottom: 17px;
 
                     &.full {
                     }
                 }
 
                 .btn {
+                       margin-bottom: 11px;
+                       margin-right: 6.7px;
+                       line-height: 51px; 
 
                     &.btn1 {
+                            width: 169px; 
                     }
 
                     &.btn2 {
+                        margin-top: -2px;
+                        width: 343px;
                     }
 
                     &.active, &:hover {
@@ -961,15 +994,41 @@
             }
 
             a {
+                    width: 822px;
+                    height: 50px;
+                    margin-top: 26px;
+                    line-height: 50px;
+                    margin-left: 58px;
+                    font-size: 19px;
+
             }
         }
 
         .right {
+                    width: 818px;
+                    height: 391px;
+                    margin-left: 61px;
+                    margin-top: 64px;
+                    border: 2px solid #fccd11;
+                    float: none;
 
             p.heading {
+                    margin-top: 36px;
+                    font-size: 24px; 
             }
 
-            p.send-us {
+
+            .lleft{
+                
+                float:left;
+                p.send-us {
+                            display:block;
+                            font-size: 17px;
+                            margin-top: 39px;
+                            float: left;
+                            margin-right: 0;
+                            margin-left: 131px;
+                            line-height: 22px;
 
                 a {
 
@@ -979,12 +1038,30 @@
             }
 
             .img {
+                            background-position: 74px 3px;
+                            background-size: 343px;
+                            height: 205px;
+                            width: 404px;
+                            display: block;
+                            margin-top: 107px
             }
 
+
+            }
+            
+
             form {
+                    width: 267px;
+                    float: right;
+                    margin-right: 83px;
+                    margin-top: 47px;
 
                 & > .input-wrap {
+                    
                     input[type="text"] {
+                                font-size: 15px;
+                                    height: 42px;
+                                    margin-bottom: 22px;
 
                         &[name="name"] {
                         }
@@ -1003,38 +1080,63 @@
                     }
 
                     input[type="text"] {
+                            width: 109px; 
+                            font-size: 14px;
                     }
 
-                    .help-btn {                    }
+                    .help-btn {  
+                               width: 158px;
+                                   font-size: 14px;
+
+                                      }
                 }
 
                 & > button {
+                            font-size: 16px;
+                            margin-top: 23px;
+
                 }
             }
         }
     }
 
     .sec9 {
+                padding-top: 62px;
 
         h2 {
+            font-size:25px;
         }
 
         .line {
+                width: 90px;
         }
 
         .p {
+                font-size: 17px;
+                    padding-top: 8px;
         }
 
         .map {
+                    margin-top: 24px;
+                        height: 380px;
 
             .map-wrap {
+
             }
 
             .wrap {
+                    margin-left: -510px;
+                    width: 385px;
 
                 .form {
+                    height: 45px;
 
                     input {
+                                height: 39px;
+                                    font-size: 15px;
+                                    padding-left: 43px;
+                                    width: 220px;
+                                    margin-left: 22px;
 
                         &::placeholder {
                         }
@@ -1045,19 +1147,33 @@
                 }
 
                 .descr {
+                        font-size: 16px;
+                        padding-left: 61px;
+                        margin-top: 15px;
+                        line-height: 22px;
                 }
 
                 .price {
+                            width: 330px;
+                            margin: 23px 39px 0px;
+                            height: 105px; 
 
                     .left {
-
+                            font-size: 19px;
+                            
                         span {
+                                font-size: 21px;
+                                margin-top: 14px;
                         }
                     }
 
                     .right {
+                            font-size: 17px;
+                            width: 144px; 
 
                         span {
+                                    font-size: 21px;
+                                   margin-top: 14px;
                         }
                     }
                 }
@@ -1066,44 +1182,69 @@
     }
 
     .sec10 {
+                padding-top: 71px;
 
         h2 {
+            font-size: 24px;
         }
 
         .line {
+            width: 90px;
+            margin: 21px auto 19px;
         }
 
         .block {
 
             &.block1 {
+                            margin-top: 43px;
+                           width: 457px;
+                            height: 1201px;
             }
 
             &.block2 {
+                        width: 461px;
+                            height: 1201px;
+                            margin-top: 43px;
             }
 
             h3 {
+                    width: 413px;
+                    margin: 26px auto;
+                    height: 57px;
 
                 span {
+                        font-size: 16px;
+                            line-height: 22px;
+                            padding-bottom: 26px;
                 }
             }
 
             .part {
                 h4 {
+                        font-size: 18px;
+                    padding-left: 57px;
+                    padding-top: 11px;
+                    background-position: 44px 29px;
+                    background-size: 368px;
                 }
 
                 p {
+                            margin-left: 55px;
+                            font-size: 15px;
+                            line-height: 22px;
+                            padding-top: 15px;
                 }
 
                 &.part1 {
-                    height: 260px;
+                        height: 214px;
                 }
 
                 &.part2 {
-                    height: 415px;
+                    height: 342px;
                 }
 
                 &.part3 {
-                    height: 311px;
+                        height: 257px;
                 }
 
                 &.part4 {
@@ -1114,17 +1255,29 @@
     }
 
     .sec11 {
+       padding-top: 62px;
+       padding-bottom: 0px;
 
         h2 {
+                font-size: 24px;
         }
 
         .line {
+           width: 90px;
+            margin: 22px auto;
         }
 
         .nav {
+                    margin-top: 60px;
+
 
             a {
-
+                        width: 300px;
+                            height: 52px;
+                            margin-right: 20px;
+                            font-size: 18px;
+                            line-height: 48px; 
+ 
                 &:last-of-type {
                 }
 
@@ -1134,26 +1287,38 @@
         }
 
         .slider {
+                   margin-top: 23px;
+                           height: 354px;
 
             &.active {
             }
 
             .wrap {
+                            letter-spacing: 28px;
+                img{
+                        width: 394px;
+                    
+                }
             }
 
             .controls {
                 .arrow {
+                            top: 110px;
+                             background-size: 22px;
+
 
                     a {
                     }
 
                     &.left {
+                                left: -4px;
 
                         &:hover {
                         }
                     }
 
                     &.right {
+                                right: -3px;
 
                         &:hover {
                         }
@@ -1163,7 +1328,10 @@
 
             .pager {
 
+
                 a {
+                        width: 14px;
+                        height: 14px;
 
                     &.active, &:hover {
                     }
@@ -1173,29 +1341,44 @@
     }
 
     .sec12 {
+                        padding-top: 70px;
+                        padding-bottom: 7px;
 
         h2 {
+                       font-size: 25px;
         }
 
         .line {
+                width:90px;
         }
 
         .slider {
+                        margin-top: 79px;
+                            height: 378px;
 
             .wrap {
+                            letter-spacing: 25px;
 
                 .slide {
+                            width: 396px;
 
                     iframe {
                     }
 
                     img {
+                                width: 396px;
                     }
 
                     &:before {
+                            top: 71px;
+                            margin-left: -31px;
+                            background-size: 50px;
                     }
 
                     span {
+                            height: 67px;
+                            line-height: 67px;
+                            font-size: 19px;
                     }
                 }
             }
@@ -1207,12 +1390,18 @@
                     }
 
                     &.left {
+                        left: -6px;
+                            top: 87px;
+                            background-size: 23px;
 
                         &:hover {
                         }
                     }
 
                     &.right {
+                                right: -3px;
+                                top: 87px;
+                                background-size: 23px;
 
                         &:hover {
                         }
@@ -1223,8 +1412,10 @@
             .pager {
 
                 a {
+                        width: 14px;
+                        height: 14px;
 
-                    &.active, &:hover {
+                    &.active, &:hover { 
                     }
                 }
             }
@@ -1232,15 +1423,25 @@
     }
 
     .sec13 {
+            height: 237px;
+                padding-top: 82px;
 
         h2 {
+                font-size: 21px;
+                    line-height: 25px;
         }
 
         form {
+                   margin-top: 27px;
 
             .input-wrap {
+                        width: 291px;
 
                 input {
+                        padding-left: 24px;
+                            width: 298px;
+                            height: 46px;
+                            font-size: 14px;
                 }
 
                 span {
@@ -1248,34 +1449,71 @@
             }
 
             button {
+                            width: 296px;
+                            height: 45px;
+                                font-size: 16px;
             }
         }
     }
 
     footer {
+                height: 207px;
 
         ul {
 
             li {
+                        width: 146px;
 
                 &.li1 {
+                            font-size: 14px;
+                                margin: 25px auto;
+                                padding-left: 31px;
+                                line-height: 18px;
+                                background-position: -2px 3px;
+                                background-size: 22px;
                 }
 
                 &.li2 {
+                                width: 247px;
+                                    padding-left: 93px;
+                                    background-position: 52px 3px;
+                                    line-height: 17px;
+                                    font-size: 14px;
+                                    margin: 27px 42px;
+                                    background-size: 25px;
                 }
 
                 &.li3 {
+                               width: 218px;
+                                    padding-left: 31px;
+                                    margin-left: 43px;
+                                    background-position: -4px 4px;
+                                    line-height: 17px;
+                                    font-size: 14px;
+                                    margin: 27px 47px;
+                                    background-size: 25px;
+                                    margin-right: 0px;
                 }
 
                 &.li4 {
+                           width: initial;
+                            background-position: 7px 4px;
+                            line-height: 17px;
+                            font-size: 14px;
+                            margin: 26px 0;
+                            background-size: 22px;  
                 }
             }
         }
 
         .line {
+                    width: 90px;
         }
 
         p {
+                          margin-top: 13px;
+                            font-size: 10px;
+                            line-height: 13px;
         }
     }
 
