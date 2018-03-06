@@ -630,7 +630,7 @@
                             float: left;
                             width: 322px;
                             margin-top: 15px;
-                            margin-left: 106px;
+                            margin-left: 86px;
 
                     ul {
                         li {
@@ -659,7 +659,7 @@
                 }
 
                 & > .right {
-                    width: 725px;
+                    width: 745px;
                     float: right;
                     display: none;
 
@@ -695,7 +695,7 @@
                     .top2 {
                         width: 180px;
                         float: left;
-                        margin-left: 31px;
+                        margin-left: 32px;
 
                         .price {
                                     display: block;
@@ -749,7 +749,7 @@
 
                     .top3 {
                             float: right;
-                            width: 179px;
+                            width: 198px;
                             margin-top: 6px;
                             text-align: center;
                             margin-right: 124px;
@@ -761,6 +761,7 @@
                                     margin-bottom: 11px;
                                     display: block;
                                     text-transform: uppercase;
+                                        padding-right: 20px;
                         }
 
                         a {
@@ -781,11 +782,11 @@
 
                         .left {
                             float: left;
-                            width: 344px;
+                            width: 195px;
 
                             .img {
-                                width: 344px;
-                                height: 285px;
+                                    width: 195px;
+                                    height: 160px;
                                 position: relative;
                                 margin-bottom: 3px;
                                 display: block;
@@ -810,8 +811,8 @@
 
                         .img_b {
                             float: right;
-                            width: 406px;
-                            margin-right: 123px;
+                            width: 407px;
+                            margin-right: 141px;
                             height: 322px;
                             position: relative;
                             display: block;
@@ -1082,11 +1083,13 @@
                     input[type="text"] {
                             width: 109px; 
                             font-size: 14px;
+                                height: 41px;
                     }
 
                     .help-btn {  
                                width: 158px;
                                    font-size: 14px;
+                                       height: 41px;
 
                                       }
                 }

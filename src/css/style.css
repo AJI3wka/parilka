@@ -2703,7 +2703,8 @@ input.hidden {
           float: left;
           width: 322px;
           margin-top: 15px;
-          margin-left: 106px; }
+          margin-left: 86px;
+          }
           .sec7 > div.block > div > .left ul li {
             height: 56px;
             margin-bottom: 4px;
@@ -2722,9 +2723,10 @@ input.hidden {
               line-height: 26px;
               vertical-align: middle; }
         .sec7 > div.block > div > .right {
-          width: 725px;
+          width: 745px;
           float: right;
-          display: none; }
+          display: none;
+          }
           .sec7 > div.block > div > .right.active {
             display: block; }
           .sec7 > div.block > div > .right .top1 {
@@ -2747,7 +2749,8 @@ input.hidden {
           .sec7 > div.block > div > .right .top2 {
             width: 180px;
             float: left;
-            margin-left: 31px; }
+            margin-left: 32px;
+            }
             .sec7 > div.block > div > .right .top2 .price {
               display: block;
               text-transform: uppercase;
@@ -2773,7 +2776,8 @@ input.hidden {
               height: 70px;
               background: url(../img/green.png) no-repeat center;
               background-position: 51px 52px;
-              background-size: 16px; }
+              background-size: 16px;
+              }
             .sec7 > div.block > div > .right .top2 .gift {
               display: block;
               text-align: left;
@@ -2787,17 +2791,20 @@ input.hidden {
                 line-height: 13px; }
           .sec7 > div.block > div > .right .top3 {
             float: right;
-            width: 179px;
+            width: 198px;
             margin-top: 6px;
             text-align: center;
-            margin-right: 124px; }
+            margin-right: 124px;
+            }
             .sec7 > div.block > div > .right .top3 span {
               font-size: 14px;
               margin-top: 25px;
               font-weight: 600;
               margin-bottom: 11px;
               display: block;
-              text-transform: uppercase; }
+              text-transform: uppercase;
+              padding-right: 20px;
+              }
             .sec7 > div.block > div > .right .top3 a {
               display: block;
               color: white;
@@ -2812,14 +2819,15 @@ input.hidden {
             padding-top: 11px; }
             .sec7 > div.block > div > .right .bottom .left {
               float: left;
-              width: 341px;
+              width: 195px;
               }
               .sec7 > div.block > div > .right .bottom .left .img {
-                width: 344px;
-                height: 285px;
+                width: 195px;
+                height: 160px;
                 position: relative;
                 margin-bottom: 3px;
-                display: block; }
+                display: block;
+                }
                 .sec7 > div.block > div > .right .bottom .left .img img {
                   max-height: 100%;
                   max-width: 100%; }
@@ -2834,11 +2842,12 @@ input.hidden {
                   border: 3px solid #fccd11; }
             .sec7 > div.block > div > .right .bottom .img_b {
               float: right;
-              width: 406px;
-              margin-right: 123px;
+              width: 407px;
+              margin-right: 141px;
               height: 322px;
               position: relative;
-              display: block; }
+              display: block;
+              }
               .sec7 > div.block > div > .right .bottom .img_b img {
                 max-height: 100%;
                 max-width: 100%; }
@@ -2974,10 +2983,14 @@ input.hidden {
           margin-bottom: 22px; }
         .sec8 .right form .helper input[type="text"] {
           width: 109px;
-          font-size: 14px; }
+          font-size: 14px;
+          height: 41px;
+          }
         .sec8 .right form .helper .help-btn {
           width: 158px;
-          font-size: 14px; }
+          font-size: 14px;
+          height: 41px;
+          }
         .sec8 .right form > button {
           font-size: 16px;
           margin-top: 23px; }
