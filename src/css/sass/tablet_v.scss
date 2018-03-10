@@ -498,19 +498,36 @@
         ul {
                     padding-top: 52px;
             li {
-                    width: 500px;
-                    margin-left: 98px;
-                    margin-right: -126px;
+                    width: 280px;
+                    margin-left: 20px;
+                    margin-right: 20px;
                     min-height: 152px;
+                    
+                    padding-top:150px;
+                    position:relative;
+                    margin-bottom:20px;
+
                 &:nth-of-type(2n-1) {}
 
                 .h4 {
-                            width: 383px;
+                            width: 100%;
+                            padding-left:0;
+                            padding-top:0;
+                            text-transform:uppercase;
+                            text-align:center;
+                            margin-left:0;
+                            border-bottom:none;
+                            margin-top:20px;
                 }
 
                 .img {
                                 width: 150px;
-                                    height: 150px;
+                                height: 150px;
+                                position:absolute;
+                                top:0;
+                                left:50%;
+                                margin-left:-75px;
+                                margin-top:0;
                     &.img1 {}
 
                     &.img2 {}
@@ -529,6 +546,9 @@
                 }
 
                 .text {
+                    margin-left:0;
+                    text-align:center;
+                    float:none;
                     span {}
                 }
             }
@@ -596,6 +616,9 @@
                                 display: inline-block;
                                 line-height: 26px;
                                 vertical-align: middle;
+                                .no_tablet_v{
+                                        display:none;
+                                }
                             }
                         }
                     }
@@ -717,6 +740,9 @@
                                     font-size: 12px;
                                     line-height: 14px;
                                     padding-top: 5px;
+                                    &:nth-of-type(2){
+                                            line-height:30px;
+                                    }
                         }
                     }
 
@@ -735,47 +761,13 @@
                                 margin-bottom: 3px;
                                 display: block;
 
-                                img {
-                                    max-height: 100%;
-                                    max-width: 100%;
-                                }
-
-                                &:after {
-                                    content: "";
-                                    display: block;
-                                    position: absolute;
-                                    left: 0;
-                                    top: 0;
-                                    width: 100%;
-                                    height: 100%;
-                                    border: 3px solid #fccd11;
-                                }
                             }
                         }
 
                         .img_b {
-                                float: right;
-                                    width: 351px;
-                                    margin-right: 320px;
-                                    height: 322px;
-                                    position: relative;
-                                    display: block;
+                            width: 351px;
+                            margin-right: 320px;
 
-                            img {
-                                max-height: 100%;
-                                max-width: 100%;
-                            }
-
-                            &:after {
-                                content: "";
-                                display: block;
-                                position: absolute;
-                                left: 0;
-                                top: 0;
-                                width: 100%;
-                                height: 100%;
-                                border: 3px solid #fccd11;
-                            }
                         }
                     }
                 }
@@ -1110,7 +1102,9 @@
 
     .sec10 {
         padding-top: 51px;
-
+        &>div{
+            max-width: 768px;
+        }
         h2 {
             font-size: 24px;
         }

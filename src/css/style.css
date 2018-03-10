@@ -601,8 +601,7 @@ header {
   padding-bottom: 40px; }
   .sec6 h2 {
     padding-top: 79px;
-    font-size: 38px;
-    margin-right: 7px; }
+    font-size: 38px; }
   .sec6 .line {
     width: 110px;
     height: 3px;
@@ -847,10 +846,15 @@ header {
               height: 285px;
               position: relative;
               margin-bottom: 3px;
-              display: block; }
+              display: block;
+              overflow: hidden; }
               .sec7 > div.block > div > .right .bottom .left .img img {
-                max-height: 100%;
-                max-width: 100%; }
+                min-height: 100%;
+                min-width: 100%;
+                position: relative;
+                left: 50%;
+                height: 100%;
+                transform: translate3d(-50%, 0, 0); }
               .sec7 > div.block > div > .right .bottom .left .img:after {
                 content: "";
                 display: block;
@@ -865,10 +869,15 @@ header {
             width: 720px;
             height: 573px;
             position: relative;
-            display: block; }
+            display: block;
+            overflow: hidden; }
             .sec7 > div.block > div > .right .bottom .img_b img {
-              max-height: 100%;
-              max-width: 100%; }
+              min-height: 100%;
+              min-width: 100%;
+              height: 100%;
+              position: relative;
+              left: 50%;
+              transform: translate3d(-50%, 0, 0); }
             .sec7 > div.block > div > .right .bottom .img_b:after {
               content: "";
               display: block;
@@ -2840,37 +2849,10 @@ input.hidden {
                 position: relative;
                 margin-bottom: 3px;
                 display: block; }
-                .sec7 > div.block > div > .right .bottom .left .img img {
-                  max-height: 100%;
-                  max-width: 100%; }
-                .sec7 > div.block > div > .right .bottom .left .img:after {
-                  content: "";
-                  display: block;
-                  position: absolute;
-                  left: 0;
-                  top: 0;
-                  width: 100%;
-                  height: 100%;
-                  border: 3px solid #fccd11; }
             .sec7 > div.block > div > .right .bottom .img_b {
-              float: right;
               width: 407px;
               margin-right: 141px;
-              height: 322px;
-              position: relative;
-              display: block; }
-              .sec7 > div.block > div > .right .bottom .img_b img {
-                max-height: 100%;
-                max-width: 100%; }
-              .sec7 > div.block > div > .right .bottom .img_b:after {
-                content: "";
-                display: block;
-                position: absolute;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                border: 3px solid #fccd11; }
+              height: 322px; }
     .sec7 .last p {
       font-size: 18px;
       margin-top: 52px;
@@ -4132,15 +4114,34 @@ input.hidden {
     .sec6 ul {
       padding-top: 52px; }
       .sec6 ul li {
-        width: 500px;
-        margin-left: 98px;
-        margin-right: -126px;
-        min-height: 152px; }
+        width: 280px;
+        margin-left: 20px;
+        margin-right: 20px;
+        min-height: 152px;
+        padding-top: 150px;
+        position: relative;
+        margin-bottom: 20px; }
         .sec6 ul li .h4 {
-          width: 383px; }
+          width: 100%;
+          padding-left: 0;
+          padding-top: 0;
+          text-transform: uppercase;
+          text-align: center;
+          margin-left: 0;
+          border-bottom: none;
+          margin-top: 20px; }
         .sec6 ul li .img {
           width: 150px;
-          height: 150px; }
+          height: 150px;
+          position: absolute;
+          top: 0;
+          left: 50%;
+          margin-left: -75px;
+          margin-top: 0; }
+        .sec6 ul li .text {
+          margin-left: 0;
+          text-align: center;
+          float: none; }
   .sec7 {
     padding-top: 49px; }
     .sec7 > div.block {
@@ -4191,6 +4192,8 @@ input.hidden {
               display: inline-block;
               line-height: 26px;
               vertical-align: middle; }
+              .sec7 > div.block > div > .left ul li span .no_tablet_v {
+                display: none; }
         .sec7 > div.block > div > .right {
           width: 870px;
           float: right;
@@ -4279,6 +4282,8 @@ input.hidden {
               font-size: 12px;
               line-height: 14px;
               padding-top: 5px; }
+              .sec7 > div.block > div > .right .top3 a:nth-of-type(2) {
+                line-height: 30px; }
           .sec7 > div.block > div > .right .bottom {
             clear: both;
             padding-top: 11px; }
@@ -4291,37 +4296,9 @@ input.hidden {
                 position: relative;
                 margin-bottom: 3px;
                 display: block; }
-                .sec7 > div.block > div > .right .bottom .left .img img {
-                  max-height: 100%;
-                  max-width: 100%; }
-                .sec7 > div.block > div > .right .bottom .left .img:after {
-                  content: "";
-                  display: block;
-                  position: absolute;
-                  left: 0;
-                  top: 0;
-                  width: 100%;
-                  height: 100%;
-                  border: 3px solid #fccd11; }
             .sec7 > div.block > div > .right .bottom .img_b {
-              float: right;
               width: 351px;
-              margin-right: 320px;
-              height: 322px;
-              position: relative;
-              display: block; }
-              .sec7 > div.block > div > .right .bottom .img_b img {
-                max-height: 100%;
-                max-width: 100%; }
-              .sec7 > div.block > div > .right .bottom .img_b:after {
-                content: "";
-                display: block;
-                position: absolute;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                border: 3px solid #fccd11; }
+              margin-right: 320px; }
     .sec7 .last p {
       font-size: 17px;
       margin-top: 49px;
@@ -4504,6 +4481,8 @@ input.hidden {
               margin-top: 10px; }
   .sec10 {
     padding-top: 51px; }
+    .sec10 > div {
+      max-width: 768px; }
     .sec10 h2 {
       font-size: 24px; }
     .sec10 .line {
