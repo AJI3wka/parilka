@@ -32,6 +32,26 @@
         &.mobile {
             display: none;
         }
+        span{
+            &.desktop {
+            display: none;
+        }
+
+        &.tablet_g {
+            display:none;
+        }
+
+        &.tablet_v {
+            display:none;
+        }
+
+        &.mobile {
+            display: none;
+        }
+
+        }
+
+        
     }
 
     #maket {
