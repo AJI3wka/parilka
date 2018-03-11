@@ -393,13 +393,18 @@
         p.text {
                 padding-left: 0px;
                     padding-top: 36px;
+                    &:nth-of-type(2n){
+                    	    padding-top: 24px;
+                    }
         }
 
         ul {
-                       padding-left: 2px;
-                        margin-top: 0px;
-                            margin-bottom: 0px;
+                       
+                       margin-top: 24px;
+                       margin-bottom: 0px;
+                       padding-left: 0px;
             li {
+            	    padding-left: 12px;
                 &:after {}
 
                 &:first-of-type {
@@ -413,7 +418,7 @@
         }
 
         .after-text {
-                    margin-top: 12px;
+                    margin-top: 24px;
         }
     }
 
@@ -486,7 +491,6 @@
 
     .sec6 {
             padding-bottom: 0px;
-                height: 1424px;
         h2 {
                     padding-top: 53px;
         }
@@ -498,7 +502,7 @@
         ul {
                     padding-top: 52px;
             li {
-                    width: 280px;
+                    width: 320px;
                     margin-left: 20px;
                     margin-right: 20px;
                     min-height: 152px;
@@ -507,7 +511,9 @@
                     position:relative;
                     margin-bottom:20px;
 
-                &:nth-of-type(2n-1) {}
+                &:nth-of-type(2n-1) {
+
+                }
 
                 .h4 {
                             width: 100%;
@@ -517,7 +523,8 @@
                             text-align:center;
                             margin-left:0;
                             border-bottom:none;
-                            margin-top:20px;
+                            margin-top: 27px;
+                            height: 26px;
                 }
 
                 .img {
@@ -549,12 +556,17 @@
                     margin-left:0;
                     text-align:center;
                     float:none;
+                        line-height: 13px; 
                     span {}
                 }
             }
         }
 
-        a {}
+        a {
+                    width: 719px;
+                    margin: 51px auto 0;
+                    height: 50px;
+        }
     }
 
     .sec7 {
@@ -1115,56 +1127,60 @@
         }
 
         .block {
+        	
+
             &.block1 {
                 margin-top: 35px;
-                    width: 350px;
+                    width: 374px;
+
                     height: 1093px;
             }
 
             &.block2 {
-                width: 350px;
+                    width: 375px;
                 height: 1092px;
                     margin-top: 36px;
+
             }
 
             h3 {
                     width: 326px;
-                    margin: 20px 12px;
+                    margin: 20px 25px;
                     height: 48px;
 
                 span {
-                    font-size: 13px;
-                    line-height: 15px;
+                    font-size: 14px;
+                    line-height: 17px;
                     padding-bottom: 37px;
                 }
             }
 
             .part {
                 h4 {
-                            font-size: 16px;
-                            padding-left: 11px;
+                           font-size: 16px;
+                            padding-left: 34px;
                             padding-top: 11px;
-                            background-position: 0px 28px;
+                            background-position: 24px 28px;
                             background-size: 326px;
                 }
 
                 p {
-                        margin-left: 10px;
+                            margin-left: 34px;
                             font-size: 14px;
-                            line-height: 17px;
-                            padding-top: 7px
+                            line-height: 14px;
+                            padding-top: 12px;
                 }
 
                 &.part1 {
-                    height: 214px;
+                    height: 200px;
                 }
 
                 &.part2 {
-                        height: 336px;
+                            height: 322px;
                 }
 
                 &.part3 {
-                    height: 257px;
+                     height: 217px;
                 }
 
                 &.part4 {
