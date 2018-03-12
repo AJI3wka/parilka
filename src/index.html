@@ -13,11 +13,7 @@
 <header>
     <div>
         <div class="header">
-            <div class="left">
-                <p class="logo"><span class="company">Компания</span> <br><span class="name">С легким паром</span></p>
-                <p class="descr">Производитель бань<br> с 15 летним опытом</p>
-                
-            </div>
+            <div class="menu-btn"></div>
             <div class="right">
                 <a class="btn pop-btn btn-animation" href="#zz-pop">Заказать звонок</a>
                 <span>
@@ -25,6 +21,12 @@
                     <a href="tel:89313416626">8 (931) 341-66-26</a>
                 </span>
             </div>
+            <div class="left">
+                <p class="logo"><span class="company">Компания</span> <br><span class="name">С легким паром</span></p>
+                <p class="descr">Производитель бань<br> с 15 летним опытом</p>
+                
+            </div>
+            <a class="btn-mobile pop-btn btn-animation" href="#zz-pop">Заказать звонок</a>
             <div class="menu" id="menu">
                 <a href="#sec4">Описание</a>
                 <a href="#sec7">Проекты</a>
@@ -49,9 +51,11 @@
             </ul>
             <h2>Уже через <span>2 недели</span><br> на свой участок</h2>
             <p>Оплатите после просмотра!<br> <span>Доставка по РФ и СНГ</span></p>
+            <div class="home"></div>
+            <div class="journal"></div>
             <div class="download_tablet">
-            <p>Скачайте полный<br>каталог на бани с ценами</p>
-        </div>
+                <p>Скачайте полный<br>каталог на бани с ценами</p>
+            </div>
         </div>
         <div class="download">
             <p>Скачайте полный<br>каталог на бани с ценами</p>
@@ -68,15 +72,33 @@
             </div> 
             <a href="#" class="arr right"></a>
         </div> -->
-        <a class="action" href="#sec2">Акция до 31 декабря</a>
+        <a class="action" href="#sec2">Акция<br class="mobile"> до 31 декабря</a>
     </div>
 </section>
 <section class="sec2" id="sec2">
     <div>
         <div class="left">
-            <h2>Зимняя <br>акция!</h2>
-            <p class="p">Успей согреться<br> <span>до 31 февраля</span></p>
+            <div class="action_bg">
+                <h2>Зимняя <br>акция!</h2>
+                <p class="p">Успей согреться<br> <span>до 31 февраля</span></p>
+                
+            </div>
             <a class="pop-btn btn-animation" href="#action-pop">узнать подробности</a>
+            
+        </div>
+        <div class="right">
+            <h3>Закажите баню до 31 февраля<br class="tablet_g"> 2018 года<br class="desktop"><br class="tablet_v"> и получите <span>бесплатно:</span></h3>
+            <ul>                
+                <li>Утепление потолка и пола до 100 мм <span class="rubli">(4000 руб)</span></li>
+                <li>Дополнительный набор печных камней <span class="rubli">(1000 руб)</span></li>
+                <li>Дополнительные лавки в баню <span class="rubli">(2000 руб)</span></li>
+                <li>Покраска наличников и углов бани в красивый <br>коричневый цвет <span class="rubli">(3000 руб)</span></li>
+                <li>Пол 36 мм!</li>
+            </ul>
+            <p class="main">Ваша выгода:<span>10 000 руб!</span></p>
+            <p class="also">А также в подарок мангал для шашлыка!</p>
+        </div>
+        <div class="left_bot">  
             <div class="timer-wrap">
                 <p class="action">До конца акции осталось:</p>
                 <div class="timer" id="timer">
@@ -98,22 +120,18 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="right">
-            <h3>Закажите баню до 31 февраля 2018 года<br>и получите <span>бесплатно:</span></h3>
-            <ul>                
-                <li>Утепление потолка и пола до 100 мм <span class="rubli">(4000 руб)</span></li>
-                <li>Дополнительный набор печных камней <span class="rubli">(1000 руб)</span></li>
-                <li>Дополнительные лавки в баню <span class="rubli">(2000 руб)</span></li>
-                <li>Покраска наличников и углов бани в красивый<br>коричневый цвет <span class="rubli">(3000 руб)</span></li>
-                <li>Пол 36 мм!</li>
-            </ul>
-            <p class="main">Ваша выгода:<span>10 000 руб!</span></p>
-            <p class="also">А также в подарок мангал для шашлыка!</p>
+            <a class="pop-btn-mobile btn-animation" href="#action-pop">узнать подробности</a>            
         </div>
     </div>
 </section>
-<!--<section class="sec3">
+<section class="sec3mobile">
+    <div>
+        <p>Скачайте полный <br>каталог на бани с ценами</p>
+        <p class="updute">Обновлено: <span class="price-updated"></span></p>
+        <a class="pop-btn btn-animation" href="#katalog-pop">Скачать каталог<br> <span>Размер: 2.1 Мб</span></a>
+    </div>
+</section>
+<section class="sec3">
     <div>
         <h2>Преимущества за нами</h2>
         <div class="line"></div>
@@ -123,26 +141,18 @@
                 <p><span>Гарантия 12 месяцев</span></p>
             </li>
             <li>
-                <div class="ico ico2"></div>
-                <p><span>Собственное<br>производство</span></p>
-            </li>
-            <li>
                 <div class="ico ico3"></div>
                 <p><span>Наличный и безналичный<br>расчеты при получении</span></p>
+            </li>
+            <li>
+                <div class="ico ico2"></div>
+                <p><span>Собственное<br>производство</span></p>
             </li>
             <li>
                 <div class="ico ico4"></div>
                 <p><span>Официальный<br>договор</span></p>
             </li>
         </ul>
-    </div>
-</section>-->
-<section class="sec3mobile">
-    <div>
-        <button class="btn-animation">Узнать подробности</button>
-        <p>Скачать полный <br>каталог бани с ценами</p>
-        <p class="updute">Обновлено:19.12.2017</p>
-        <button class="btn-animation">Скачать каталог<br><span>Размер: 2,1 Мб</span></button> 
     </div>
 </section>
 
@@ -162,23 +172,24 @@
             <li>Столярный цех</li>
         </ul>
         <p class="text">Наша компания предоставляет полный комплекс услуг, от проектирования до строительства «под ключ».</p>
-        <p class="after-text">Мы ценим каждого клиента, и надеемся что, выбрав нас,<br>Вы останетесь довольны! </p>
+        <p class="after-text">Мы ценим каждого клиента<br class="mobilebr">, и надеемся что, выбрав нас,<br>Вы останетесь довольны! </p>
     </div>
 </section>
 <section class="sec5">
     <div>
-        <div class="left">
-            <h2>Пройдите тест!</h2>
-            <p>Какая баня подойдет<br>именно Вам?</p>
-            <div class="ico"></div>
-        </div>
-        <div class="right">
+<div class="right">
             <h3>Планируете покупать баню?</h3>
             <p class="heading">Пройдите тест и получите проект<br>будущей бани с расчетом цены</p>
             <div class="line"></div>
             <p class="text">Тест, который разроботали наши техники,<br>поможет вам определиться с выбором<br>и сэкономит ваше время.</p>
             <a class="pop-btn btn-animation" href="#test-pop">Пройти тест!</a>
+        </div>        
+        <div class="left">
+            <h2>Пройдите тест!</h2>
+            <p>Какая баня подойдет<br>именно Вам?</p>
+            <div class="ico"></div>
         </div>
+        
     </div>
 </section>
 <section class="sec6" id="sec6">
@@ -189,12 +200,12 @@
             <li>
                 <p class="h4">Фундамент</p>
                 <span class="img img1"></span>
-                <p class="text">Опорно-столбчатый<br>(входит в стоимость)</p>
+                <p class="text">Опорно-столбчатый<br> (входит в стоимость)</p>
             </li>
             <li>
                 <p class="h4">Стены</p>
                 <span class="img img2"></span>
-                <p class="text">Профилированный брус 100х150 /<br> 150х150<br><span>или (по желанию)</span><br>Несущий каркас с утеплением<br>минераловатными базальтовыми<br>плитами 100 / 150 мм</p>
+                <p class="text">Профилированный брус 100х150 /<br> 150х150<br> <span>или (по желанию)</span><br> Несущий каркас с утеплением<br> минераловатными базальтовыми<br> плитами 100 / 150 мм</p>
             </li>
             <li>
                 <p class="h4">Пол</p>
@@ -224,7 +235,7 @@
             <li>
                 <p class="h4">Печь</p>
                 <span class="img img8"></span>
-                <p class="text">Металлическая Каменка-2 с баком<br> для горячей воды и местом под<br> камни. <span>Комплект камней<br> "Габбро-диабаз" в подарок.</span><br>(Замена на дачник- 12 бесплатно)</p>
+                <p class="text">Металлическая Каменка-2 с баком<br> для горячей воды и местом под<br> камни. <span>Комплект камней<br> "Габбро-диабаз" в подарок.</span><br> (Замена на дачник- 12 бесплатно)</p>
             </li>
         </ul>
         <a class="pop-btn btn-animation" href="#specific-pop">получить подробную спецификацию на все бани</a>
@@ -241,13 +252,13 @@
             <div class="left">
                 <ul>
                     <li class="active" data-target="gp-1"><span>№1. <span class="no_tablet_v">ПЕРЕВОЗНАЯ МОБИЛЬНАЯ</span> БАНЯ 2,3х3 М</span></li>
-                    <li data-target="gp-2"><span>№2. <span class="no_tablet_v">ПЕРЕВОЗНАЯ МОБИЛЬНАЯ</span> БАНЯ 2,3х3 М</span> БАНЯ 2,3х4 М</span></li>
-                    <li data-target="gp-3"><span>№3. <span class="no_tablet_v">ПЕРЕВОЗНАЯ МОБИЛЬНАЯ</span> БАНЯ 2,3х3 М</span> БАНЯ 2,3х5 М <br>С КРЫЛЕЧКОМ</span></li>
-                    <li data-target="gp-4"><span>№1. <span class="no_tablet_v">ПЕРЕВОЗНАЯ МОБИЛЬНАЯ</span> БАНЯ 2,3х3 М</span> БАНЯ 2,3х3 М</span></li>
-                    <li data-target="gp-5"><span>№1. <span class="no_tablet_v">ПЕРЕВОЗНАЯ МОБИЛЬНАЯ</span> БАНЯ 2,3х3 М</span> БАНЯ 2,3х3 М <br>С КРЫЛЕЧКОМ</span></li>
-                    <li data-target="gp-6"><span>№1. <span class="no_tablet_v">ПЕРЕВОЗНАЯ МОБИЛЬНАЯ</span> БАНЯ 2,3х3 М</span> БАНЯ 2,3х3 М</span></li>
-                    <li data-target="gp-7"><span>№1. <span class="no_tablet_v">ПЕРЕВОЗНАЯ МОБИЛЬНАЯ</span> БАНЯ 2,3х3 М</span> БАНЯ 2,3х3 М <br>С КРЫЛЕЧКОМ</span></li>
-                    <li data-target="gp-8"><span>№1. <span class="no_tablet_v">ПЕРЕВОЗНАЯ МОБИЛЬНАЯ</span> БАНЯ 2,3х3 М</span> БАНЯ 2,3х3 М</span></li>
+                    <li data-target="gp-2"><span>№2. <span class="no_tablet_v">ПЕРЕВОЗНАЯ МОБИЛЬНАЯ</span> БАНЯ 2,3х4 М</span></li>
+                    <li data-target="gp-3"><span>№3. <span class="no_tablet_v">ПЕРЕВОЗНАЯ МОБИЛЬНАЯ</span> БАНЯ 2,3х5 М <br>С КРЫЛЕЧКОМ</span></li>
+                    <li data-target="gp-4"><span>№1. <span class="no_tablet_v">ПЕРЕВОЗНАЯ МОБИЛЬНАЯ</span> БАНЯ 2,3х3 М</span></li>
+                    <li data-target="gp-5"><span>№1. <span class="no_tablet_v">ПЕРЕВОЗНАЯ МОБИЛЬНАЯ</span> БАНЯ 2,3х3 М <br>С КРЫЛЕЧКОМ</span></li>
+                    <li data-target="gp-6"><span>№1. <span class="no_tablet_v">ПЕРЕВОЗНАЯ МОБИЛЬНАЯ</span> БАНЯ 2,3х3 М</span></li>
+                    <li data-target="gp-7"><span>№1. <span class="no_tablet_v">ПЕРЕВОЗНАЯ МОБИЛЬНАЯ</span> БАНЯ 2,3х3 М <br>С КРЫЛЕЧКОМ</span></li>
+                    <li data-target="gp-8"><span>№1. <span class="no_tablet_v">ПЕРЕВОЗНАЯ МОБИЛЬНАЯ</span> БАНЯ 2,3х3 М</span></li>
                 </ul>
             </div>
             <div class="right active" id="gp-1">
@@ -1191,7 +1202,7 @@
         <p id="form-error-text"></p>
     </div>
 </div>
-<!-- <script>
+<script>
 submit_target=function(target){
     if(typeof yaCounter38471935 != 'undefined'){
         yaCounter38471935.reachGoal(target);
@@ -1201,7 +1212,7 @@ submit_target=function(target){
     }
 }
 </script>
-<script src="js/init.js"></script> -->
+<script src="js/init.js"></script>
 </body>
 <div id="maket"></div>
 </html>
