@@ -2469,7 +2469,7 @@ input.hidden {
     top: 0px;
     left: 0px;
     width: 100%;
-    background: url(../maket_t_g.jpg) no-repeat top center;
+    background: url(../pop1024_1.png) no-repeat top center;
     height: 13200px;
     opacity: 0.5;
     z-index: 10; }
@@ -3515,15 +3515,19 @@ input.hidden {
         display: block;
         border: none; }
   .pop3 {
-    width: 1170px;
-    border: 6px solid #fccd11;
+    width: 741px;
+    border: 3px solid #fccd11;
     position: relative;
     background: white;
-    height: 700px;
+    height: 488px;
     transition: height 0.5s;
-    overflow: hidden; }
+    overflow: hidden;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url(../img/pop1024_1.png); }
     .pop3.can_next {
-      height: 773px; }
+      height: 481px; }
       .pop3.can_next .nav {
         z-index: 1;
         opacity: 1; }
@@ -3709,26 +3713,26 @@ input.hidden {
       top: 2px;
       cursor: pointer; }
     .pop3 .heading {
-      font-size: 18px;
-      padding-top: 17px;
-      padding-left: 65px;
-      height: 46px;
+      font-size: 11px;
+      padding-top: 5px;
+      padding-left: 26px;
+      height: 23px;
       border-bottom: 1px solid black;
       width: 100%; }
     .pop3 .left {
       display: block;
       float: left;
-      width: 730px;
-      height: 644px;
-      padding-left: 63px;
-      padding-top: 28px; }
+      width: 406px;
+      height: 288px;
+      padding-left: 24px;
+      padding-top: 17px; }
       .pop3 .left p {
-        font-size: 30px;
-        height: 84px;
+        font-size: 20px;
+        height: 77px;
         text-transform: uppercase;
         position: relative;
         overflow: hidden;
-        line-height: 34px; }
+        line-height: 23px; }
         .pop3 .left p span {
           width: 100%;
           position: absolute;
@@ -3738,23 +3742,23 @@ input.hidden {
           opacity: 0;
           display: block; }
       .pop3 .left .progress {
-        height: 21px;
-        width: 633px;
+        height: 13px;
+        width: 365px;
         border: 1px solid #fccd11;
         background-image: url(../img/bgline.png);
-        margin-bottom: 48px; }
+        margin-bottom: 27px; }
         .pop3 .left .progress .current {
-          height: 19px;
+          height: 12px;
           text-align: center;
           background-color: #fccd11;
-          font-size: 18px;
-          line-height: 19px;
+          font-size: 14px;
+          line-height: 12px;
           padding-right: 8px;
           transition: all 0.25s; }
           .pop3 .left .progress .current span {
             display: none; }
       .pop3 .left .select {
-        height: 410px;
+        height: 122px;
         position: relative;
         overflow: hidden; }
         .pop3 .left .select .wrap {
@@ -3805,13 +3809,13 @@ input.hidden {
               z-index: 1; }
             .pop3 .left .select .wrap .var.text {
               float: none;
-              width: 430px;
-              height: 55px;
-              line-height: 50px;
+              width: 320px;
+              height: 41px;
+              line-height: 35px;
               padding-left: 48px;
               font-size: 19px; }
               .pop3 .left .select .wrap .var.text:after {
-                top: 16px; }
+                top: 9px; }
             .pop3 .left .select .wrap .var:hover:after {
               background-image: url(../img/check-ico.png);
               background-position: -3px -3px;
@@ -3823,10 +3827,10 @@ input.hidden {
     .pop3 .right {
       display: block;
       float: right;
-      width: 362px;
-      height: 563px;
+      margin-right: 20px;
+      width: 296px;
+      height: 348px;
       margin-top: 31px;
-      margin-right: 65px;
       border: 2px solid #fccd11;
       text-align: center;
       padding: 24px 28px 0; }
@@ -3882,10 +3886,10 @@ input.hidden {
         clear: both; }
       .pop3 .nav a {
         float: left;
-        height: 67px;
+        height: 54px;
         text-align: center;
-        font-size: 30px;
-        line-height: 64px;
+        font-size: 25px;
+        line-height: 53px;
         color: #222;
         width: 50%; }
         .pop3 .nav a.back {
@@ -3983,7 +3987,7 @@ input.hidden {
     top: 0;
     left: 0px;
     width: 100%;
-    background: url(../maket_t_v.jpg) no-repeat top center;
+    background: url(../pop768_1.png) no-repeat top center;
     height: 13200px;
     opacity: 0.5;
     z-index: 10; }
@@ -5495,7 +5499,7 @@ input.hidden {
     top: -494px;
     left: 0px;
     width: 100%;
-    background: url(../maket_m.jpg) no-repeat top center;
+    background: url(../pop360_1.png) no-repeat top center;
     height: 13200px;
     opacity: 0.5;
     z-index: 10; }
@@ -6046,12 +6050,13 @@ input.hidden {
       padding-top: 17px;
       line-height: 20px; }
   .sec10 {
-    padding-top: 61px; }
+    padding-top: 58px; }
     .sec10 h2 {
-      font-size: 16px; }
+      font-size: 16px;
+      line-height: 23px; }
     .sec10 .line {
       width: 43px;
-      margin: 47px auto 26px; }
+      margin: 20px auto 0px; }
     .sec10 .block {
       margin: 0 auto;
       width: 329px;
@@ -6059,9 +6064,13 @@ input.hidden {
       .sec10 .block.block1 {
         float: none;
         margin: 0 auto;
-        width: 329px; }
+        width: 329px;
+        height: 481px; }
       .sec10 .block.block2 {
-        float: none; }
+        float: none;
+        width: 329px;
+        height: 302px;
+        margin-top: 20px; }
       .sec10 .block h3 {
         border: none;
         margin: 26px auto 0;
@@ -6071,6 +6080,158 @@ input.hidden {
         height: 54px; }
         .sec10 .block h3 span {
           line-height: 22px; }
+      .sec10 .block .part h4 {
+        padding-left: 22px;
+        padding-top: 25px;
+        background-position: 10px 43px;
+        height: 52px; }
+        .sec10 .block .part h4:last-of-type {
+          height: 62px; }
+      .sec10 .block .part p {
+        padding-top: 11px;
+        padding-right: 19px;
+        margin-left: 21px;
+        line-height: 21px; }
+      .sec10 .block .part.part1 {
+        height: 248px; }
+      .sec10 .block .part.part2 {
+        height: 48px; }
+        .sec10 .block .part.part2 p {
+          display: none; }
+      .sec10 .block .part.part3 {
+        height: 48px; }
+        .sec10 .block .part.part3 p {
+          display: none; }
+      .sec10 .block .part.part4 {
+        height: 48px; }
+        .sec10 .block .part.part4 p {
+          display: none; }
+  .sec11 {
+    padding-top: 32px; }
+    .sec11 h2 {
+      font-size: 16px; }
+    .sec11 .line {
+      width: 40px;
+      margin: 22px auto; }
+    .sec11 .nav {
+      margin-top: 24px; }
+      .sec11 .nav a {
+        width: 151px;
+        margin-left: 15px;
+        height: 40px;
+        line-height: 35px;
+        font-size: 14px;
+        margin-right: 14px; }
+        .sec11 .nav a span.rubli {
+          display: none; }
+        .sec11 .nav a:last-of-type {
+          width: 330px;
+          margin-top: 6px;
+          font-size: 14px;
+          line-height: 34px; }
+    .sec11 .slider {
+      margin-top: 5px;
+      height: 226px; }
+      .sec11 .slider .controls .arrow.left {
+        top: 74px;
+        background-size: 19px;
+        left: 8px; }
+      .sec11 .slider .controls .arrow.right {
+        top: 74px;
+        background-size: 19px;
+        right: 9px .sec11 .slider .controls .arrow.right; }
+      .sec11 .slider .pager a {
+        width: 11px;
+        height: 11px; }
+  .sec12 {
+    padding-top: 43px; }
+    .sec12 h2 {
+      font-size: 18px; }
+    .sec12 .line {
+      width: 40px;
+      margin: 21px auto; }
+    .sec12 .slider {
+      margin-top: 25px;
+      height: 239px; }
+      .sec12 .slider .controls .arrow.left {
+        top: 75px;
+        background-size: 19px;
+        left: 9px; }
+      .sec12 .slider .controls .arrow.right {
+        top: 75px;
+        background-size: 19px;
+        right: 9px; }
+  .sec13 {
+    padding-top: 58px;
+    height: 289px; }
+    .sec13 h2 {
+      font-size: 17px;
+      line-height: 18px; }
+    .sec13 form {
+      margin-top: 25px;
+      margin-left: 51px; }
+      .sec13 form .input-wrap {
+        width: 258px; }
+        .sec13 form .input-wrap input {
+          width: 258px;
+          height: 37px;
+          padding-left: 19px; }
+          .sec13 form .input-wrap input:last-of-type {
+            margin-bottom: 11px; }
+      .sec13 form button {
+        margin-top: 12px;
+        width: 258px;
+        height: 37px;
+        font-size: 12px; }
+  footer {
+    height: 233px; }
+    footer ul li.li1 {
+      padding-top: 39px;
+      padding-left: 51px;
+      margin-bottom: 0px;
+      line-height: 14px;
+      font-size: 12px;
+      margin: 0;
+      background-position: 90px 10px;
+      background-size: 17px;
+      width: 157px; }
+    footer ul li.li2 {
+      width: 200px;
+      padding-left: 45px;
+      line-height: 14px;
+      font-size: 12px;
+      margin: 0;
+      padding-top: 40px;
+      background-position: 101px 16px;
+      background-size: 20px; }
+    footer ul li.li3 {
+      line-height: 14px;
+      font-size: 12px;
+      padding: 39px 18px 0px;
+      width: 183px;
+      padding-right: 0;
+      margin: 0;
+      background-position: 87px 10px;
+      background-size: 21px; }
+      footer ul li.li3 br {
+        display: none; }
+    footer ul li.li4 {
+      width: 153px;
+      padding: 37px 2px 0px;
+      font-size: 12px;
+      padding-right: 19px;
+      margin: 0;
+      background-position: 53px 10px;
+      background-size: 18px; }
+      footer ul li.li4 br {
+        display: none; }
+    footer .line {
+      margin: 20px auto 0px;
+      width: 70px; }
+    footer p {
+      margin-top: 9px;
+      font-size: 10px;
+      line-height: 11px; }
   .pop1 {
     width: 736px;
     height: 736px;

@@ -57,7 +57,7 @@
         top: 0px;
         left: 0px;
         width: 100%;
-        background: url(../maket_t_g.jpg) no-repeat top center;
+        background: url(../pop1024_1.png) no-repeat top center;
         height: 13200px;
         opacity: 0.5;
         z-index: 10;
@@ -1770,18 +1770,23 @@
     .pop3 {}
 
     .pop3 {
-        width: 1170px;
-        border: 6px solid #fccd11;
+            width: 741px;
+            border: 3px solid #fccd11;
         position: relative;
         background: white;
 
         //height:
-        height: 700px;
+        height: 488px;
         transition: height 0.5s;
         overflow: hidden;
+        background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url(../img/pop1024_1.png);
+
 
         &.can_next {
-            height: 773px;
+                height: 481px;
 
             .nav {
                 z-index: 1;
@@ -2179,10 +2184,10 @@
         }
 
         .heading {
-            font-size: 18px;
-            padding-top: 17px;
-            padding-left: 65px;
-            height: 46px;
+            font-size: 11px;
+            padding-top: 5px;
+            padding-left: 26px;
+            height: 23px;
             border-bottom: 1px solid black;
             width: 100%;
         }
@@ -2190,19 +2195,19 @@
         .left {
             display: block;
             float: left;
-            width: 730px;
-            height: 644px;
-            padding-left: 63px;
-            padding-top: 28px;
+                    width: 406px;
+    height: 288px;
+    padding-left: 24px;
+    padding-top: 17px;
 
             p {
-                font-size: 30px;
-                height: 84px;
+                     font-size: 20px;
+    height: 77px;
+
                 text-transform: uppercase;
                 position: relative;
                 overflow: hidden;
-                line-height: 34px;
-
+                   line-height: 23px;
                 span {
                     width: 100%;
                     position: absolute;
@@ -2215,18 +2220,18 @@
             }
 
             .progress {
-                height: 21px;
-                width: 633px;
+                    height: 13px;
+            width: 365px;
                 border: 1px solid #fccd11;
                 background-image: url(../img/bgline.png);
-                margin-bottom: 48px;
+                   margin-bottom: 27px;
 
                 .current {
-                    height: 19px;
+                        height: 12px;
                     text-align: center;
                     background-color: #fccd11;
-                    font-size: 18px;
-                    line-height: 19px;
+                        font-size: 14px;
+                         line-height: 12px;
                     padding-right: 8px;
                     transition: all 0.25s;
 
@@ -2237,7 +2242,7 @@
             }
 
             .select {
-                height: 410px;
+               height: 122px;
                 position: relative;
                 overflow: hidden;
 
@@ -2299,14 +2304,14 @@
 
                         &.text {
                             float: none;
-                            width: 430px;
-                            height: 55px;
-                            line-height: 50px;
+                                width: 320px;
+                            height: 41px;
+                            line-height: 35px;
                             padding-left: 48px;
                             font-size: 19px;
 
                             &:after {
-                                top: 16px;
+                                top: 9px;
                             }
                         }
 
@@ -2337,10 +2342,10 @@
         .right {
             display: block;
             float: right;
-            width: 362px;
-            height: 563px;
-            margin-top: 31px;
-            margin-right: 65px;
+                margin-right: 20px;
+                width: 296px;
+    height: 348px;
+    margin-top: 31px;;
             border: 2px solid #fccd11;
             text-align: center;
             padding: 24px 28px 0;
@@ -2417,10 +2422,10 @@
 
             a {
                 float: left;
-                height: 67px;
+                    height: 54px;
                 text-align: center;
-                font-size: 30px;
-                line-height: 64px;
+                    font-size: 25px;
+    line-height: 53px;
                 color: #222;
                 width: 50%;
 
