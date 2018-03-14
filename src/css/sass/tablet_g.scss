@@ -1782,7 +1782,7 @@
         background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
-    background-image: url(../img/pop1024_1.png);
+    background-image: url(../pop1024_1.png);
 
 
         &.can_next {
@@ -2175,19 +2175,21 @@
 
         .close {
             background: url(../img/close2.png) no-repeat center;
-            height: 40px;
-            width: 40px;
+            height: 15px;
+            width: 15px;
             position: absolute;
-            right: 2px;
-            top: 2px;
+            right: 8px;
+        top: 7px;
+
             cursor: pointer;
         }
 
         .heading {
             font-size: 11px;
-            padding-top: 5px;
-            padding-left: 26px;
-            height: 23px;
+                padding-top: 12px;
+    padding-left: 30px;;
+                height: 30px;
+
             border-bottom: 1px solid black;
             width: 100%;
         }
@@ -2195,14 +2197,14 @@
         .left {
             display: block;
             float: left;
-                    width: 406px;
+                    width: 444px;
     height: 288px;
-    padding-left: 24px;
+        padding-left: 28px;
     padding-top: 17px;
 
             p {
                      font-size: 20px;
-    height: 77px;
+        height: 52px;
 
                 text-transform: uppercase;
                 position: relative;
@@ -2221,10 +2223,12 @@
 
             .progress {
                     height: 13px;
-            width: 365px;
+                width: 397px;
                 border: 1px solid #fccd11;
                 background-image: url(../img/bgline.png);
-                   margin-bottom: 27px;
+                   margin-bottom: 26px;
+                       margin-left: 14px;
+                   
 
                 .current {
                         height: 12px;
@@ -2242,7 +2246,6 @@
             }
 
             .select {
-               height: 122px;
                 position: relative;
                 overflow: hidden;
 
@@ -2282,15 +2285,30 @@
                         }
 
                         &.width {
-                            background-image: url(../img/otrezok.png);
-                            background-position: center 103px;
-                            text-align: center;
-                            padding-top: 78px;
-                            text-transform: uppercase;
-                            font-size: 24px;
+                                height: 131px;
+                                    margin-bottom: 9px;
+                                    padding-top: 48px;
+                                    font-size: 15px;
+                                    background-position: center 67px;
+                                    background-size: 104px;
+                                    width: 127px;
+                                    border: 1px solid #fcc228;
+                                    margin-left: 15px; 
+                                    margin-right:-6px;
                         }
 
                         &.img {
+                                height: 127px;
+                                    margin-bottom: 6px;
+                                    padding-top: 48px;
+                                    font-size: 15px;
+                                    background-position: center 67px;
+                                    background-size: 104px;
+                                    width: 127px;
+                                    border: 1px solid #fcc228;
+                                    margin-left: 15px; 
+                                    
+                                    margin-right:-6px;
                             img {
                                 display: block;
                                 position: absolute;
@@ -2303,34 +2321,45 @@
                         }
 
                         &.text {
-                            float: none;
-                                width: 320px;
-                            height: 41px;
-                            line-height: 35px;
-                            padding-left: 48px;
-                            font-size: 19px;
+                                float: none;
+                            width: 272px;
+                            line-height: 33px;
+                            padding-left: 36px;
+                            font-size: 14px;
+                            margin-left: 14px;
+                            border: 1px solid #fcc228;
+                            height: 35px;
+                            margin-bottom: 7px;
 
                             &:after {
                                 top: 9px;
+                            width: 14px;
+                            height: 14px;
                             }
                         }
 
                         &:hover {
                             &:after {
                                 background-image: url(../img/check-ico.png);
-                                background-position: -3px -3px;
+                                background-position: -2px -2px;
                                 background-color: #fcc228;
+                                background-size:15px;
+                                background-repeat:no-repeat;
                             }
                         }
 
                         &.active {
                             &:after {
                                 background-image: url(../img/check-ico.png);
-                                background-position: -3px -3px;
+                                background-position: -3px -2px;
                                 background-color: #fcc228;
+                                background-size: 16px;
+                                    background-repeat: no-repeat;
                             }
 
-                            &.width {}
+                            &.width {
+                                    
+                            }
 
                             &.img {}
                         }
@@ -2342,23 +2371,25 @@
         .right {
             display: block;
             float: right;
-                margin-right: 20px;
-                width: 296px;
-    height: 348px;
-    margin-top: 31px;;
+               width: 227px;
+    height: 356px;
+    margin-top: 19px;
+
+    margin-right: 44px;
             border: 2px solid #fccd11;
             text-align: center;
-            padding: 24px 28px 0;
+                    padding: 16px 17px 0;
+                        margin-bottom: 30px;
 
             img {
-                height: 145px;
-                width: 145px;
+                    height: 91px;
+    width: 91px;
                 border-radius: 100%;
             }
 
             .expert {
-                margin-top: 18px;
-                font-size: 18px;
+                       margin-top: 9px;
+    font-size: 13px;
 
                 .name {
                     font-weight: 700;
@@ -2369,10 +2400,10 @@
             }
 
             .status {
-                font-size: 18px;
+                font-size: 12px;
                 text-align: left;
-                line-height: 24px;
-                margin-top: 32px;
+                    line-height: 37px;
+                margin-top: 7px;
                 height: 32px;
                 border-bottom: 1px solid black;
 
@@ -2383,11 +2414,11 @@
 
             .question {
                 text-align: left;
-                margin-top: 18px;
-                font-size: 17px;
-                line-height: 24px;
+                margin-top: 9px;
+                font-size: 12px;
+                line-height: 15px;
                 margin-right: -10px;
-                height: 240px;
+                height: 155px;
                 position: relative;
                 overflow: hidden;
 
@@ -2424,21 +2455,23 @@
                 float: left;
                     height: 54px;
                 text-align: center;
-                    font-size: 25px;
-    line-height: 53px;
+                    font-size: 21px;
+    line-height: 37px;
                 color: #222;
                 width: 50%;
 
                 &.back {
                     background-image: url(../img/arrowleft3.png);
-                    background-position: 65px center;
+                    background-position: 42px 11px;
                     background-color: #e0e9f2;
+                        background-size: 13px;
                 }
 
                 &.forward {
                     background-image: url(../img/arrowright3.png);
-                    background-position: 497px center;
+                    background-position: 313px 9px;
                     background-color: #fccd11;
+                        background-size: 13px;
                 }
             }
         }

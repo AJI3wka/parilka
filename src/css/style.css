@@ -3525,7 +3525,7 @@ input.hidden {
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
-    background-image: url(../img/pop1024_1.png); }
+    background-image: url(../pop1024_1.png); }
     .pop3.can_next {
       height: 481px; }
       .pop3.can_next .nav {
@@ -3706,29 +3706,29 @@ input.hidden {
       left: 0; }
     .pop3 .close {
       background: url(../img/close2.png) no-repeat center;
-      height: 40px;
-      width: 40px;
+      height: 15px;
+      width: 15px;
       position: absolute;
-      right: 2px;
-      top: 2px;
+      right: 8px;
+      top: 7px;
       cursor: pointer; }
     .pop3 .heading {
       font-size: 11px;
-      padding-top: 5px;
-      padding-left: 26px;
-      height: 23px;
+      padding-top: 12px;
+      padding-left: 30px;
+      height: 30px;
       border-bottom: 1px solid black;
       width: 100%; }
     .pop3 .left {
       display: block;
       float: left;
-      width: 406px;
+      width: 444px;
       height: 288px;
-      padding-left: 24px;
+      padding-left: 28px;
       padding-top: 17px; }
       .pop3 .left p {
         font-size: 20px;
-        height: 77px;
+        height: 52px;
         text-transform: uppercase;
         position: relative;
         overflow: hidden;
@@ -3743,10 +3743,11 @@ input.hidden {
           display: block; }
       .pop3 .left .progress {
         height: 13px;
-        width: 365px;
+        width: 397px;
         border: 1px solid #fccd11;
         background-image: url(../img/bgline.png);
-        margin-bottom: 27px; }
+        margin-bottom: 26px;
+        margin-left: 14px; }
         .pop3 .left .progress .current {
           height: 12px;
           text-align: center;
@@ -3758,7 +3759,6 @@ input.hidden {
           .pop3 .left .progress .current span {
             display: none; }
       .pop3 .left .select {
-        height: 122px;
         position: relative;
         overflow: hidden; }
         .pop3 .left .select .wrap {
@@ -3793,73 +3793,98 @@ input.hidden {
               z-index: 3;
               background-color: rgba(252, 194, 40, 0.66); }
             .pop3 .left .select .wrap .var.width {
-              background-image: url(../img/otrezok.png);
-              background-position: center 103px;
-              text-align: center;
-              padding-top: 78px;
-              text-transform: uppercase;
-              font-size: 24px; }
-            .pop3 .left .select .wrap .var.img img {
-              display: block;
-              position: absolute;
-              height: 100%;
-              top: 0;
-              left: 50%;
-              transform: translate3d(-50%, 0, 0);
-              z-index: 1; }
+              height: 131px;
+              margin-bottom: 9px;
+              padding-top: 48px;
+              font-size: 15px;
+              background-position: center 67px;
+              background-size: 104px;
+              width: 127px;
+              border: 1px solid #fcc228;
+              margin-left: 15px;
+              margin-right: -6px; }
+            .pop3 .left .select .wrap .var.img {
+              height: 127px;
+              margin-bottom: 6px;
+              padding-top: 48px;
+              font-size: 15px;
+              background-position: center 67px;
+              background-size: 104px;
+              width: 127px;
+              border: 1px solid #fcc228;
+              margin-left: 15px;
+              margin-right: -6px; }
+              .pop3 .left .select .wrap .var.img img {
+                display: block;
+                position: absolute;
+                height: 100%;
+                top: 0;
+                left: 50%;
+                transform: translate3d(-50%, 0, 0);
+                z-index: 1; }
             .pop3 .left .select .wrap .var.text {
               float: none;
-              width: 320px;
-              height: 41px;
-              line-height: 35px;
-              padding-left: 48px;
-              font-size: 19px; }
+              width: 272px;
+              line-height: 33px;
+              padding-left: 36px;
+              font-size: 14px;
+              margin-left: 14px;
+              border: 1px solid #fcc228;
+              height: 35px;
+              margin-bottom: 7px; }
               .pop3 .left .select .wrap .var.text:after {
-                top: 9px; }
+                top: 9px;
+                width: 14px;
+                height: 14px; }
             .pop3 .left .select .wrap .var:hover:after {
               background-image: url(../img/check-ico.png);
-              background-position: -3px -3px;
-              background-color: #fcc228; }
+              background-position: -2px -2px;
+              background-color: #fcc228;
+              background-size: 15px;
+              background-repeat: no-repeat; }
             .pop3 .left .select .wrap .var.active:after {
               background-image: url(../img/check-ico.png);
-              background-position: -3px -3px;
-              background-color: #fcc228; }
+              background-position: -3px -2px;
+              background-color: #fcc228;
+              background-size: 16px;
+              background-repeat: no-repeat; }
     .pop3 .right {
       display: block;
       float: right;
-      margin-right: 20px;
-      width: 296px;
-      height: 348px;
-      margin-top: 31px;
+      width: 227px;
+      height: 356px;
+      margin-top: 19px;
+      margin-right: 44px;
       border: 2px solid #fccd11;
       text-align: center;
-      padding: 24px 28px 0; }
+      padding: 16px 17px 0;
+      margin-bottom: 30px; }
       .pop3 .right img {
-        height: 145px;
-        width: 145px;
+        height: 91px;
+        width: 91px;
         border-radius: 100%; }
       .pop3 .right .expert {
-        margin-top: 18px;
-        font-size: 18px; }
+        margin-top: 9px;
+        font-size: 13px; }
         .pop3 .right .expert .name {
           font-weight: 700;
           display: block; }
       .pop3 .right .status {
-        font-size: 18px;
+        font-size: 12px;
         text-align: left;
-        line-height: 24px;
-        margin-top: 32px;
+        line-height: 37px;
+        margin-top: 7px;
         height: 32px;
         border-bottom: 1px solid black; }
         .pop3 .right .status span {
           display: none; }
       .pop3 .right .question {
         text-align: left;
-        margin-top: 18px;
-        font-size: 17px;
-        line-height: 24px;
+        margin-top: 9px;
+        font-size: 12px;
+        line-height: 15px;
         margin-right: -10px;
-        height: 240px;
+        height: 155px;
         position: relative;
         overflow: hidden; }
         .pop3 .right .question span {
@@ -3888,18 +3913,20 @@ input.hidden {
         float: left;
         height: 54px;
         text-align: center;
-        font-size: 25px;
-        line-height: 53px;
+        font-size: 21px;
+        line-height: 37px;
         color: #222;
         width: 50%; }
         .pop3 .nav a.back {
           background-image: url(../img/arrowleft3.png);
-          background-position: 65px center;
-          background-color: #e0e9f2; }
+          background-position: 42px 11px;
+          background-color: #e0e9f2;
+          background-size: 13px; }
         .pop3 .nav a.forward {
           background-image: url(../img/arrowright3.png);
-          background-position: 497px center;
-          background-color: #fccd11; }
+          background-position: 313px 9px;
+          background-color: #fccd11;
+          background-size: 13px; }
     .pop3 form {
       display: none;
       padding-left: 700px; }
@@ -4922,13 +4949,17 @@ input.hidden {
       width: 305px;
       margin: 15px auto 0; }
   .pop2 {
-    width: 736px;
-    height: 736px;
+    width: 530px;
+    height: 531px;
     background: #ffbe10;
     background-size: contain;
     background-position: 5px 0px;
     position: relative;
-    text-align: center; }
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background: url(../pop2_768.png); }
     .pop2.short {
       height: auto;
       padding-bottom: 10px; }
@@ -4941,34 +4972,34 @@ input.hidden {
       top: 1px;
       cursor: pointer; }
     .pop2 .heading {
-      padding-top: 44px;
-      font-size: 26px;
+      padding-top: 39px;
+      font-size: 17px;
       text-transform: uppercase; }
     .pop2 .descr {
-      margin-top: 9px;
-      font-size: 20px;
-      line-height: 24px; }
+      margin-top: 8px;
+      font-size: 15px;
+      line-height: 18px; }
     .pop2 .slider {
-      margin: 39px auto 0;
-      width: 350px;
+      margin: 20px auto 0;
+      height: 215px;
       position: relative;
-      height: 288px;
       overflow: hidden; }
       .pop2 .slider .wrap img {
-        width: 230px;
-        height: 230px;
+        width: 154px;
+        height: 154px;
         border-radius: 100%;
         border: 1px solid white; }
       .pop2 .slider .wrap p {
-        margin-top: 20px; }
+        margin-top: 10px; }
         .pop2 .slider .wrap p .name {
-          font-size: 18px;
+          font-size: 14px;
           font-weight: 600;
           text-transform: uppercase;
-          display: block; }
+          display: block;
+          margin-bottom: 5px; }
         .pop2 .slider .wrap p .person {
           font-weight: 200;
-          font-size: 18px;
+          font-size: 14px;
           display: block; }
       .pop2 .slider .arrow {
         background: url(../img/arrowleft2.png) no-repeat center;
@@ -4988,19 +5019,23 @@ input.hidden {
           position: absolute;
           z-index: 2; }
         .pop2 .slider .arrow.left {
-          left: 18px; }
+          top: 61px;
+          left: 66px;
+          background-size: 11px; }
           .pop2 .slider .arrow.left:hover {
             left: 13px; }
         .pop2 .slider .arrow.right {
           transform: rotate(180deg);
-          right: 18px; }
+          right: 68px;
+          top: 62px;
+          background-size: 11px; }
           .pop2 .slider .arrow.right:hover {
             right: 13px; }
     .pop2 form {
-      margin: 45px auto;
-      width: 300px; }
+      margin: 3px auto;
+      width: 220px; }
       .pop2 form input {
-        height: 40px;
+        height: 44px;
         display: block;
         width: 100%;
         font-style: italic;
@@ -5010,7 +5045,7 @@ input.hidden {
         font-size: 16px;
         padding-left: 35px;
         background-color: white;
-        margin-bottom: 25px;
+        margin-bottom: 43px;
         font-family: "Century Gothic", sans-serif; }
         .pop2 form input[name="name"] {
           background-image: url(../img/face.png);
@@ -5032,15 +5067,19 @@ input.hidden {
         display: block;
         border: none; }
   .pop3 {
-    width: 1170px;
+    width: 740px;
     border: 6px solid #fccd11;
     position: relative;
     background: white;
-    height: 700px;
+    height: 488px;
     transition: height 0.5s;
-    overflow: hidden; }
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(../pop768_2.png);
+    background-position: center; }
     .pop3.can_next {
-      height: 773px; }
+      height: 489px; }
       .pop3.can_next .nav {
         z-index: 1;
         opacity: 1; }
@@ -5219,33 +5258,33 @@ input.hidden {
       left: 0; }
     .pop3 .close {
       background: url(../img/close2.png) no-repeat center;
-      height: 40px;
-      width: 40px;
+      height: 15px;
+      width: 15px;
       position: absolute;
-      right: 2px;
-      top: 2px;
+      right: 4px;
+      top: 5px;
       cursor: pointer; }
     .pop3 .heading {
-      font-size: 18px;
-      padding-top: 17px;
-      padding-left: 65px;
-      height: 46px;
+      font-size: 12px;
+      padding-top: 10px;
+      padding-left: 23px;
+      height: 27px;
       border-bottom: 1px solid black;
       width: 100%; }
     .pop3 .left {
       display: block;
       float: left;
-      width: 730px;
-      height: 644px;
-      padding-left: 63px;
-      padding-top: 28px; }
+      width: 435px;
+      height: 300px;
+      padding-left: 23px;
+      padding-top: 18px; }
       .pop3 .left p {
-        font-size: 30px;
-        height: 84px;
+        font-size: 18px;
+        height: 51px;
         text-transform: uppercase;
         position: relative;
         overflow: hidden;
-        line-height: 34px; }
+        line-height: 21px; }
         .pop3 .left p span {
           width: 100%;
           position: absolute;
@@ -5255,18 +5294,18 @@ input.hidden {
           opacity: 0;
           display: block; }
       .pop3 .left .progress {
-        height: 21px;
-        width: 633px;
+        height: 13px;
+        width: 398px;
         border: 1px solid #fccd11;
         background-image: url(../img/bgline.png);
-        margin-bottom: 48px; }
+        margin-bottom: 26px; }
         .pop3 .left .progress .current {
-          height: 19px;
+          height: 12px;
           text-align: center;
           background-color: #fccd11;
-          font-size: 18px;
-          line-height: 19px;
-          padding-right: 8px;
+          font-size: 13px;
+          line-height: 11px;
+          padding-right: 0px;
           transition: all 0.25s; }
           .pop3 .left .progress .current span {
             display: none; }
@@ -5322,13 +5361,13 @@ input.hidden {
               z-index: 1; }
             .pop3 .left .select .wrap .var.text {
               float: none;
-              width: 430px;
-              height: 55px;
-              line-height: 50px;
-              padding-left: 48px;
-              font-size: 19px; }
+              width: 273px;
+              height: 35px;
+              line-height: 33px;
+              padding-left: 28px;
+              font-size: 13px; }
               .pop3 .left .select .wrap .var.text:after {
-                top: 16px; }
+                top: 9px; }
             .pop3 .left .select .wrap .var:hover:after {
               background-image: url(../img/check-ico.png);
               background-position: -3px -3px;
@@ -5340,39 +5379,39 @@ input.hidden {
     .pop3 .right {
       display: block;
       float: right;
-      width: 362px;
-      height: 563px;
-      margin-top: 31px;
-      margin-right: 65px;
-      border: 2px solid #fccd11;
+      width: 227px;
+      height: 356px;
+      margin-top: 19px;
+      margin-right: 41px;
+      border: 1px solid #fccd11;
       text-align: center;
-      padding: 24px 28px 0; }
+      padding: 14px 17px 0; }
       .pop3 .right img {
-        height: 145px;
-        width: 145px;
+        height: 94px;
+        width: 94px;
         border-radius: 100%; }
       .pop3 .right .expert {
-        margin-top: 18px;
-        font-size: 18px; }
+        margin-top: 9px;
+        font-size: 14px; }
         .pop3 .right .expert .name {
           font-weight: 700;
           display: block; }
       .pop3 .right .status {
-        font-size: 18px;
+        font-size: 12px;
         text-align: left;
         line-height: 24px;
-        margin-top: 32px;
-        height: 32px;
+        margin-top: 12px;
+        height: 24px;
         border-bottom: 1px solid black; }
         .pop3 .right .status span {
           display: none; }
       .pop3 .right .question {
         text-align: left;
-        margin-top: 18px;
-        font-size: 17px;
-        line-height: 24px;
+        margin-top: 14px;
+        font-size: 12px;
+        line-height: 12px;
         margin-right: -10px;
-        height: 240px;
+        height: 150px;
         position: relative;
         overflow: hidden; }
         .pop3 .right .question span {
@@ -5399,19 +5438,19 @@ input.hidden {
         clear: both; }
       .pop3 .nav a {
         float: left;
-        height: 67px;
+        height: 38px;
         text-align: center;
-        font-size: 30px;
-        line-height: 64px;
+        font-size: 20px;
+        line-height: 37px;
         color: #222;
         width: 50%; }
         .pop3 .nav a.back {
           background-image: url(../img/arrowleft3.png);
-          background-position: 65px center;
+          background-position: 65px 9px;
           background-color: #e0e9f2; }
         .pop3 .nav a.forward {
           background-image: url(../img/arrowright3.png);
-          background-position: 497px center;
+          background-position: 313px 9px;
           background-color: #fccd11; }
     .pop3 form {
       display: none;
@@ -6233,54 +6272,62 @@ input.hidden {
       font-size: 10px;
       line-height: 11px; }
   .pop1 {
-    width: 736px;
-    height: 736px;
+    width: 360px;
+    height: 640px;
     background: #ffbe10;
     background-position: -5px 0px;
     position: relative;
-    padding-top: 29px; }
+    padding-top: 29px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background: url(../pop2_360.png); }
     .pop1 .close {
       position: absolute;
       background: url(../img/close.png) no-repeat center;
-      height: 40px;
-      width: 40px;
+      height: 17px;
+      width: 17px;
       background-position: center;
-      right: 4px;
-      top: 1px;
-      cursor: pointer; }
+      right: 15px;
+      top: 29px;
+      cursor: pointer;
+      }
     .pop1 .heading {
-      font-size: 26px;
-      line-height: 34px;
+      font-size: 20px;
+      line-height: 26px;
       text-align: center;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      padding-top: 50px; }
     .pop1 .img {
       background-image: url(../img/katalog.png);
-      width: 450px;
-      height: 268px;
-      margin: 39px auto 0;
+      background-size: 323px;
+      background-position: -7px -2px;
+      width: 316px;
+      height: 200px;
+      margin: 20px auto 0;
       position: relative;
       left: 10px; }
     .pop1 .descr {
       text-align: center;
-      font-size: 18px;
-      line-height: 24px;
-      margin-top: 31px;
-      margin-bottom: 29px; }
+      font-size: 14px;
+      line-height: 18px;
+      margin-top: 9px;
+      margin-bottom: 21px; }
     .pop1 form .input-wrap {
       margin: 0 auto;
       width: 304px; }
       .pop1 form .input-wrap input {
         margin: 0 auto 25px;
-        width: 304px;
-        height: 40px;
+        width: 232px;
+        height: 32px;
         background-color: white;
         border: 1px solid black;
         text-align: left;
         padding-left: 41px;
         font-style: italic;
-        font-size: 16px;
+        font-size: 15px;
         background-image: url(../img/massage.png);
-        background-position: 9px 13px;
+        background-position: 6px 9px;
         font-family: "Century Gothic", sans-serif;
         display: block;
         margin-bottom: 25px; }
@@ -6288,16 +6335,16 @@ input.hidden {
       border: none;
       background-color: #4b8903;
       background-image: url(../img/downloadarow.png);
-      background-size: 31px;
-      background-position: 30px 10px;
-      width: 305px;
-      height: 58px;
+      background-size: 23px;
+      background-position: 18px 10px;
+      width: 232px;
+      height: 47px;
       text-align: right;
       margin: 0 auto 0;
       color: white;
-      font-size: 22px;
+      font-size: 16px;
       padding-right: 35px;
-      line-height: 24px;
+      line-height: 18px;
       font-weight: 600;
       font-family: "Century Gothic", sans-serif;
       display: block; }
@@ -6310,57 +6357,61 @@ input.hidden {
     .pop1 .update {
       display: block;
       text-align: right;
-      font-size: 16px;
+      font-size: 13px;
       width: 305px;
-      margin: 15px auto 0; }
+      margin: 11px auto 0; }
   .pop2 {
-    width: 736px;
-    height: 736px;
+    width: 360px;
+    height: 640px;
     background: #ffbe10;
     background-size: contain;
     background-position: 5px 0px;
     position: relative;
-    text-align: center; }
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background: url(../pop1_360.png); }
     .pop2.short {
       height: auto;
       padding-bottom: 10px; }
     .pop2 .close {
       position: absolute;
       background-image: url(../img/close.png);
-      height: 40px;
-      width: 40px;
-      right: 4px;
-      top: 1px;
+      height: 17px;
+      width: 17px;
+      right: 15px;
+      top: 29px;
       cursor: pointer; }
     .pop2 .heading {
-      padding-top: 44px;
-      font-size: 26px;
+      padding-top: 82px;
+      font-size: 20px;
       text-transform: uppercase; }
     .pop2 .descr {
-      margin-top: 9px;
-      font-size: 20px;
-      line-height: 24px; }
+      margin-top: 8px;
+      font-size: 16px;
+      line-height: 21px; }
     .pop2 .slider {
-      margin: 39px auto 0;
+      margin: 23px auto 0;
       width: 350px;
       position: relative;
-      height: 288px;
+      height: 245px;
       overflow: hidden; }
       .pop2 .slider .wrap img {
-        width: 230px;
-        height: 230px;
+        width: 180px;
+        height: 180px;
         border-radius: 100%;
         border: 1px solid white; }
       .pop2 .slider .wrap p {
-        margin-top: 20px; }
+        margin-top: 13px; }
         .pop2 .slider .wrap p .name {
-          font-size: 18px;
+          font-size: 14px;
           font-weight: 600;
           text-transform: uppercase;
           display: block; }
         .pop2 .slider .wrap p .person {
           font-weight: 200;
-          font-size: 18px;
+          font-size: 14px;
           display: block; }
       .pop2 .slider .arrow {
         background: url(../img/arrowleft2.png) no-repeat center;
@@ -6380,36 +6431,38 @@ input.hidden {
           position: absolute;
           z-index: 2; }
         .pop2 .slider .arrow.left {
-          left: 18px; }
+          left: 51px;
+          top: 73px; }
           .pop2 .slider .arrow.left:hover {
             left: 13px; }
         .pop2 .slider .arrow.right {
           transform: rotate(180deg);
-          right: 18px; }
+          right: 51px;
+          top: 74px; }
           .pop2 .slider .arrow.right:hover {
             right: 13px; }
     .pop2 form {
-      margin: 45px auto;
-      width: 300px; }
+      margin: 12px auto;
+      width: 232px; }
       .pop2 form input {
-        height: 40px;
+        height: 31px;
         display: block;
         width: 100%;
         font-style: italic;
         text-align: left;
         border: 1px solid rgba(116, 116, 116, 0.4);
         box-shadow: inset 2.1px 2.1px 4px rgba(0, 0, 0, 0.41);
-        font-size: 16px;
+        font-size: 15px;
         padding-left: 35px;
         background-color: white;
-        margin-bottom: 25px;
+        margin-bottom: 52px;
         font-family: "Century Gothic", sans-serif; }
         .pop2 form input[name="name"] {
           background-image: url(../img/face.png);
           background-position: 8px 12px; }
         .pop2 form input[name="phone"] {
           background-image: url(../img/phone2.png);
-          background-position: 10px 10px; }
+          background-position: 7px 5px; }
         .pop2 form input[name="email"] {
           background-image: url(../img/massage.png);
           background-position: 9px 13px; }
@@ -6424,15 +6477,19 @@ input.hidden {
         display: block;
         border: none; }
   .pop3 {
-    width: 1170px;
-    border: 6px solid #fccd11;
+    width: 330px;
+    border: 3px solid #fccd11;
     position: relative;
     background: white;
-    height: 700px;
+    height: 396px;
     transition: height 0.5s;
-    overflow: hidden; }
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(../pop360_2.png);
+    background-position: center; }
     .pop3.can_next {
-      height: 773px; }
+      height: 345px; }
       .pop3.can_next .nav {
         z-index: 1;
         opacity: 1; }
@@ -6611,33 +6668,35 @@ input.hidden {
       left: 0; }
     .pop3 .close {
       background: url(../img/close2.png) no-repeat center;
-      height: 40px;
-      width: 40px;
+      height: 9px;
+      width: 9px;
       position: absolute;
-      right: 2px;
-      top: 2px;
+      right: 7px;
+      top: 5px;
       cursor: pointer; }
     .pop3 .heading {
-      font-size: 18px;
-      padding-top: 17px;
-      padding-left: 65px;
+      font-size: 14px;
+      padding-top: 3px;
+      padding-left: 16px;
       height: 46px;
       border-bottom: 1px solid black;
-      width: 100%; }
+      width: 100%;
+      padding-right: 15px;
+      line-height: 20px; }
     .pop3 .left {
       display: block;
       float: left;
-      width: 730px;
-      height: 644px;
-      padding-left: 63px;
-      padding-top: 28px; }
+      width: 310px;
+      height: 264px;
+      padding-left: 10px;
+      padding-top: 13px; }
       .pop3 .left p {
-        font-size: 30px;
-        height: 84px;
+        font-size: 14px;
+        height: 31px;
         text-transform: uppercase;
         position: relative;
         overflow: hidden;
-        line-height: 34px; }
+        line-height: 14px; }
         .pop3 .left p span {
           width: 100%;
           position: absolute;
@@ -6647,23 +6706,23 @@ input.hidden {
           opacity: 0;
           display: block; }
       .pop3 .left .progress {
-        height: 21px;
-        width: 633px;
+        height: 15px;
+        width: 284px;
         border: 1px solid #fccd11;
         background-image: url(../img/bgline.png);
-        margin-bottom: 48px; }
+        margin-bottom: 15px; }
         .pop3 .left .progress .current {
-          height: 19px;
+          height: 14px;
           text-align: center;
           background-color: #fccd11;
-          font-size: 18px;
-          line-height: 19px;
-          padding-right: 8px;
+          font-size: 13px;
+          line-height: 14px;
+          padding-right: 6px;
           transition: all 0.25s; }
           .pop3 .left .progress .current span {
             display: none; }
       .pop3 .left .select {
-        height: 410px;
+        height: 231px;
         position: relative;
         overflow: hidden; }
         .pop3 .left .select .wrap {
@@ -6699,28 +6758,41 @@ input.hidden {
               background-color: rgba(252, 194, 40, 0.66); }
             .pop3 .left .select .wrap .var.width {
               background-image: url(../img/otrezok.png);
-              background-position: center 103px;
+              background-position: center 62px;
+              background-size: 85px;
               text-align: center;
-              padding-top: 78px;
+              padding-top: 41px;
               text-transform: uppercase;
-              font-size: 24px; }
-            .pop3 .left .select .wrap .var.img img {
-              display: block;
-              position: absolute;
-              height: 100%;
-              top: 0;
-              left: 50%;
-              transform: translate3d(-50%, 0, 0);
-              z-index: 1; }
+              font-size: 20px;
+              margin-left: 26px;
+              height: 111px;
+              width: 111px;
+              margin-bottom: 5px;
+              margin-right: 5px; }
+            .pop3 .left .select .wrap .var.img {
+              height: 110px;
+              width: 110px;
+              margin-left: 26px;
+              margin-right: 5px; }
+              .pop3 .left .select .wrap .var.img img {
+                display: block;
+                position: absolute;
+                height: 100%;
+                top: 0;
+                left: 50%;
+                transform: translate3d(-50%, 0, 0);
+                z-index: 1;
+                padding: 0; }
             .pop3 .left .select .wrap .var.text {
               float: none;
-              width: 430px;
-              height: 55px;
-              line-height: 50px;
-              padding-left: 48px;
-              font-size: 19px; }
+              width: 282px;
+              height: 32px;
+              line-height: 32px;
+              padding-left: 31px;
+              font-size: 15px;
+              margin-bottom: 9px; }
               .pop3 .left .select .wrap .var.text:after {
-                top: 16px; }
+                top: 9px; }
             .pop3 .left .select .wrap .var:hover:after {
               background-image: url(../img/check-ico.png);
               background-position: -3px -3px;
@@ -6730,15 +6802,7 @@ input.hidden {
               background-position: -3px -3px;
               background-color: #fcc228; }
     .pop3 .right {
-      display: block;
-      float: right;
-      width: 362px;
-      height: 563px;
-      margin-top: 31px;
-      margin-right: 65px;
-      border: 2px solid #fccd11;
-      text-align: center;
-      padding: 24px 28px 0; }
+      display: none; }
       .pop3 .right img {
         height: 145px;
         width: 145px;
@@ -6791,10 +6855,10 @@ input.hidden {
         clear: both; }
       .pop3 .nav a {
         float: left;
-        height: 67px;
+        height: 26px;
         text-align: center;
-        font-size: 30px;
-        line-height: 64px;
+        font-size: 14px;
+        line-height: 25px;
         color: #222;
         width: 50%; }
         .pop3 .nav a.back {

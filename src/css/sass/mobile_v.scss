@@ -21,7 +21,7 @@
         top: -494px;
         left: 0px;
         width: 100%;
-        background: url(../pop360_1.png) no-repeat top center;
+        background: url(../pop360_1.png) no-repeat top center; 
         height: 13200px;
         opacity: 0.5;
         z-index: 10;
@@ -1416,46 +1416,54 @@ font-size:16px;
     }
 
     .pop1 {
-        width: 736px;
-        height: 736px;
+            width: 360px;
+    height: 640px;
         background: #ffbe10;
         background-position: -5px 0px;
         position: relative;
         padding-top: 29px;
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background: url(../pop2_360.png);
 
         .close {
             position: absolute;
             background: url(../img/close.png) no-repeat center;
-            height: 40px;
-            width: 40px;
+            height: 17px;
+            width: 17px;
             background-position: center;
-            right: 4px;
-            top: 1px;
+                right: 15px;
+    top: 29px;
             cursor: pointer;
         }
 
         .heading {
-            font-size: 26px;
-            line-height: 34px;
+           font-size: 20px;
+            line-height: 26px;
             text-align: center;
             text-transform: uppercase;
+                padding-top: 50px;
         }
 
         .img {
             background-image: url(../img/katalog.png);
-            width: 450px;
-            height: 268px;
-            margin: 39px auto 0;
+                background-size: 323px;
+    background-position: -7px -2px;
+                width: 316px;
+            height: 200px;
+            margin: 20px auto 0;
             position: relative;
+
             left: 10px;
         }
 
         .descr {
             text-align: center;
-            font-size: 18px;
-            line-height: 24px;
-            margin-top: 31px;
-            margin-bottom: 29px;
+            font-size: 14px;
+    line-height: 18px;
+    margin-top: 9px;
+    margin-bottom: 21px;
         }
 
         form {
@@ -1465,16 +1473,16 @@ font-size:16px;
 
                 input {
                     margin: 0 auto 25px;
-                    width: 304px;
-                    height: 40px;
+                        width: 232px;
+                        height: 32px;
                     background-color: white;
                     border: 1px solid black;
                     text-align: left;
                     padding-left: 41px;
                     font-style: italic;
-                    font-size: 16px;
+                    font-size: 15px;
                     background-image: url(../img/massage.png);
-                    background-position: 9px 13px;
+                        background-position: 6px 9px;
                     font-family: $fontfamily;
                     display: block;
                     margin-bottom: 25px;
@@ -1485,16 +1493,16 @@ font-size:16px;
                 border: none;
                 background-color: #4b8903;
                 background-image: url(../img/downloadarow.png);
-                background-size: 31px;
-                background-position: 30px 10px;
-                width: 305px;
-                height: 58px;
+                   background-size: 23px;
+                    background-position: 18px 10px;
+                    width: 232px;
+                    height: 47px;
                 text-align: right;
                 margin: 0 auto 0;
                 color: white;
-                font-size: 22px;
+                   font-size: 16px;
                 padding-right: 35px;
-                line-height: 24px;
+                line-height: 18px;
                 font-weight: 600;
                 font-family: $fontfamily;
                 display: block;
@@ -1512,20 +1520,24 @@ font-size:16px;
         .update {
             display: block;
             text-align: right;
-            font-size: 16px;
+            font-size: 13px;
             width: 305px;
-            margin: 15px auto 0;
+                margin: 11px auto 0
         }
     }
 
     .pop2 {
-        width: 736px;
-        height: 736px;
+       width: 360px;
+         height: 640px;
         background: #ffbe10;
         background-size: contain;
         background-position: 5px 0px;
         position: relative;
         text-align: center;
+        background-repeat: no-repeat;
+            background-position: center;
+            background-size: auto;
+            background: url(../pop1_360.png);
 
         &.short {
             height: auto;
@@ -1535,45 +1547,45 @@ font-size:16px;
         .close {
             position: absolute;
             background-image: url(../img/close.png);
-            height: 40px;
-            width: 40px;
-            right: 4px;
-            top: 1px;
+                height: 17px;
+    width: 17px;
+    right: 15px;
+    top: 29px;
             cursor: pointer;
         }
 
         .heading {
-            padding-top: 44px;
-            font-size: 26px;
+            padding-top: 82px;
+    font-size: 20px;
             text-transform: uppercase;
         }
 
         .descr {
-            margin-top: 9px;
-            font-size: 20px;
-            line-height: 24px;
+                margin-top: 8px;
+    font-size: 16px;
+    line-height: 21px;
         }
 
         .slider {
-            margin: 39px auto 0;
+            margin: 23px auto 0;
             width: 350px;
             position: relative;
-            height: 288px;
+            height: 245px;
             overflow: hidden;
 
             .wrap {
                 img {
-                    width: 230px;
-                    height: 230px;
+                        width: 180px;
+    height: 180px; 
                     border-radius: 100%;
                     border: 1px solid white;
                 }
 
                 p {
-                    margin-top: 20px;
+                        margin-top: 13px;
 
                     .name {
-                        font-size: 18px;
+                            font-size: 14px;
                         font-weight: 600;
                         text-transform: uppercase;
                         display: block;
@@ -1581,7 +1593,7 @@ font-size:16px;
 
                     .person {
                         font-weight: 200;
-                        font-size: 18px;
+                        font-size: 14px;
                         display: block;
                     }
                 }
@@ -1608,7 +1620,8 @@ font-size:16px;
                 }
 
                 &.left {
-                    left: 18px;
+                    left: 51px;
+                    top: 73px;
 
                     &:hover {
                         left: 13px;
@@ -1617,7 +1630,9 @@ font-size:16px;
 
                 &.right {
                     transform: rotate(180deg);
-                    right: 18px;
+                    right: 51px;
+                    top: 74px;
+
 
                     &:hover {
                         right: 13px;
@@ -1627,21 +1642,21 @@ font-size:16px;
         }
 
         form {
-            margin: 45px auto;
-            width: 300px;
+            margin: 12px auto;
+    width: 232px;
 
             input {
-                height: 40px;
+                height: 31px;
                 display: block;
                 width: 100%;
                 font-style: italic;
                 text-align: left;
                 border: 1px solid rgba(116, 116, 116, 0.4);
                 box-shadow: inset 2.1px 2.1px 4px rgba(0, 0, 0, 0.41);
-                font-size: 16px;
+                font-size: 15px;
                 padding-left: 35px;
                 background-color: white;
-                margin-bottom: 25px;
+                    margin-bottom: 52px;
                 font-family: $fontfamily;
 
                 &[name="name"] {
@@ -1651,7 +1666,7 @@ font-size:16px;
 
                 &[name="phone"] {
                     background-image: url(../img/phone2.png);
-                    background-position: 10px 10px;
+                        background-position: 7px 5px;
                 }
 
                 &[name="email"] {
@@ -1677,18 +1692,20 @@ font-size:16px;
     .pop3 {}
 
     .pop3 {
-        width: 1170px;
-        border: 6px solid #fccd11;
+            width: 330px;
+        border: 3px solid #fccd11;
         position: relative;
         background: white;
-
-        //height:
-        height: 700px;
+    height: 396px;
         transition: height 0.5s;
         overflow: hidden;
+        background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(../pop360_2.png);
+    background-position: center;
 
         &.can_next {
-            height: 773px;
+                    height: 345px; 
 
             .nav {
                 z-index: 1;
@@ -2077,38 +2094,40 @@ font-size:16px;
 
         .close {
             background: url(../img/close2.png) no-repeat center;
-            height: 40px;
-            width: 40px;
+            height: 9px;
+            width: 9px;
             position: absolute;
-            right: 2px;
-            top: 2px;
+            right: 7px;
+            top: 5px;
             cursor: pointer;
         }
 
         .heading {
-            font-size: 18px;
-            padding-top: 17px;
-            padding-left: 65px;
+            font-size: 14px;
+            padding-top: 3px;
+            padding-left: 16px;
             height: 46px;
             border-bottom: 1px solid black;
             width: 100%;
+                padding-right: 15px;
+    line-height: 20px;
         }
 
         .left {
             display: block;
             float: left;
-            width: 730px;
-            height: 644px;
-            padding-left: 63px;
-            padding-top: 28px;
+                width: 310px;
+    height: 264px;
+    padding-left: 10px;
+    padding-top: 13px;
 
             p {
-                font-size: 30px;
-                height: 84px;
+                    font-size: 14px; 
+                height: 31px;
                 text-transform: uppercase;
                 position: relative;
                 overflow: hidden;
-                line-height: 34px;
+                line-height: 14px;
 
                 span {
                     width: 100%;
@@ -2122,29 +2141,29 @@ font-size:16px;
             }
 
             .progress {
-                height: 21px;
-                width: 633px;
+                    height: 15px;
+                    width: 284px;
                 border: 1px solid #fccd11;
                 background-image: url(../img/bgline.png);
-                margin-bottom: 48px;
+                margin-bottom: 15px;
 
                 .current {
-                    height: 19px;
+                    height: 14px;
                     text-align: center;
                     background-color: #fccd11;
-                    font-size: 18px;
-                    line-height: 19px;
-                    padding-right: 8px;
+                    font-size: 13px;
+    line-height: 14px;
+    padding-right: 6px;
                     transition: all 0.25s;
 
                     span {
-                        display: none;
+                        display: none; 
                     }
                 }
             }
 
             .select {
-                height: 410px;
+                   height: 231px;
                 position: relative;
                 overflow: hidden;
 
@@ -2185,14 +2204,25 @@ font-size:16px;
 
                         &.width {
                             background-image: url(../img/otrezok.png);
-                            background-position: center 103px;
+                            background-position: center 62px;
+                            background-size: 85px;
                             text-align: center;
-                            padding-top: 78px;
+                            padding-top: 41px;
                             text-transform: uppercase;
-                            font-size: 24px;
+                            font-size: 20px;
+                            margin-left: 26px;
+                               height: 111px;
+                                width: 111px;
+                               margin-bottom: 5px;
+                               margin-right:5px;
                         }
 
                         &.img {
+                            height: 110px;
+                            width: 110px;
+                            margin-left: 26px; 
+                            margin-right:5px;
+
                             img {
                                 display: block;
                                 position: absolute;
@@ -2201,19 +2231,24 @@ font-size:16px;
                                 left: 50%;
                                 transform: translate3d(-50%, 0, 0);
                                 z-index: 1;
-                            }
+                                    
+                                
+                                padding: 0;
+                                
+                                }
                         }
 
                         &.text {
                             float: none;
-                            width: 430px;
-                            height: 55px;
-                            line-height: 50px;
-                            padding-left: 48px;
-                            font-size: 19px;
+                                width: 282px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 31px;
+    font-size: 15px;
+    margin-bottom: 9px; 
 
                             &:after {
-                                top: 16px;
+                                    top: 9px;
                             }
                         }
 
@@ -2242,15 +2277,7 @@ font-size:16px;
         }
 
         .right {
-            display: block;
-            float: right;
-            width: 362px;
-            height: 563px;
-            margin-top: 31px;
-            margin-right: 65px;
-            border: 2px solid #fccd11;
-            text-align: center;
-            padding: 24px 28px 0;
+            display: none;
 
             img {
                 height: 145px;
@@ -2324,10 +2351,10 @@ font-size:16px;
 
             a {
                 float: left;
-                height: 67px;
+                height: 26px;
                 text-align: center;
-                font-size: 30px;
-                line-height: 64px;
+                    font-size: 14px;
+    line-height: 25px;
                 color: #222;
                 width: 50%;
 

@@ -1605,13 +1605,17 @@
     }
 
     .pop2 {
-        width: 736px;
-        height: 736px;
+            width: 530px;
+    height: 531px;
         background: #ffbe10;
         background-size: contain;
         background-position: 5px 0px;
         position: relative;
         text-align: center;
+            background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+        background: url(../pop2_768.png);
 
         &.short {
             height: auto;
@@ -1629,45 +1633,45 @@
         }
 
         .heading {
-            padding-top: 44px;
-            font-size: 26px;
-            text-transform: uppercase;
+            padding-top: 39px;
+            font-size: 17px;
+            text-transform: uppercase; 
         }
 
         .descr {
-            margin-top: 9px;
-            font-size: 20px;
-            line-height: 24px;
+                margin-top: 8px;
+    font-size: 15px;
+    line-height: 18px;
         }
 
         .slider {
-            margin: 39px auto 0;
-            width: 350px;
+            margin: 20px auto 0;
+                height: 215px;
             position: relative;
-            height: 288px;
             overflow: hidden;
 
             .wrap {
                 img {
-                    width: 230px;
-                    height: 230px;
+                        width: 154px;
+                            height: 154px;
                     border-radius: 100%;
                     border: 1px solid white;
                 }
 
                 p {
-                    margin-top: 20px;
+                            margin-top: 10px;
 
                     .name {
-                        font-size: 18px;
+                        font-size: 14px;
                         font-weight: 600;
                         text-transform: uppercase;
                         display: block;
+                        margin-bottom: 5px;
                     }
 
                     .person {
                         font-weight: 200;
-                        font-size: 18px;
+                        font-size: 14px;
                         display: block;
                     }
                 }
@@ -1694,7 +1698,9 @@
                 }
 
                 &.left {
-                    left: 18px;
+                        top: 61px;
+                    left: 66px;
+                    background-size: 11px;
 
                     &:hover {
                         left: 13px;
@@ -1703,7 +1709,9 @@
 
                 &.right {
                     transform: rotate(180deg);
-                    right: 18px;
+                    right: 68px;
+                    top: 62px;
+                    background-size: 11px;
 
                     &:hover {
                         right: 13px;
@@ -1713,11 +1721,11 @@
         }
 
         form {
-            margin: 45px auto;
-            width: 300px;
+            margin: 3px auto;
+                width: 220px;
 
             input {
-                height: 40px;
+                height: 44px;
                 display: block;
                 width: 100%;
                 font-style: italic;
@@ -1727,7 +1735,7 @@
                 font-size: 16px;
                 padding-left: 35px;
                 background-color: white;
-                margin-bottom: 25px;
+                margin-bottom: 43px;
                 font-family: $fontfamily;
 
                 &[name="name"] {
@@ -1763,18 +1771,20 @@
     .pop3 {}
 
     .pop3 {
-        width: 1170px;
+        width: 740px;
         border: 6px solid #fccd11;
         position: relative;
         background: white;
-
-        //height:
-        height: 700px;
+           height: 488px;
         transition: height 0.5s;
         overflow: hidden;
+        background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(../pop768_2.png);
+    background-position: center;
 
         &.can_next {
-            height: 773px;
+                height: 489px;
 
             .nav {
                 z-index: 1;
@@ -2163,19 +2173,19 @@
 
         .close {
             background: url(../img/close2.png) no-repeat center;
-            height: 40px;
-            width: 40px;
+            height: 15px;
+            width: 15px;
             position: absolute;
-            right: 2px;
-            top: 2px;
+                right: 4px;
+                    top: 5px;
             cursor: pointer;
         }
 
         .heading {
-            font-size: 18px;
-            padding-top: 17px;
-            padding-left: 65px;
-            height: 46px;
+                font-size: 12px;
+            padding-top: 10px;
+            padding-left: 23px;
+            height: 27px;
             border-bottom: 1px solid black;
             width: 100%;
         }
@@ -2183,18 +2193,18 @@
         .left {
             display: block;
             float: left;
-            width: 730px;
-            height: 644px;
-            padding-left: 63px;
-            padding-top: 28px;
+                width: 435px;
+    height: 300px;
+    padding-left: 23px;
+    padding-top: 18px;
 
             p {
-                font-size: 30px;
-                height: 84px;
+                font-size: 18px;
+    height: 51px;
                 text-transform: uppercase;
                 position: relative;
                 overflow: hidden;
-                line-height: 34px;
+                line-height: 21px;
 
                 span {
                     width: 100%;
@@ -2208,19 +2218,19 @@
             }
 
             .progress {
-                height: 21px;
-                width: 633px;
+                    height: 13px;
+                width: 398px;
                 border: 1px solid #fccd11;
                 background-image: url(../img/bgline.png);
-                margin-bottom: 48px;
+                margin-bottom: 26px;
 
                 .current {
-                    height: 19px;
+                    height: 12px;
                     text-align: center;
                     background-color: #fccd11;
-                    font-size: 18px;
-                    line-height: 19px;
-                    padding-right: 8px;
+                    font-size: 13px;
+    line-height: 11px;
+    padding-right: 0px;
                     transition: all 0.25s;
 
                     span {
@@ -2292,14 +2302,14 @@
 
                         &.text {
                             float: none;
-                            width: 430px;
-                            height: 55px;
-                            line-height: 50px;
-                            padding-left: 48px;
-                            font-size: 19px;
+                            width: 273px;
+                            height: 35px;
+                            line-height: 33px;
+                            padding-left: 28px;
+                            font-size: 13px;
 
                             &:after {
-                                top: 16px;
+                                    top: 9px;
                             }
                         }
 
@@ -2330,23 +2340,23 @@
         .right {
             display: block;
             float: right;
-            width: 362px;
-            height: 563px;
-            margin-top: 31px;
-            margin-right: 65px;
-            border: 2px solid #fccd11;
+                width: 227px;
+            height: 356px;
+                margin-top: 19px;
+    margin-right: 41px;
+                border: 1px solid #fccd11;
             text-align: center;
-            padding: 24px 28px 0;
+            padding: 14px 17px 0;
 
             img {
-                height: 145px;
-                width: 145px;
+                   height: 94px;
+    width: 94px;
                 border-radius: 100%;
             }
 
             .expert {
-                margin-top: 18px;
-                font-size: 18px;
+                    margin-top: 9px;
+    font-size: 14px;
 
                 .name {
                     font-weight: 700;
@@ -2357,11 +2367,11 @@
             }
 
             .status {
-                font-size: 18px;
+                font-size: 12px;
                 text-align: left;
                 line-height: 24px;
-                margin-top: 32px;
-                height: 32px;
+                    margin-top: 12px;
+    height: 24px;
                 border-bottom: 1px solid black;
 
                 span {
@@ -2371,11 +2381,11 @@
 
             .question {
                 text-align: left;
-                margin-top: 18px;
-                font-size: 17px;
-                line-height: 24px;
+                margin-top: 14px;
+                font-size: 12px;
+                line-height: 12px;
                 margin-right: -10px;
-                height: 240px;
+                height: 150px;
                 position: relative;
                 overflow: hidden;
 
@@ -2410,22 +2420,22 @@
 
             a {
                 float: left;
-                height: 67px;
+                height: 38px;
                 text-align: center;
-                font-size: 30px;
-                line-height: 64px;
+                    font-size: 20px;
+    line-height: 37px;
                 color: #222;
                 width: 50%;
 
                 &.back {
                     background-image: url(../img/arrowleft3.png);
-                    background-position: 65px center;
+                    background-position: 65px 9px;  
                     background-color: #e0e9f2;
                 }
 
                 &.forward {
                     background-image: url(../img/arrowright3.png);
-                    background-position: 497px center;
+                    background-position: 313px 9px;
                     background-color: #fccd11;
                 }
             }
