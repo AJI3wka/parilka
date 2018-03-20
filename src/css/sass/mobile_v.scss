@@ -18,7 +18,7 @@
 
     #maket {
         position: absolute;
-        top: -494px;
+        top: 240px;
         top: 0;
         left: 0px;
         width: 100%;
@@ -766,10 +766,14 @@
         }
 
         .heading {
+                    padding-top: 14px;
+                        font-size: 13px;
             span {}
         }
 
-        .line {}
+        .line {
+                display:none;
+        }
 
         & > div {}
 
@@ -841,56 +845,211 @@
             display: block;
 
             .item {
-                &.active{
-                    .body{
+                &.active {
+                    border-top: 3px solid #fccd11;
+                        margin-top: 59px;
+                    border-bottom: 3px solid #fccd11;
+                    padding-bottom: 4px;
+
+                    .body {
                         display: block;
+                        padding-bottom: 16px;
                     }
                 }
 
-                .btn {}
+                .btn {
+                    border: solid 3px #fccd11;
+                    width: 330px;
+                    height: 56px;
+                    margin: -3px auto 12px;
+                    text-align: center;
+
+                    span {
+                        font-size: 12px;
+                        line-height: 49px;
+                    }
+                }
 
                 .body {
                     display: none;
+
                     .part1 {
-                        span {}
+                        padding-top: 7px;
+
+                        span {
+                            font-size: 14px;
+                            text-transform: uppercase;
+                            font-weight: 600;
+                            text-align: center;
+                            display: block;
+                        }
 
                         ul {
-                            li {}
+                            list-style-type: disc;
+                            margin-top: 17px;
+
+                            li {
+                                float: right;
+                                list-style-type: disc;
+                                margin-left: 31px;
+                                width: 134px;
+                                font-size: 14px;
+                                margin-bottom: 5px;
+                                margin-right: 15px;
+
+                                &:nth-of-type(7) {
+                                    padding-right: 15px;
+                                }
+
+                                &:nth-of-type(8) {
+                                    margin-top: -20px;
+                                }
+
+                                &:before, &:after {
+                                    content: none;
+                                }
+                            }
                         }
                     }
 
                     .part2 {
-                        span {}
+                        padding-top: 16px;
+
+                        span {
+                            display: block;
+                            text-align: center;
+                            height: 40px;
+                            font-size: 16px;
+                            font-weight: 600;
+                            padding-top: 21px;
+                            background-image: url(../img/green.png);
+                            background-size: 16px;
+                            background-position: 77px 2px;
+                            width: 170px;
+                            margin: 0 auto;
+                        }
 
                         ul {
-                            li {}
+                            padding-top: 13px;
+
+                            li {
+                                float: right;
+                                list-style-type: disc;
+                                margin-left: 31px;
+                                width: 134px;
+                                font-size: 14px;
+                                margin-bottom: 5px;
+                                margin-right: -12px;
+                            }
                         }
                     }
 
                     .part3 {
-                        p {}
+                        border-bottom: 2px solid #fccd11;
+                        height: 53px;
+                        border-top: 2px solid #fccd11;
+                        margin-top: 16px;
+                        margin-bottom: -2px;
+
+                        p {
+                            font-size: 14px;
+                            font-weight: 600;
+                            float: left;
+                            text-transform: uppercase;
+                            padding-left: 14px;
+                            padding-top: 19px;
+                        }
 
                         .price {
-                            .old {}
+                            float: right;
+                            margin-right: 19px;
+                            margin-top: 8px;
 
-                            .new {}
+                            .old {
+                                display: block;
+                                text-decoration: line-through;
+                                font-size: 12px;
+                                padding-left: 23px;
+                            }
+
+                            .new {
+                                margin-top: 3px;
+                                display: block;
+                                font-size: 18px;
+                                font-weight: 600;
+                                color: green;
+                            }
                         }
                     }
 
                     .project-gallery {
                         .left {
+                            width: 107px;
+                            margin-left: 16px;
+                            float: left;
+
                             .img {
-                                img {}
+                                width: 106px;
+                                width: 107px;
+                                height: 107px;
+                                display: block;
+                                overflow: hidden;
+                                margin-bottom: 3px;
+
+                                img {
+                                    min-height: 100%;
+                                    min-width: 100%;
+                                    position: relative;
+                                    height: 100%;
+                                    width: 100%;
+                                    border: 2px solid #fccd11;
+                                }
                             }
                         }
 
                         .img_b {
-                            img {}
+                            width: 220px;
+                            float: right;
+                            border: 2px solid #fccd11;
+                            height: 218px;
+                            margin-right: 15px;
+
+                            img {
+                                min-height: 100%;
+                                min-width: 100%;
+                                position: relative;
+                                height: 100%;
+                                width: 100%;
+                            }
                         }
                     }
 
                     .btns {
+                        margin-top: 18px;
+                        display: block;
+                        width: 268px;
+                        margin: 0 auto;
+                        text-align: center;
+
                         a {
+                            width: 268px;
+                            height: 38px;
+                            display: block;
+                            margin: 21px auto 14px;
+                            font-size: 17px;
+                            line-height: 36px;
+
+                            &:first-of-type {
+                                color: white;
+                                background-color: green;
+                            }
+
+                            &:last-of-type {
+                                border: 1px solid green;
+                                margin-top: 0;
+                                margin-bottom: 0;
+                            }
+
                             &:hover {}
                         }
                     }
@@ -899,21 +1058,53 @@
         }
 
         .last {
-            p {}
+            p {
+                margin-top: 40px;
+                font-size: 14px;
+                line-height: 21px;
+                padding-left: 14px;
+                padding-right: 21px;
+
+                br {
+                    display: none;
+                }
+            }
 
             form {
-                .input-wrap {
-                    span {}
+                margin-top: 21px;
+                display: block;
 
-                    input {
+                .input-wrap {
+                    height: 38px;
+                    margin-left: 50px;
+                    width: 258px;
+                    margin-bottom: 11px;
+
+                    span {
+
                         // &::placeholder{
                         //     color:black;
                         // }
                    
                     }
+                        input {
+                            width: 259px;
+                            height: 38px;
+                            font-size: 13px;
+                                padding-left: 13px;
+                            line-height: 38px;
+                        }
                 }
 
-                button {}
+                button {
+                    margin-left: 49px;
+                    height: 38px;
+                    padding-left: 54px;
+                    font-size: 16px;
+                    width: 260px;
+                    line-height: 36px;
+                    margin-top:2px
+                }
             }
         }
     }
