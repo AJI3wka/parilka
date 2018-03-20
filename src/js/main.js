@@ -220,9 +220,43 @@ function price_updated(){
     $('.price-updated').html(date_s);
 }
 
+function build_mobile_gal(){
+    var $wrap = $('#sec7').find('.block');
+
+    var $mobile = $('#sec7').find('.mobile_block');
+
+    var $scelet = $('#mobile_gal_item_scelet');
+
+    $mobile.html('');
+    $wrap.find('.left').find('li').each(function(index, el) {
+        var $this = $(this);
+
+        $scelet.find('.btn').html($this.html());
+
+
+        var $item_wrap = $('#'+$this.attr('data-target'));
+
+        $scelet.find('.part1').html($item_wrap.find('.top1').html());
+
+        $scelet.find('.part2').find('ul').html($item_wrap.find('.top2').find('ul').html());
+        $scelet.find('.part2').find('span').html($item_wrap.find('.top2').find('span.gift').html());
+
+        $scelet.find('.part3').find('.old').html($item_wrap.find('.top2').find('.old').html());
+        $scelet.find('.part3').find('.new').html($item_wrap.find('.top2').find('.new').html());
+
+        $scelet.find('.project-gallery').html($item_wrap.find('.project-gallery').html());
+
+        $mobile.append($scelet.html());
+
+    });
+    $mobile.find('.item').first().addClass('active');
+
+}
+
 $(document).ready(function () {
 
     price_updated();
+    build_mobile_gal();
 
     $(document).on("scroll", onScroll);
     

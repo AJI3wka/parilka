@@ -75,6 +75,9 @@ br.tablet_v {
 br.mobile {
   display: none; }
 
+#mobile_gal_item_scelet {
+  display: none !important; }
+
 header {
   height: 137px;
   background-color: white;
@@ -795,6 +798,8 @@ header {
     margin: 16px auto 0; }
   .sec7 > div {
     height: initial; }
+  .sec7 > div.mobile_block {
+    display: none; }
   .sec7 > div.block {
     width: 100%;
     min-width: 1200px;
@@ -2382,6 +2387,9 @@ footer {
 .correct-input {
   background-color: #d2ffc7 !important; }
 
+.mfp-ready:after, .mfp-ready :before, .mfp-ready :before, .mfp-ready :after {
+  content: none; }
+
 @keyframes mouseDrag {
   0% {
     background-position: 388px 13px; }
@@ -2434,6 +2442,34 @@ input.hidden {
     opacity: 1;
     z-index: 1; }
 
+.btn-animation {
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.25s; }
+
+.btn-animation:hover {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.36);
+  transition: box-shadow 0.1s; }
+
+.btn-animation:active {
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.4); }
+
+.btn-animation:before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 15%;
+  height: 100%;
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.3) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.3) 100%);
+  -webkit-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+  -webkit-animation: movingGradient infinite 3s;
+  animation: movingGradient infinite 3s; }
+
 @media screen and (max-width: 1199px) {
   section, header, footer {
     width: 100%;
@@ -2469,7 +2505,7 @@ input.hidden {
     top: 0px;
     left: 0px;
     width: 100%;
-    background: url(../pop1024_1.png) no-repeat top center;
+    background: url(../maket_t_g.jpg) no-repeat top center;
     height: 13200px;
     opacity: 0.5;
     z-index: 10; }
@@ -3994,7 +4030,7 @@ input.hidden {
     100% {
       background-position: 279px 12px; } } }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 979px) {
   section, header, footer {
     width: 100%;
     min-width: 720px;
@@ -4011,10 +4047,9 @@ input.hidden {
   #maket {
     position: absolute;
     top: 116px;
-    top: 0;
     left: 0px;
     width: 100%;
-    background: url(../pop768_1.png) no-repeat top center;
+    background: url(../maket_t_v.jpg) no-repeat top center;
     height: 13200px;
     opacity: 0.5;
     z-index: 10; }
@@ -4570,7 +4605,8 @@ input.hidden {
         .sec8 .left .li:nth-of-type(2n) {
           margin-right: 0px;
           width: 353px;
-          margin-left: 14px; }
+          margin-left: 22px;
+          margin-right: -10px; }
         .sec8 .left .li.ly {
           width: 719px;
           height: 156px;
@@ -4644,7 +4680,7 @@ input.hidden {
     .sec9 .line {
       width: 90px; }
     .sec9 .p {
-      font-size: 17px;
+      font-size: 16px;
       padding-top: 8px; }
     .sec9 .map {
       margin-top: 34px;
@@ -4710,6 +4746,10 @@ input.hidden {
         font-size: 14px;
         line-height: 17px;
         padding-bottom: 37px; }
+        .sec10 .block h3 span br {
+          display: none; }
+          .sec10 .block h3 span br.tablet_v {
+            display: inline; }
     .sec10 .block .part h4 {
       font-size: 16px;
       padding-left: 34px;
@@ -4772,7 +4812,7 @@ input.hidden {
         height: 14px; }
   .sec12 {
     padding-top: 48px;
-    padding-bottom: 0px; }
+    padding-bottom: 56px; }
     .sec12 h2 {
       font-size: 25px; }
     .sec12 .line {
@@ -4783,17 +4823,18 @@ input.hidden {
       .sec12 .slider .wrap {
         letter-spacing: 21px; }
         .sec12 .slider .wrap .slide {
-          width: 322px; }
+          width: 302px; }
           .sec12 .slider .wrap .slide img {
             width: 322px; }
           .sec12 .slider .wrap .slide:before {
-            top: 50px;
+            top: 45px;
             margin-left: -31px;
-            background-size: 40px; }
+            background-size: 40px;
+            opacity: 0.5; }
           .sec12 .slider .wrap .slide span {
-            height: 66px;
-            line-height: 47px;
-            font-size: 17px; }
+            height: 53px;
+            line-height: 52px;
+            font-size: 16px; }
       .sec12 .slider .controls .arrow.left {
         left: -6px;
         top: 87px;
@@ -4806,8 +4847,8 @@ input.hidden {
         width: 14px;
         height: 14px; }
   .sec13 {
-    height: 198px;
-    padding-top: 72px; }
+    height: 142px;
+    padding-top: 16px; }
     .sec13 h2 {
       font-size: 14px;
       line-height: 17px; }
@@ -5519,7 +5560,7 @@ input.hidden {
     100% {
       background-position: 229px 11px; } } }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 767px) {
   section, header, footer {
     width: 100%;
     min-width: 360px;
@@ -5536,9 +5577,10 @@ input.hidden {
   #maket {
     position: absolute;
     top: -494px;
+    top: 0;
     left: 0px;
     width: 100%;
-    background: url(../pop360_1.png) no-repeat top center;
+    background: url(../maket_m.jpg) no-repeat top center;
     height: 13200px;
     opacity: 0.5;
     z-index: 10; }
@@ -5768,7 +5810,6 @@ input.hidden {
         position: relative;
         z-index: 2; }
   .sec3mobile {
-    background-image: url(../img/journal.png);
     background-size: 328px;
     height: 420px;
     background-position: 173px 104px;
@@ -5779,7 +5820,7 @@ input.hidden {
       text-align: center;
       font-size: 22px;
       display: block;
-      margin-top: 10px;
+      margin-top: 16px;
       font-weight: 800;
       padding-top: 13px;
       background-color: #ffcd11;
@@ -5791,16 +5832,21 @@ input.hidden {
         font-size: 17px;
         color: white;
         font-weight: 100; }
-    .sec3mobile p {
+    .sec3mobile .p {
       text-align: center;
       margin-top: 20px;
       font-size: 21px;
       line-height: 28px; }
+    .sec3mobile .journal {
+      background-image: url(../img/journal.png);
+      height: 237px;
+      background-size: 325px;
+      background-position: 14px 29px; }
     .sec3mobile p.updute {
       text-align: right;
       font-size: 17px;
-      margin-top: 237px;
-      padding-right: 15px; }
+      padding-right: 15px;
+      margin-top: 5px; }
   .sec3 {
     padding-top: 38px;
     height: 410px; }
@@ -5826,8 +5872,19 @@ input.hidden {
           height: 67px;
           width: 67px;
           background-position: 20px 21px; }
+          .sec3 ul li .ico.ico1 {
+            background-size: 35px;
+            background-position: 16px 16px; }
+          .sec3 ul li .ico.ico2 {
+            background-size: 39px;
+            background-position: 14px 16px; }
+          .sec3 ul li .ico.ico3 {
+            background-size: 36px;
+            background-position: 21px 17px; }
           .sec3 ul li .ico.ico4 {
-            margin-right: auto; }
+            margin-right: auto;
+            background-size: 34px;
+            background-position: 21px 17px; }
         .sec3 ul li p {
           font-size: 14px;
           top: 62px; }
@@ -5844,7 +5901,10 @@ input.hidden {
       padding-top: 19px;
       padding-left: 15px;
       font-size: 14px;
-      line-height: 21px; }
+      line-height: 21px;
+      padding-right: 10px; }
+      .sec4 p.text span {
+        display: inline-block; }
       .sec4 p.text:nth-of-type(2) {
         padding-top: 21px; }
     .sec4 ul {
@@ -5853,13 +5913,16 @@ input.hidden {
         padding-left: 26px;
         font-size: 14px;
         line-height: 21px; }
+        .sec4 ul li:after {
+          left: 14px;
+          top: 9px; }
         .sec4 ul li:first-of-type {
           font-size: 14px;
           padding-left: 16px;
           font-weight: 700; }
     .sec4 .after-text {
       font-weight: 600;
-      font-size: 15px;
+      font-size: 16px;
       margin-top: 19px;
       line-height: 22px; }
       .sec4 .after-text br.mobilebr {
@@ -5947,36 +6010,13 @@ input.hidden {
     .sec7 h2 {
       font-size: 15px; }
     .sec7 > div.block {
-      width: 100%;
-      min-width: 1200px;
-      overflow: hidden;
-      position: relative;
-      z-index: 2;
-      width: 100%;
-      max-width: 100%;
-      height: 523px;
-      margin-top: 52px;
-      position: relative;
-      padding: 0;
-      background-size: auto !important;
-      border-top: 5px solid #fccd11;
-      background-position: center -7px;
-      border-bottom: 6px solid #fccd11; }
-      .sec7 > div.block > div {
-        max-width: 1200px;
-        position: relative;
-        z-index: 2;
-        height: 100%;
-        margin: 0 auto;
-        padding: 0 15px; }
-      .sec7 > div.block > div {
-        width: 100%;
-        max-width: 1700px; }
-        .sec7 > div.block > div > .left {
-          float: left;
-          width: 157px;
-          margin-top: 14px;
-          margin-left: 129px; }
+      display: none; }
+    .sec7 > div.mobile_block {
+      display: block; }
+      .sec7 > div.mobile_block .item.active .body {
+        display: block; }
+      .sec7 > div.mobile_block .item .body {
+        display: none; }
   .sec8 {
     padding-top: 27px; }
     .sec8 h2 {
@@ -6178,7 +6218,7 @@ input.hidden {
       .sec11 .slider .controls .arrow.right {
         top: 74px;
         background-size: 19px;
-        right: 9px .sec11 .slider .controls .arrow.right; }
+        right: 9px; }
       .sec11 .slider .pager a {
         width: 11px;
         height: 11px; }
@@ -6290,8 +6330,7 @@ input.hidden {
       background-position: center;
       right: 15px;
       top: 29px;
-      cursor: pointer;
-      }
+      cursor: pointer; }
     .pop1 .heading {
       font-size: 20px;
       line-height: 26px;

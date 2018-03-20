@@ -1,4 +1,4 @@
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 979px) {
     section, header, footer {
         width: 100%;
         min-width: 720px;
@@ -19,10 +19,10 @@
     #maket {
         position: absolute;
         top: 116px;
-        top: 0;
+        //top: 0;
         left: 0px;
         width: 100%;
-        background: url(../pop768_1.png) no-repeat top center;
+        background: url(../maket_t_v.jpg) no-repeat top center;
         height: 13200px;
         opacity: 0.5;
         z-index: 10;
@@ -939,7 +939,8 @@
                 &:nth-of-type(2n) {
                     margin-right: 0px;
                     width: 353px;
-                    margin-left: 14px;
+                    margin-left: 22px;
+                    margin-right: -10px;
                 }
 
                 &:nth-of-type(3) {}
@@ -1101,7 +1102,7 @@
         }
 
         .p {
-            font-size: 17px;
+            font-size: 16px;
             padding-top: 8px;
         }
 
@@ -1209,6 +1210,12 @@
                     font-size: 14px;
                     line-height: 17px;
                     padding-bottom: 37px;
+                    br{
+                        display: none;
+                        &.tablet_v{
+                            display: inline;
+                        }
+                    }
                 }
             }
 
@@ -1334,7 +1341,7 @@
 
     .sec12 {
         padding-top: 48px;
-        padding-bottom: 0px;
+        padding-bottom: 56px;
 
         h2 {
             font-size: 25px;
@@ -1352,7 +1359,7 @@
                 letter-spacing: 21px;
 
                 .slide {
-                    width: 322px;
+                    width: 302px;
 
                     iframe {}
 
@@ -1361,15 +1368,16 @@
                     }
 
                     &:before {
-                        top: 50px;
+                        top: 45px;
                         margin-left: -31px;
                         background-size: 40px;
+                        opacity: 0.5;
                     }
 
                     span {
-                        height: 66px;
-                        line-height: 47px;
-                        font-size: 17px;
+                        height: 53px;
+                        line-height: 52px;
+                        font-size: 16px;
                     }
                 }
             }
@@ -1408,8 +1416,8 @@
     }
 
     .sec13 {
-        height: 198px;
-        padding-top: 72px;
+        height: 142px;
+        padding-top: 16px;
 
         h2 {
             font-size: 14px;
