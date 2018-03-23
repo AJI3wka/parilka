@@ -2095,9 +2095,10 @@ header {
 
     .slider {
         display: none;
-        margin-top: 29px;
+        margin: 29px auto 0;
         position: relative;
         height: 440px;
+        width:1070px;
 
         &.active {
             display: block;
@@ -2107,6 +2108,10 @@ header {
             font-size: 0;
             text-align: center;
             letter-spacing: 40px;
+            .slide{
+                
+                width:535px!important;
+            }
         }
 
         .controls {
@@ -2130,20 +2135,21 @@ header {
                     z-index: 2;
                 }
 
+                
                 &.left {
-                    left: 1px;
+                    left: -49px;
 
                     &:hover {
-                        left: -3px;
+                        left: -52px;
                     }
                 }
 
                 &.right {
-                    right: 1px;
+                    right: -49px;
                     transform: rotate(180deg);
 
                     &:hover {
-                        right: -3px;
+                        right: -52px;
                     }
                 }
             }
@@ -2189,15 +2195,18 @@ header {
     }
 
     .slider {
-        margin-top: 66px;
+        margin: 66px auto 0;
         position: relative;
         height: 436px;
+        width:1070px;
 
         .wrap {
             font-size: 0;
             text-align: center;
             letter-spacing: 40px;
-
+            .sld{
+                width:535px!important;
+            }
             .slide {
                 display: inline-block;
                 position: relative;
@@ -2273,19 +2282,19 @@ header {
                 }
 
                 &.left {
-                    left: 1px;
+                    left: -49px;
 
                     &:hover {
-                        left: -3px;
+                        left: -52px;
                     }
                 }
 
                 &.right {
-                    right: 1px;
+                    right: -49px;
                     transform: rotate(180deg);
 
                     &:hover {
-                        right: -3px;
+                        right: -52px;
                     }
                 }
             }
@@ -2349,7 +2358,7 @@ header {
             }
 
             span {
-                top: 58px;
+                top: 52px;
             }
         }
 
@@ -2439,11 +2448,11 @@ footer {
 
 .pop1 {
     width: 736px;
-    height: 736px;
     background: #ffbe10;
     background-position: -5px 0px;
     position: relative;
     padding-top: 29px;
+    padding-bottom:20px;
 
     .close {
         position: absolute;
@@ -2542,7 +2551,7 @@ footer {
 
 .pop2 {
     width: 736px;
-    height: 736px;
+    padding-bottom:1px;
     background: #ffbe10;
     background-size: contain;
     background-position: 5px 0px;
@@ -3254,9 +3263,19 @@ footer {
                             background-color: #fcc228;
                         }
 
-                        &.width {}
+                        &.width {
 
-                        &.img {}
+                        &:after {
+                            background-position:0px 0px;
+                        }
+                        }
+
+                        &.img {
+
+                        &:after {
+                            background-position:0px 0px;
+                        }
+                        }
                     }
                 }
             }

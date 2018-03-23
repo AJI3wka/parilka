@@ -65,8 +65,9 @@
 
     header {
         height: 111px;
-        position: relative;
-
+        position:fixed;
+        z-index:10;
+        overflow:inherit;
         .header {
             .left {
                 height: 65px;
@@ -128,9 +129,10 @@
     }
 
     .sec1 {
-        margin-top: 0;
+        margin-top: 111px;
         padding-top: 29px;
         height: 481px;
+
 
         .main {
             height: 319px;
@@ -887,14 +889,15 @@
                 margin-top: 46px;
 
                 .input-wrap {
-                    width: 219px;
+                    width: 259px;
                     height: 42px;
+                    margin-right:-34px;
                     float: left;
                     margin-left: 60px;
-                    margin-right: 0;
 
                     span {
-                        top: 58px;
+                        top: 48px;
+                        font-size:11px;
                     }
 
                     input {
@@ -1090,6 +1093,9 @@
 
                         &:focus {}
                     }
+                    span{
+                            font-size:11px;
+                    }
                 }
 
                 .helper {
@@ -1149,8 +1155,6 @@
                         height: 39px;
                         font-size: 15px;
                         padding-left: 43px;
-                        width: 220px;
-                        margin-left: 22px;
 
                         &::placeholder {}
                     }
@@ -1167,7 +1171,7 @@
 
                 .price {
                     width: 330px;
-                    margin: 23px 39px 0px;
+                    margin: 23px 29px 0px;
                     height: 105px;
 
                     .left {
@@ -1298,11 +1302,14 @@
             margin-top: 23px;
             height: 354px;
 
+	width: 840px;
             &.active {}
 
             .wrap {
                 letter-spacing: 28px;
-
+                .slide{
+                        width:420px!important;
+                }
                 img {
                     width: 394px;
                 }
@@ -1315,17 +1322,6 @@
 
                     a {}
 
-                    &.left {
-                        left: -4px;
-
-                        &:hover {}
-                    }
-
-                    &.right {
-                        right: -3px;
-
-                        &:hover {}
-                    }
                 }
             }
 
@@ -1355,9 +1351,13 @@
         .slider {
             margin-top: 79px;
             height: 378px;
+                width:840px;
 
             .wrap {
                 letter-spacing: 25px;
+                .sld{
+                        width:420px!important;
+                }
 
                 .slide {
                     width: 396px;
@@ -1387,7 +1387,6 @@
                     a {}
 
                     &.left {
-                        left: -6px;
                         top: 87px;
                         background-size: 23px;
 
@@ -1395,7 +1394,6 @@
                     }
 
                     &.right {
-                        right: -3px;
                         top: 87px;
                         background-size: 23px;
 
@@ -1510,7 +1508,7 @@
 
     .pop1 {
         width: 736px;
-        height: 736px;
+        padding-bottom:20px;
         background: #ffbe10;
         background-position: -5px 0px;
         position: relative;
@@ -1613,7 +1611,7 @@
 
     .pop2 {
         width: 736px;
-        height: 736px;
+        padding-bottom:40px;
         background: #ffbe10;
         background-size: contain;
         background-position: 5px 0px;
@@ -1734,7 +1732,6 @@
                 font-size: 16px;
                 padding-left: 35px;
                 background-color: white;
-                margin-bottom: 25px;
                 font-family: $fontfamily;
 
                 &[name="name"] {
@@ -1776,17 +1773,16 @@
         background: white;
 
         //height:
-        height: 488px;
+        height: 434px;
         transition: height 0.5s;
         overflow: hidden;
         background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
-    background-image: url(../pop1024_1.png);
 
 
         &.can_next {
-                height: 481px;
+                height: 482px;
 
             .nav {
                 z-index: 1;
@@ -1797,9 +1793,10 @@
         &[data-status="form"] {
             background-image: url(../img/banya.jpg);
             background-repeat: no-repeat;
-            background-position: 0px -100px;
+            background-position: 0 00px;
+            background-size:600px;
 
-            .left, .right {
+            .left, .right,.nav {
                 display: none;
             }
 
@@ -2437,7 +2434,7 @@
 
         .nav {
             clear: both;
-            border-top: 6px solid #fccd11;
+            border-top: 3px solid #fccd11;
             position: relative;
             z-index: -1;
             transition: opacity 0.5s;
@@ -2478,7 +2475,7 @@
 
         form {
             display: none;
-            padding-left: 700px;
+            padding-left: 400px;
 
             p {
                 font-size: 28px;

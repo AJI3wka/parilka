@@ -65,6 +65,10 @@
     }
 
     header {
+            position:fixed;
+            z-index:10;
+            overflow:inherit;
+            
         .header {
             .left {
                 .logo {
@@ -626,6 +630,7 @@
 
     .sec7 {
         padding-top: 49px;
+        padding-bottom:30px;
 
         h2 {}
 
@@ -867,7 +872,8 @@
                     margin-right: 19px;
 
                     span {
-                        top: 58px;
+                        top: 48px;
+                        font-size:10px;
                     }
 
                     input {
@@ -1124,8 +1130,6 @@
                         height: 34px;
                         font-size: 13px;
                         padding-left: 18px;
-                        width: 182px;
-                        margin-left: 5px;
 
                         &::placeholder {}
                     }
@@ -1135,15 +1139,18 @@
 
                 .descr {
                     font-size: 14px;
-                    padding-left: 42px;
+                    padding-left: 36px;
                     margin-top: 18px;
                     line-height: 18px;
-                    width: 348px;
+                    padding-right:36px;
+                    br{
+                            display:none;
+                    }
                 }
 
                 .price {
                     width: 269px;
-                    margin: 18px 24px 0px;
+                    margin: 18px 22px 0px;
                     height: 87px;
 
                     .left {
@@ -1296,6 +1303,7 @@
         .slider {
             margin-top: 15px;
             height: 282px;
+            width:640px;
 
             &.active {}
 
@@ -1304,6 +1312,9 @@
 
                 img {
                     width: 301px;
+                }
+                .slide{
+                        width:320px!important;
                 }
             }
 
@@ -1314,17 +1325,6 @@
 
                     a {}
 
-                    &.left {
-                        left: -4px;
-
-                        &:hover {}
-                    }
-
-                    &.right {
-                        right: -3px;
-
-                        &:hover {}
-                    }
                 }
             }
 
@@ -1354,10 +1354,12 @@
         .slider {
             margin-top: 38px;
             height: 283px;
-
+            width:640px;
             .wrap {
                 letter-spacing: 21px;
-
+                .sld{
+                        width:320px!important;
+                }
                 .slide {
                     width: 302px;
 
@@ -1387,7 +1389,6 @@
                     a {}
 
                     &.left {
-                        left: -6px;
                         top: 87px;
                         background-size: 23px;
 
@@ -1395,7 +1396,6 @@
                     }
 
                     &.right {
-                        right: -3px;
                         top: 87px;
                         background-size: 23px;
 
@@ -1418,6 +1418,7 @@
     .sec13 {
         height: 142px;
         padding-top: 16px;
+        height:150px;
 
         h2 {
             font-size: 14px;
@@ -1438,7 +1439,10 @@
                     font-size: 14px;
                 }
 
-                span {}
+                span {
+                        font-size:12px;
+                        top:48px;
+                }
             }
 
             button {
@@ -1511,11 +1515,12 @@
 
     .pop1 {
         width: 736px;
-        height: 736px;
+        height: initial;
         background: #ffbe10;
         background-position: -5px 0px;
         position: relative;
         padding-top: 29px;
+        padding-bottom:14px;
 
         .close {
             position: absolute;
@@ -1614,7 +1619,6 @@
 
     .pop2 {
             width: 530px;
-    height: 531px;
         background: #ffbe10;
         background-size: contain;
         background-position: 5px 0px;
@@ -1623,7 +1627,7 @@
             background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
-        background: url(../pop2_768.png);
+    padding-bottom:14px;
 
         &.short {
             height: auto;
@@ -1733,7 +1737,7 @@
                 width: 220px;
 
             input {
-                height: 44px;
+                height: 40px;
                 display: block;
                 width: 100%;
                 font-style: italic;
@@ -1743,7 +1747,7 @@
                 font-size: 16px;
                 padding-left: 35px;
                 background-color: white;
-                margin-bottom: 43px;
+                margin-bottom:30px;
                 font-family: $fontfamily;
 
                 &[name="name"] {
@@ -1769,7 +1773,9 @@
                 color: white;
                 font-size: 22px;
                 text-align: center;
-                height: 45px;
+                
+	height: initial;
+	min-height: 45px;
                 display: block;
                 border: none;
             }
@@ -1780,19 +1786,18 @@
 
     .pop3 {
         width: 740px;
-        border: 6px solid #fccd11;
+        border: 3px solid #fccd11;
         position: relative;
         background: white;
-           height: 488px;
+           height: 440px;
         transition: height 0.5s;
         overflow: hidden;
         background-repeat: no-repeat;
     background-size: auto;
-    background-image: url(../pop768_2.png);
     background-position: center;
 
         &.can_next {
-                height: 489px;
+                height: 480px;
 
             .nav {
                 z-index: 1;
@@ -1801,9 +1806,7 @@
         }
 
         &[data-status="form"] {
-            background-image: url(../img/banya.jpg);
             background-repeat: no-repeat;
-            background-position: 0px -100px;
 
             .left, .right {
                 display: none;
@@ -2412,7 +2415,7 @@
 
         .nav {
             clear: both;
-            border-top: 6px solid #fccd11;
+            border-top: 3px solid #fccd11;
             position: relative;
             z-index: -1;
             transition: opacity 0.5s;
@@ -2451,14 +2454,20 @@
 
         form {
             display: none;
-            padding-left: 700px;
+            padding-left: 400px;
+            padding-top:20px;
 
             p {
-                font-size: 28px;
-                line-height: 36px;
+                font-size: 18px;
+                line-height: 24px;
                 margin-bottom: 30px;
+                text-align:center;
             }
+            .input-wrap,button{
 
+                width: 300px;
+                margin:0 auto;
+            }
             input {
                 height: 40px;
                 width: 300px;
