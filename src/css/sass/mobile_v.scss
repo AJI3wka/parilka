@@ -67,7 +67,7 @@
     }
 
     header {
-        height: 246px;
+        height: 276px;
         border: none;
         z-index:5;
         overflow:inherit;
@@ -870,7 +870,10 @@
         .heading {
                     padding-top: 14px;
                         font-size: 13px;
-            span {}
+            span {
+                margin-left: -41px;
+                margin-right: -3px;
+            }
         }
 
         .line {
@@ -894,7 +897,7 @@
                 }
 
                 & > .right {
-                    &.active {}
+                    &.active {} 
 
                     .top1 {
                         span {}
@@ -1236,19 +1239,23 @@
             .li {
                 margin-left: 15px;
                 height: 140px;
+                    width: 345px;
 
                 &:nth-of-type(2n) {
 	margin-bottom: 22px;
                     margin-left:15px;
+                        width: 345px;
                 }
 
                 &:nth-of-type(3) {
                     height: 140px;
                     margin-left:15px;
+                        width: 345px;
                 }
                 &:nth-of-type(4) {
 
                     height:initial;
+                        width: 345px;
                 }
 
                 &.ly {
@@ -1276,7 +1283,7 @@
                     line-height: 45px;
 
                     &.btn1 {
-                        width: 141px;
+                            width: 164px;
                         height: 44px;
                         margin-right: 4.7px;
                         margin-bottom: 10px;
@@ -1285,7 +1292,8 @@
                     }
 
                     &.btn2 {
-                        width: 288px;
+                         width: 333px;
+
                         height: 44px;
                         font-size: 15px;
                         line-height: 41px;
@@ -1397,6 +1405,7 @@
                         height: 35px;
                         margin-bottom: 11px;
                         font-size: 14px;
+                        width: 109px;
                     }
 
                     .help-btn {
@@ -1642,19 +1651,19 @@
             margin-top: 24px;
 
             a {
-                width: 151px;
-                margin-left: 15px;
-                height: 40px;
-                line-height: 35px;
-                font-size: 14px;
-                margin-right: 14px;
+                width: 166px;
+    margin-left: 5px;
+    height: 40px;
+    line-height: 35px;
+    font-size: 14px;
+    margin-right: 0px;
 
                 span.rubli {
                     display: none;
                 }
 
                 &:last-of-type {
-                    width: 330px;
+                    width: 337px;
                     margin-top: 6px;
                     font-size: 14px;
                     line-height: 34px;
@@ -1666,14 +1675,18 @@
 
         .slider {
             margin-top: 5px;
-            height: 226px;
-            height:252px;
+            height:270px;
             width:320px;
 
             &.active {}
 
             .wrap {
-                img {}
+                  .slide{
+                        width: 320px !important;
+                  }
+                img {
+
+                }
             }
 
             .controls {
@@ -1684,19 +1697,19 @@
                     &.left {
                         top: 75px;
                         background-size: 19px;
-                        left: -14px;
+                            left: -40px;
 
                         &:hover {
-                        left: -17px;}
+                        left: -43px;}
                     }
 
                     &.right {
                         top: 75px;
                         background-size: 19px;
-                        right: -14px;
+                          right: -40px;
 
                         &:hover {
-                        right: -17px;}
+                        right: -43px;}
                     }
                 }
             }
@@ -1726,17 +1739,29 @@
 
         .slider {
             margin-top: 25px;
-            height: 252px;
+            height: 270px;
+
             width:320px;
             .wrap {
+                .sld{
+                        width: 320px !important;
+                }
                 .slide {
                     iframe {}
 
-                    img {}
+                    img {
+                            width: 320px;
+                    }
 
-                    &:before {}
+                    &:before {
+                        top: 50px;
+    margin-left: -80px;
+    background-size: 43px;
+                    }
 
-                    span {}
+                    span {
+                        width:320px;
+                    }
                 }
             }
 
@@ -1747,19 +1772,19 @@
                     &.left {
                         top: 75px;
                         background-size: 19px;
-                        left: -14px;
+                        left: -40px;
 
                         &:hover {
-                        left: -17px;}
+                        left: -43px;}
                     }
 
                     &.right {
                         top: 75px;
                         background-size: 19px;
-                        right: -14px;
+                        right: -40px;
 
                         &:hover {
-                        right: -17px;}
+                        right: -43px;}
                     }
                 }
             }

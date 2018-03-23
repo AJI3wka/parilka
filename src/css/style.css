@@ -5653,7 +5653,7 @@ input.hidden {
         left: 50%; }
       header .header .btn-mobile {
         display: block;
-        height: 92px;
+        height: 89px;
         color: #404040;
         font-size: 23px;
         font-weight: 400;
@@ -5675,7 +5675,8 @@ input.hidden {
           width: 237px;
           background-size: 237px 84px;
           background-position: 0px 7px;
-          font-size: 21px; }
+          font-size: 21px;
+          height: 98px; }
           header .header .left .logo .company {
             font-size: 19px;
             margin-bottom: 0; }
@@ -5770,7 +5771,7 @@ input.hidden {
           border: none; }
   .sec1 {
     padding-top: 24px;
-    height: 596px;
+    height: 622px;
     border: none;
     margin-top: 0; }
     .sec1 .main {
@@ -5788,7 +5789,7 @@ input.hidden {
       .sec1 .main .home {
         height: 400px;
         width: 519px;
-        left: -297px;
+        left: -113px;
         top: 195px; }
       .sec1 .main h1 {
         font-size: 28px; }
@@ -5816,7 +5817,7 @@ input.hidden {
       padding: 0;
       text-align: center;
       width: 240px;
-      bottom: 93px;
+      bottom: 17px;
       height: 139px;
       margin-left: -120px;
       left: 77%;
@@ -6096,9 +6097,10 @@ input.hidden {
     height: 3px;
     margin-top: 19px; }
   .sec6 ul {
-    padding-top: 47px; }
+    padding-top: 47px;
+    margin-bottom: 40px; }
     .sec6 ul li {
-      width: 235px;
+      width: 234px;
       margin-left: 11px;
       padding-top: 88px; }
       .sec6 ul li:nth-of-type(2n-1) {
@@ -6328,25 +6330,30 @@ input.hidden {
       margin-top: 36px; }
       .sec8 .left .li {
         margin-left: 20px;
-        height: 187px; }
+        height: 187px;
+        width: 420px; }
         .sec8 .left .li:nth-of-type(2n) {
           margin-bottom: 29px;
-          margin-left: 20px; }
+          margin-left: 20px;
+          width: 420px; }
         .sec8 .left .li:nth-of-type(3) {
           height: 187px;
-          margin-left: 20px; }
+          margin-left: 20px;
+          width: 420px; }
         .sec8 .left .li:nth-of-type(4) {
-          height: initial; }
+          height: initial;
+          width: 420px; }
         .sec8 .left .li.ly {
-          width: 441px;
+          width: 100%;
           height: 167px;
-          margin-left: 20px; }
+          margin-left: 0px; }
         .sec8 .left .li p {
           padding-left: 13px;
           font-size: 21px;
           line-height: 29px;
           margin-bottom: 19px;
-          border-bottom: 3px solid #fccd11; }
+          border-bottom: 3px solid #fccd11;
+          height: 30px; }
         .sec8 .left .li .btn {
           margin-bottom: 3px;
           margin-right: 5px;
@@ -6355,14 +6362,14 @@ input.hidden {
           font-size: 21px;
           line-height: 60px; }
           .sec8 .left .li .btn.btn1 {
-            width: 188px;
+            width: 201px;
             height: 59px;
             margin-right: 5px;
             margin-bottom: 13px;
             line-height: 52px;
             font-size: 20px; }
           .sec8 .left .li .btn.btn2 {
-            width: 384px;
+            width: 406px;
             height: 59px;
             font-size: 20px;
             line-height: 55px; }
@@ -6412,9 +6419,10 @@ input.hidden {
         .sec8 .right form .helper input[type="text"] {
           height: 47px;
           margin-bottom: 15px;
-          font-size: 19px; }
+          font-size: 19px;
+          width: 127px; }
         .sec8 .right form .helper .help-btn {
-          width: 201px;
+          width: 220px;
           font-size: 19px;
           height: 47px;
           padding-left: 43px;
@@ -6579,36 +6587,39 @@ input.hidden {
     .sec11 .nav {
       margin-top: 32px; }
       .sec11 .nav a {
-        width: 201px;
-        margin-left: 20px;
+        width: 231px;
+        margin-left: 2px;
         height: 53px;
         line-height: 47px;
         font-size: 19px;
-        margin-right: 19px; }
+        margin-right: 7px; }
         .sec11 .nav a span.rubli {
           display: none; }
         .sec11 .nav a:last-of-type {
-          width: 440px;
+          width: 471px;
           margin-top: 8px;
           font-size: 19px;
           line-height: 45px; }
     .sec11 .slider {
       margin-top: 7px;
-      height: 301px;
-      height: 336px;
-      width: 427px; }
+      height: 370px;
+      width: 420px; }
+      .sec11 .slider .wrap .slide {
+        width: 420px !important; }
+      .sec11 .slider .wrap img {
+        width: 420px; }
       .sec11 .slider .controls .arrow.left {
         top: 100px;
         background-size: 25px;
-        left: -19px; }
+        left: -40px; }
         .sec11 .slider .controls .arrow.left:hover {
-          left: -23px; }
+          left: -43px; }
       .sec11 .slider .controls .arrow.right {
         top: 100px;
         background-size: 25px;
-        right: -19px; }
+        right: -40px; }
         .sec11 .slider .controls .arrow.right:hover {
-          right: -23px; }
+          right: -43px; }
       .sec11 .slider .pager a {
         width: 15px;
         height: 15px; }
@@ -6621,20 +6632,31 @@ input.hidden {
       margin: 28px auto; }
     .sec12 .slider {
       margin-top: 33px;
-      height: 336px;
-      width: 427px; }
+      height: 370px;
+      width: 420px; }
+      .sec12 .slider .wrap .sld {
+        width: 420px !important; }
+      .sec12 .slider .wrap .slide {
+        width: 420px !important; }
+        .sec12 .slider .wrap .slide img {
+          width: 420px; }
+        .sec12 .slider .wrap .slide:before {
+          top: 78px;
+          background-size: 54px; }
+        .sec12 .slider .wrap .slide span {
+          height: 53px; }
       .sec12 .slider .controls .arrow.left {
         top: 100px;
         background-size: 25px;
-        left: -19px; }
+        left: -40px; }
         .sec12 .slider .controls .arrow.left:hover {
-          left: -23px; }
+          left: -43px; }
       .sec12 .slider .controls .arrow.right {
         top: 100px;
         background-size: 25px;
-        right: -19px; }
+        right: -40px; }
         .sec12 .slider .controls .arrow.right:hover {
-          right: -23px; }
+          right: -43px; }
       .sec12 .slider .pager a {
         width: 15px;
         height: 15px; }
@@ -7409,7 +7431,7 @@ input.hidden {
   span.rubli.mobile {
     display: none; }
   header {
-    height: 246px;
+    height: 276px;
     border: none;
     z-index: 5;
     overflow: inherit; }
@@ -7912,6 +7934,9 @@ input.hidden {
     .sec7 .heading {
       padding-top: 14px;
       font-size: 13px; }
+      .sec7 .heading span {
+        margin-left: -41px;
+        margin-right: -3px; }
     .sec7 .line {
       display: none; }
     .sec7 > div.block {
@@ -8112,15 +8137,19 @@ input.hidden {
       margin-top: 27px; }
       .sec8 .left .li {
         margin-left: 15px;
-        height: 140px; }
+        height: 140px;
+        width: 345px; }
         .sec8 .left .li:nth-of-type(2n) {
           margin-bottom: 22px;
-          margin-left: 15px; }
+          margin-left: 15px;
+          width: 345px; }
         .sec8 .left .li:nth-of-type(3) {
           height: 140px;
-          margin-left: 15px; }
+          margin-left: 15px;
+          width: 345px; }
         .sec8 .left .li:nth-of-type(4) {
-          height: initial; }
+          height: initial;
+          width: 345px; }
         .sec8 .left .li.ly {
           width: 331px;
           height: 125px;
@@ -8139,14 +8168,14 @@ input.hidden {
           font-size: 16px;
           line-height: 45px; }
           .sec8 .left .li .btn.btn1 {
-            width: 141px;
+            width: 164px;
             height: 44px;
             margin-right: 4.7px;
             margin-bottom: 10px;
             line-height: 39px;
             font-size: 15px; }
           .sec8 .left .li .btn.btn2 {
-            width: 288px;
+            width: 333px;
             height: 44px;
             font-size: 15px;
             line-height: 41px; }
@@ -8196,7 +8225,8 @@ input.hidden {
         .sec8 .right form .helper input[type="text"] {
           height: 35px;
           margin-bottom: 11px;
-          font-size: 14px; }
+          font-size: 14px;
+          width: 109px; }
         .sec8 .right form .helper .help-btn {
           width: 151px;
           font-size: 14px;
@@ -8363,36 +8393,37 @@ input.hidden {
     .sec11 .nav {
       margin-top: 24px; }
       .sec11 .nav a {
-        width: 151px;
-        margin-left: 15px;
+        width: 166px;
+        margin-left: 5px;
         height: 40px;
         line-height: 35px;
         font-size: 14px;
-        margin-right: 14px; }
+        margin-right: 0px; }
         .sec11 .nav a span.rubli {
           display: none; }
         .sec11 .nav a:last-of-type {
-          width: 330px;
+          width: 337px;
           margin-top: 6px;
           font-size: 14px;
           line-height: 34px; }
     .sec11 .slider {
       margin-top: 5px;
-      height: 226px;
-      height: 252px;
+      height: 270px;
       width: 320px; }
+      .sec11 .slider .wrap .slide {
+        width: 320px !important; }
       .sec11 .slider .controls .arrow.left {
         top: 75px;
         background-size: 19px;
-        left: -14px; }
+        left: -40px; }
         .sec11 .slider .controls .arrow.left:hover {
-          left: -17px; }
+          left: -43px; }
       .sec11 .slider .controls .arrow.right {
         top: 75px;
         background-size: 19px;
-        right: -14px; }
+        right: -40px; }
         .sec11 .slider .controls .arrow.right:hover {
-          right: -17px; }
+          right: -43px; }
       .sec11 .slider .pager a {
         width: 11px;
         height: 11px; }
@@ -8405,20 +8436,30 @@ input.hidden {
       margin: 21px auto; }
     .sec12 .slider {
       margin-top: 25px;
-      height: 252px;
+      height: 270px;
       width: 320px; }
+      .sec12 .slider .wrap .sld {
+        width: 320px !important; }
+      .sec12 .slider .wrap .slide img {
+        width: 320px; }
+      .sec12 .slider .wrap .slide:before {
+        top: 50px;
+        margin-left: -80px;
+        background-size: 43px; }
+      .sec12 .slider .wrap .slide span {
+        width: 320px; }
       .sec12 .slider .controls .arrow.left {
         top: 75px;
         background-size: 19px;
-        left: -14px; }
+        left: -40px; }
         .sec12 .slider .controls .arrow.left:hover {
-          left: -17px; }
+          left: -43px; }
       .sec12 .slider .controls .arrow.right {
         top: 75px;
         background-size: 19px;
-        right: -14px; }
+        right: -40px; }
         .sec12 .slider .controls .arrow.right:hover {
-          right: -17px; }
+          right: -43px; }
       .sec12 .slider .pager a {
         width: 11px;
         height: 11px; }

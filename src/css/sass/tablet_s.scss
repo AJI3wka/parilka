@@ -99,7 +99,8 @@
 
             .btn-mobile {
                 display: block;
-                height: 92px;
+                   height: 89px;
+
                 color: #404040;
                 font-size: 23px;
                 font-weight: 400;
@@ -125,6 +126,7 @@
                     background-size: 237px 84px;
                     background-position: 0px 7px;
                     font-size: 21px;
+                    height: 98px;
 
                     .company {
                         font-size: 19px;
@@ -252,7 +254,8 @@
 
     .sec1 {
         padding-top: 24px;
-        height: 596px;
+          height: 622px;
+
         border: none;
         margin-top:0;
 
@@ -278,7 +281,8 @@
             .home {
                 height: 400px;
                 width: 519px;
-                left: -297px;
+                 left: -113px;
+
                 top: 195px;
             }
 
@@ -351,7 +355,7 @@
             padding: 0;
             text-align: center;
             width: 240px;
-            bottom: 93px;
+                bottom: 17px;
             height: 139px;
             margin-left: -120px;
             left: 77%;
@@ -801,9 +805,10 @@
 
         ul {
             padding-top: 47px;
+                margin-bottom: 40px;
 
             li {
-                width: 235px;
+                width: 234px;
                 margin-left: 11px;
                 padding-top: 88px;
 
@@ -1236,25 +1241,29 @@
             .li {
                 margin-left: 20px;
                 height: 187px;
+                    width: 420px;
 
                 &:nth-of-type(2n) {
 	margin-bottom: 29px;
                     margin-left:20px;
+                        width: 420px;
                 }
 
                 &:nth-of-type(3) {
                     height: 187px;
                     margin-left:20px;
+                    width: 420px;
                 }
                 &:nth-of-type(4) {
 
                     height:initial;
+                        width: 420px;
                 }
 
                 &.ly {
-                    width: 441px;
-                    height: 167px;
-                    margin-left:20px;
+                        width: 100%;
+                            height: 167px;
+                            margin-left: 0px;
                 }
 
                 p {
@@ -1263,6 +1272,7 @@
                     line-height:29px;
                     margin-bottom: 19px;
                     border-bottom: 3px solid #fccd11;
+                        height: 30px;
 
                     &.full {}
                 }
@@ -1276,7 +1286,7 @@
                     line-height: 60px;
 
                     &.btn1 {
-                        width: 188px;
+                        width: 201px;
                         height: 59px;
                         margin-right: 5px;
                         margin-bottom: 13px;
@@ -1285,13 +1295,15 @@
                     }
 
                     &.btn2 {
-                        width: 384px;
+                           width: 406px;
                         height: 59px;
                         font-size: 20px;
                         line-height: 55px;
+                         
                     }
 
-                    &.active, &:hover {}
+                    &.active, &:hover {
+                    }
                 }
 
                 textarea {
@@ -1397,15 +1409,17 @@
                         height: 47px;
                         margin-bottom: 15px;
                         font-size: 19px;
+                            width: 127px;
                     }
 
                     .help-btn {
-                        width: 201px;
+                            width: 220px;
                         font-size: 19px;
                         height: 47px;
                         padding-left: 43px;
                         background-position: 9px 8px;
                         line-height: 47px;
+
                     }
                 }
 
@@ -1642,22 +1656,24 @@
             margin-top: 32px;
 
             a {
-                width: 201px;
-                margin-left: 20px;
-                height: 53px;
-                line-height: 47px;
-                font-size: 19px;
-                margin-right: 19px;
+                 width: 231px;
+    margin-left: 2px;
+    height: 53px;
+    line-height: 47px;
+    font-size: 19px;
+    margin-right: 7px;
 
                 span.rubli {
                     display: none;
                 }
 
                 &:last-of-type {
-                    width: 440px;
+                     width: 471px;
+
                     margin-top: 8px;
                     font-size: 19px;
                     line-height: 45px;
+
                 }
 
                 &.active, &:hover {}
@@ -1666,14 +1682,19 @@
 
         .slider {
             margin-top: 7px;
-            height: 301px;
-            height:336px;
-            width:427px;
+                height: 370px;
+            width:420px;
 
             &.active {}
 
             .wrap {
-                img {}
+                .slide{
+                        width:420px !important;
+                }
+                img {
+                        width: 420px;
+                    
+                }
             }
 
             .controls {
@@ -1684,19 +1705,19 @@
                     &.left {
                         top: 100px;
                         background-size: 25px;
-                        left: -19px;
+                            left: -40px;
 
                         &:hover {
-                        left: -23px;}
+                        left: -43px;}
                     }
 
                     &.right {
                         top: 100px;
                         background-size: 25px;
-                        right: -19px;
+                        right: -40px;
 
                         &:hover {
-                        right: -23px;}
+                        right: -43px;}
                     }
                 }
             }
@@ -1726,17 +1747,28 @@
 
         .slider {
             margin-top: 33px;
-            height: 336px;
-            width:427px;
+            height: 370px;
+            width:420px;
             .wrap {
+                .sld{
+                    width: 420px !important;
+                }
                 .slide {
+                    width: 420px !important;
                     iframe {}
 
-                    img {}
+                    img {
+                        width:420px; 
+                    }
 
-                    &:before {}
+                    &:before {
+                            top: 78px;
+                                background-size: 54px;
+                    }
 
-                    span {}
+                    span {
+                            height: 53px;
+                    }
                 }
             }
 
@@ -1747,19 +1779,19 @@
                     &.left {
                         top: 100px;
                         background-size: 25px;
-                        left: -19px;
+                            left: -40px;
 
                         &:hover {
-                        left: -23px;}
+                        left: -43px;}
                     }
 
                     &.right {
                         top: 100px;
                         background-size: 25px;
-                        right: -19px;
+                            right: -40px;
 
                         &:hover {
-                        right: -23px;}
+                        right: -43px;}
                     }
                 }
             }
