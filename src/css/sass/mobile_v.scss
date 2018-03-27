@@ -366,7 +366,8 @@
     }
 
     .sec2 {
-        height: 811px;
+        padding-bottom: 20px;
+        height: initial;
 
         .left {
             margin-top: 0;
@@ -488,13 +489,23 @@
 
                 p.action {
                     font-size: 16px;
-                    margin-top: 33px;
+                    margin-top: 23px;
                 }
 
+                .b_time{
+
+                    width: 330px;
+                    margin: 0px auto 0;
+                }
                 .timer {
                     margin: 13px auto 0;
-                    width: 330px;
 
+                .sht{
+                    float:left;
+                    font-size: 28px;
+                    margin-right: 20px;
+                    line-height: 90px;
+                }
                     .schet {
                         margin-right: 15px;
                         width: 71px;

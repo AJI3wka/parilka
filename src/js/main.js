@@ -22,46 +22,96 @@ function onScroll(event){
     });
 }
 
-function Timer (date) {
-    var s = (new Date(date)).getTime() - (new Date()).getTime();
-    s = parseInt(s / 1000);
-    var d,h,m;
-    if (s>=0) {
+function Timer (date_from,date_to) {
 
-        d = parseInt(s / 86400);
-        s -= d * 86400;
-        h = parseInt(s / 3600);
-        s -= h * 3600;
-        m = parseInt(s / 60);
-        s -= m * 60;
+    if ($('.sec2').find('.timer-wrap').find('.b_time').length>0) {
+
+            var s = (new Date(date_to)).getTime() - (new Date()).getTime();
+            s = parseInt(s / 1000);
+            var d,h,m;
+            if (s>=0) {
+
+                d = parseInt(s / 86400);
+                s -= d * 86400;
+                h = parseInt(s / 3600);
+                s -= h * 3600;
+                m = parseInt(s / 60);
+                s -= m * 60;
+            }else{
+                d = 0;
+                m = 0;
+                h = 0;
+                s = 0;
+            }
+            if (d<10) {
+                d = '0'+d;
+            }
+            if (h<10) {
+                h = '0'+h;
+            }
+            if (m<10) {
+                m = '0'+m;
+            }
+            if (s<10) {
+                s = '0'+s;
+            }
+
+            var $timer = $('#timer');
+            $timer.find('#t_day').html(d);
+            $timer.find('#t_hour').html(h);
+            $timer.find('#t_min').html(m);
+            $timer.find('#t_sec').html(s);
+
+            if ((new Date(date_to)).getTime() >= (new Date()).getTime()) setTimeout('Timer(\'' + date_from + '\',\'' + date_to + '\');', 1000);
+
     }else{
-        d = 0;
-        m = 0;
-        h = 0;
-        s = 0;
-    }
-    if (d<10) {
-        d = '0'+d;
-    }
-    if (h<10) {
-        h = '0'+h;
-    }
-    if (m<10) {
-        m = '0'+m;
-    }
-    if (s<10) {
-        s = '0'+s;
-    }
 
-    var $timer = $('#timer');
-    $timer.find('#t_day').html(d);
-    $timer.find('#t_hour').html(h);
-    $timer.find('#t_min').html(m);
-    $timer.find('#t_sec').html(s);
+            var s_full = (new Date(date_to)).getTime() - (new Date(date_from)).getTime();
+            s_full = parseInt(s_full / 1000); 
+
+            var s = (new Date(date_to)).getTime() - (new Date()).getTime();
+            s = parseInt(s / 1000); 
+
+            var s_coef = (s_full-s)/s_full;
+
+            var randomizer = [10,20,10,30,15,45,20,40,30,10,20,10,30,15,45,20,40,30,10,20,10,30,15,45,20,40,30,10,20,10,30,15,45,20,40,30,10,40,30,10];
 
 
 
-    if ((new Date(date)).getTime() >= (new Date()).getTime()) setTimeout('Timer(\'' + date + '\');', 1000);
+            var $counter = $('#b_counter');            
+            var all = parseInt($counter.find('#count_all').text());
+
+            var sum_randomizer = 0;
+            for (var i = randomizer.length - 1; i >= 0; i--) {
+                sum_randomizer+=randomizer[i];
+            }
+            var randomizer_count = all/sum_randomizer;
+            var randomizer_coef = 1/randomizer.length;
+            var random_selled= Math.floor(s_coef/randomizer_coef);
+
+
+            var actual_randomized = 0;
+            for (var i = 0; i < random_selled; i++) {
+                actual_randomized+=randomizer[i];
+            }
+
+            var selled_items = Math.floor(actual_randomized*randomizer_count);
+            var have_items = all-selled_items
+
+            $counter.find('#count_now').html(have_items);
+            //console.log(s_coef,randomizer.length,randomizer_count,all,sum_randomizer,random_selled);
+
+
+
+            // $timer.find('#t_day').html(d);
+            // $timer.find('#t_hour').html(h);
+            // $timer.find('#t_min').html(m);
+            // $timer.find('#t_sec').html(s);
+
+            if ((new Date(date_to)).getTime() >= (new Date()).getTime()) setTimeout('Timer(\'' + date_from + '\',\'' + date_to + '\');', 10000);
+
+    }
+
 }
 
 function parse_calculate_vals(){
@@ -582,5 +632,5 @@ $(document).ready(function () {
         }
     });
 
-    Timer('2018-03-01 00:00:00');
+    Timer('2018-03-01 00:00:00','2018-04-15 00:00:00');
 });

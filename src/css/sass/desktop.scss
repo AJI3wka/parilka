@@ -566,14 +566,26 @@ header {
         clear: both;
         .timer-wrap {
             margin-top: 71px;
-
+            text-align: center;
+            .count,.b_time{
+                display: inline-block;;
+                p.action {
+                    text-align: left;
+                }
+            }
             p.action {
                 font-size: 20px;
             }
-
+        
             .timer {
                 margin-top: 20px;
 
+                .sht{
+                    float:left;
+                    font-size: 28px;
+                    margin-right: 18px;
+                    line-height: 100px;
+                }
                 .schet {
                     border: 4px solid #f5b301;
                     text-align: center;
