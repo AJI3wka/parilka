@@ -72,16 +72,17 @@
         z-index:5;
         overflow:inherit;
         .header {
-                padding-top:88px;
+                padding-top: 60px;
                 
                 &:after{
                         position:fixed;
                         left:0;
                         top:0;
                         width:100%;
-                        height:93px;
+                        height: 50px;
                         background:white;
                         z-index:1;
+                        border-bottom: 1px solid #c3c3c3;  
                 }
             .menu-btn {
                 display: block;
@@ -91,7 +92,7 @@
                 float: left;
                 cursor: pointer;
                 margin-left: -229px;
-                top: 19px;
+                top: -5px;
                 z-index:10;
                 position:fixed;
                 left:50%;
@@ -106,7 +107,7 @@
                 font-weight: 400;
                 text-transform: uppercase;
                 background-color: #fccd11;
-                margin-top: 23px;
+                    margin-top: 51px;
                 text-align: center;
                 line-height: 96px;
                 letter-spacing: 0px;
@@ -156,7 +157,10 @@
                 padding-top:0;
                 z-index:10;
                 span {
-                    font-size: 27px;
+                        font-size: 20px;
+                    line-height: 20px;
+                    margin-top: 5px;
+                    background-position: 13px 6px;
                 }
 
                 a.btn {
@@ -1458,18 +1462,18 @@
 
             .wrap {
                     position:static;
-                    width:480px;
+                    width:100%;
                     margin:0 auto;
                 .form {
                         position: absolute;
 	z-index: 11;
-	width: 480px;
-	left: 50%;
-	margin-left: -240px;
+	    width: 100%;
+    left: 0px;
+    margin-left: 0px;
 	top: 128px;
 
 	background: #fccd11;
-	margin-top: 0;
+	margin-top: 0px;
 	padding: 11px 20px;
 	height:initial;
                     input {
@@ -1487,14 +1491,14 @@
                         position:absolute;
                         	z-index: 10;
 	background: white;
-	margin: 0;
-	width: 480px;
-	left: 50%;
-	margin-left: -240px;
-	padding: 3px 31px;
+	margin: 0px;
+	width:100%;
+	left: 0;
+	margin-left: 0px;
+	padding: 3px 43px; 
 	margin-top: 0;
 	top: -13px;
-	height: 141px;
+	height: 141px; 
 	line-height: 27px;
 	br{
 	        display:none;

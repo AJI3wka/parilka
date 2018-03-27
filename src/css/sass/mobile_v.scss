@@ -91,7 +91,7 @@
                 float: left;
                 cursor: pointer;
                 margin-left: -172px;
-                top: 14px;
+                    top: 12px;
                 z-index:10;
                 position:fixed;
                 left:50%;
@@ -154,7 +154,8 @@
                 padding-top:0;
                 z-index:10;
                 span {
-                    font-size: 20px;
+                        font-size: 20px;
+    margin-top: 13px;
                 }
 
                 a.btn {
@@ -1453,14 +1454,14 @@
 
             .wrap {
                     position:static;
-                    width:360px;
+                    width: 100%;
                     margin:0 auto;
                 .form {
                         position: absolute;
 	z-index: 11;
-	width: 360px;
-	left: 50%;
-	margin-left: -180px;
+	width: 100%;
+	left:0;
+	margin-left:0px; 
 	top: 96px;
 
 	background: #fccd11;
@@ -1483,10 +1484,10 @@
                         	z-index: 10;
 	background: white;
 	margin: 0;
-	width: 360px;
-	left: 50%;
-	margin-left: -180px;
-	padding: 2px 23px;
+	width: 100%;
+	left: 0;
+	margin-left: 0px;
+	padding: 2px 45px;
 	margin-top: 0;
 	top: -10px;
 	height: 106px;
