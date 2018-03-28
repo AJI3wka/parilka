@@ -2196,7 +2196,7 @@
     .pop3 {}
 
     .pop3 {
-        width: 440px;
+        width: 360px;
         border: 4px solid #fccd11;
         position: relative;
         background: white;
@@ -2606,7 +2606,7 @@
         }
 
         .heading {
-            font-size: 19px;
+            font-size: 16px;
             padding-top: 4px;
             padding-left: 21px;
             height: 61px;
@@ -2620,14 +2620,14 @@
         .left {
             display: block;
             float: none;
-            width: 413px;
+            width: 340px; 
             height: initial;
             height:408px;
             padding-left: 13px;
             padding-top: 17px;
 
             p {
-                font-size: 19px;
+                font-size: 16px;
                 height: 41px;
                 text-transform: uppercase;
                 position: relative;
@@ -2647,7 +2647,7 @@
 
             .progress {
                 height: 20px;
-                width: 379px;
+                width: 300px;
                 border: 1px solid #fccd11;
                 background-image: url(../img/bgline.png);
                 margin-bottom: 20px;
@@ -2698,8 +2698,8 @@
                             content: '';
                             display: block;
                             position: absolute;
-                            width: 25px;
-                            height: 25px;
+                            width: 20px;
+                            height: 20px;
                             left: 12px;
                             top: 12px;
                             border-radius: 100%;
@@ -2715,18 +2715,17 @@
                             padding-top: 55px;
                             text-transform: uppercase;
                             font-size: 27px;
-                            margin-left: 35px;
-                            height: 148px;
-                            width: 148px;
+                            margin-left: 14px;
+                            height: 140px;
+                            width: 140px;
                             margin-bottom: 7px;
                             margin-right: 7px;
                         }
 
                         &.img {
-                            height: 147px;
-                            width: 147px;
-                            margin-left: 35px;
-                            margin-right: 7px;
+                            margin-left: 14px;
+                            height: 140px;
+                            width: 140px;
 
                             img {
                                 display: block;
@@ -2742,22 +2741,42 @@
 
                         &.text {
                             float: none;
-                            width: 376px;
+                            width: 300px;
                             height: 43px;
                             line-height: 43px;
                             padding-left: 41px;
-                            font-size: 20px;
+                            font-size: 16px;
                             margin-bottom: 12px;
 
                             &:after {
-                                top: 12px;
+                                top: 14px;
+                            }
+
+                            &:hover {
+                                &:after {
+                                    background-image: url(../img/check-ico.png);
+                                    background-position: -3px -3px;
+                                    background-color: #fcc228;
+                                }
+                            }
+
+                            &.active {
+                                &:after {
+                                    background-image: url(../img/check-ico.png);
+                                    background-position: -3px -3px;
+                                    background-color: #fcc228;
+                                }
+
+                                &.width {}
+
+                                &.img {}
                             }
                         }
 
                         &:hover {
                             &:after {
                                 background-image: url(../img/check-ico.png);
-                                background-position: -4px -4px;
+                                background-position: 0px 0px;
                                 background-color: #fcc228;
                             }
                         }
@@ -2765,7 +2784,7 @@
                         &.active {
                             &:after {
                                 background-image: url(../img/check-ico.png);
-                                background-position: -4px -4px;
+                                background-position: 0px 0px;
                                 background-color: #fcc228;
                             }
 

@@ -4,6 +4,24 @@ $.arcticmodal('setDefault', {
             backgroundColor: '#0b0b0b',
             opacity: .8
         }
+    },
+    beforeOpen:function(data, el){
+        if ($(window).width()<768) {
+            $('body').css('overflow','hidden');
+            //$('body').css('-webkit-overflow-scrolling','no');
+            var ycoord = $(window).scrollTop();
+            $('body').data('ycoord',ycoord);
+            ycoord = ycoord * -1;
+            $(el).closest('.arcticmodal-container').css('-webkit-transform','translateZ(0px)');
+            //$('body').css('transform','translate3d(0px,0px,0px)');
+            $('body').css('position','fixed').css('left','0px').css('width','100%').css('right','0px').css('top',ycoord + 'px');
+          
+        }
+    },
+    beforeClose:function(data, el){
+        $('body').removeAttr('style');
+        $(el).closest('.arcticmodal-container').removeAttr('css');
+        $(window).scrollTop($('body').data('ycoord'));
     }
 });
 
@@ -66,40 +84,48 @@ function Timer (date_from,date_to) {
 
     }else{
 
+            //вычисляем выражение даты в секундах всего периода акции
             var s_full = (new Date(date_to)).getTime() - (new Date(date_from)).getTime();
             s_full = parseInt(s_full / 1000); 
 
+            //вычисляем выражение даты в секундах прошедшего периода акции
             var s = (new Date(date_to)).getTime() - (new Date()).getTime();
             s = parseInt(s / 1000); 
 
+            //долевое соотношение пройденого времени до полного времени - отображает сколько % по отрезку времени акции пройдено
             var s_coef = (s_full-s)/s_full;
 
+            //масива разброса "покупаемости" на протяжении периода акции, может иметь любое количество точек
             var randomizer = [10,20,10,30,15,45,20,40,30,10,20,10,30,15,45,20,40,30,10,20,10,30,15,45,20,40,30,10,20,10,30,15,45,20,40,30,10,40,30,10];
 
 
 
-            var $counter = $('#b_counter');            
-            var all = parseInt($counter.find('#count_all').text());
+            var $counter = $('#b_counter');//область счетчика            
+            var all = parseInt($counter.find('#count_all').text());//получить целочисельное число с каркаса общего количества бань
 
+            
             var sum_randomizer = 0;
             for (var i = randomizer.length - 1; i >= 0; i--) {
                 sum_randomizer+=randomizer[i];
-            }
-            var randomizer_count = all/sum_randomizer;
-            var randomizer_coef = 1/randomizer.length;
-            var random_selled= Math.floor(s_coef/randomizer_coef);
+            }//вычисляем сумму всех елементов масива разброса "покупаемости"
+
+            var randomizer_count = all/sum_randomizer;//сколько от бани составляет еденица в массиве разброса
+
+            var randomizer_coef = 1/randomizer.length;//коеф. сколько от длинны массива(и времени акции) приходит на 1 ел масива
+            var random_selled= Math.floor(s_coef/randomizer_coef);//сколько елементов масивов пройдены к этому времени
 
 
             var actual_randomized = 0;
             for (var i = 0; i < random_selled; i++) {
                 actual_randomized+=randomizer[i];
-            }
+            }//вычисляем сумму елементов массива разброса "покупаемости" которые соответсвуют пройденному этапу
 
-            var selled_items = Math.floor(actual_randomized*randomizer_count);
-            var have_items = all-selled_items
+            var selled_items = Math.floor(actual_randomized*randomizer_count);//получаем целочисельное число проданных на данный момент бань
+            var have_items = all-selled_items//количество "осталось"
 
-            $counter.find('#count_now').html(have_items);
-            //console.log(s_coef,randomizer.length,randomizer_count,all,sum_randomizer,random_selled);
+            $counter.find('#count_now').html(have_items);//вставляем в соотсеющую ноду
+
+            console.log(s_coef,randomizer.length,randomizer_count,all,sum_randomizer,random_selled);
 
 
 
@@ -401,7 +427,7 @@ $(document).ready(function () {
             setTimeout(function(){
 
                     $("html, body").animate({ scrollTop: $cur_item.offset().top-get_header_height()}, 200, 'swing');    
-            },500)
+            },900)
 
 
         }
@@ -482,18 +508,30 @@ $(document).ready(function () {
           $(this).addClass('correct-input');
               var _this = this;
               setTimeout(function(){
-                $(_this).closest('form').find('input.hidden').addClass('show');
+                if ($(_this).hasClass('focused')) {
+                    $(_this).closest('form').find('input.hidden').addClass('show');
+                    var $next = $(_this).closest('.input-wrap').next('.input-wrap')
+                    if ($next && $next.length>0) {
+                        $next.find('input').focus();
+                    }
+
+                }
               },150);
       }
+        $(this).removeClass('focused');
       });
       $('input[name="name"]').focus(function() {
         $(this).removeClass('correct-input').removeClass('error-input');
         $(this).parent().find('span').hide();
+        if (!$(this).hasClass('focused')) {
+            var $this = $(this);
+            //setTimeout(function(){$this.blur();$this.addClass('focused');$this.focus()},900);
+        }
       });
 
       $('input[name="phone"]').mask('+7 (999) 999-99-99');
       $('input[name="phone"]').blur(function() {
-
+        $(this).removeClass('focused');
         $(this).removeClass('correct-input').removeClass('error-input');
           if ($(this).val().length != 18 || $(this).val().indexOf('_') > -1) {
                 $(this).addClass('error-input');
@@ -502,7 +540,13 @@ $(document).ready(function () {
               $(this).addClass('correct-input');
               var _this = this;
               setTimeout(function(){
+                if ($(_this).hasClass('focused')) {
                 $(_this).closest('form').find('input.hidden').addClass('show');
+                var $next = $(_this).closest('.input-wrap').next('.input-wrap')
+                if ($next && $next.length>0) {
+                    $next.find('input').focus();
+                }
+            }
               },150);
           }
 
@@ -514,12 +558,20 @@ $(document).ready(function () {
                 var _this = this;
                 setTimeout(function(){
                     $(_this).closest('form').find('input.hidden').addClass('show');
+                var $next = $(_this).closest('.input-wrap').next('.input-wrap')
+                if ($next && $next.length>0) {
+                    $next.find('input').focus();
+                }
             },150);
         }
       });
       $('input[name="phone"]').focus(function() {
         $(this).removeClass('correct-input').removeClass('error-input');
         $(this).parent().find('span').hide();
+if (!$(this).hasClass('focused')) {
+            var $this = $(this);
+            //setTimeout(function(){$this.blur();$this.addClass('focused');$this.focus()},900);
+        }        
       });
 
       function validateEmail(email) {
@@ -529,6 +581,7 @@ $(document).ready(function () {
 
 
       $('input[name="email"]').blur(function() {
+        $(this).removeClass('focused');
         $(this).removeClass('correct-input').removeClass('error-input');
           if (!validateEmail($(this).val())) {
                 $(this).addClass('error-input');
@@ -537,7 +590,13 @@ $(document).ready(function () {
               $(this).addClass('correct-input');
               var _this = this;
               setTimeout(function(){
+                if ($(_this).hasClass('focused')) {
                 $(_this).closest('form').find('input.hidden').addClass('show');
+                var $next = $(_this).closest('.input-wrap').next('.input-wrap')
+                if ($next && $next.length>0) {
+                    $next.find('input').focus();
+                }
+            }
               },150);
           }
       });
@@ -550,6 +609,10 @@ $(document).ready(function () {
                 var _this = this;
                 setTimeout(function(){
                 $(_this).closest('form').find('input.hidden').addClass('show');
+                var $next = $(_this).closest('.input-wrap').next('.input-wrap')
+                if ($next && $next.length>0) {
+                    $next.find('input').focus();
+                }
                 },150);
             
             }
@@ -558,6 +621,10 @@ $(document).ready(function () {
       $('input[name="email"]').focus(function() {
         $(this).removeClass('correct-input').removeClass('error-input');
         $(this).parent().find('span').hide();
+        if (!$(this).hasClass('focused')) {
+            var $this = $(this);
+            //setTimeout(function(){$this.blur();$this.addClass('focused');$this.focus()},900);
+        }        
       });
 
 
@@ -632,5 +699,5 @@ $(document).ready(function () {
         }
     });
 
-    Timer('2018-03-01 00:00:00','2018-04-15 00:00:00');
+    Timer('2018-03-01','2018-04-15');
 });

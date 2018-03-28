@@ -69,6 +69,11 @@ body {
     font-family: $fontfamily, sans-serif;
     font-weight: 400;
     color: $dark;
+    min-width: 360px!important;
+}
+html{
+
+    min-width: 360px!important;
 }
 
 a {
